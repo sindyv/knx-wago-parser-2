@@ -1,0 +1,24 @@
+{
+	"fileSettings": {
+		"importFileName": "OC.xlsx",
+		"exportFileName": "export.xml"
+	},
+	"bacnetSettings": {
+		"bacnetPrefix": "C",
+		"bacnetSystem": "564",
+		"bacnetNumber": "{{roomName}}",
+		"tagRoomPrefix": "R0",
+		"climateBacnetTagStructure": "{{bacnetPrefix}}_{{bacnetSystem}}_{{bacnetNumber}}_{{componentType}}{{componentTypeSuffix}}_{{signalType}}_{{CONFIG.bacnetSettings.tagRoomPrefix}}{{roomName}}",
+		"damperBacnetTagStructure": "{{bacnetPrefix}}_{{bacnetSystem}}_{{bacnetNumber}}_{{componentType}}{{componentTypeSuffix}}_{{signalType}}"
+	},
+	"knxSettings": {
+		"tagIdentifier": "=",
+		"componentTagLength": 3,
+		"componentTagSuffixLength": 4
+	},
+	"damperSettings": {
+		"damperSupplySearchString": "SQ4",
+		"componentTagLength": 2,
+		"componentTagSuffixLength": 4
+	}
+}

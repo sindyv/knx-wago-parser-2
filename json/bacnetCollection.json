@@ -1,0 +1,5576 @@
+{
+	"bacnetObjects": [
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "401",
+			"roomName": "401",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 0,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom401.actuators.heating.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Arbeidende settpunkt'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_401_RT601_SPV_R0401",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "401",
+			"roomName": "401",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV_Komf",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 1,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom401.heating.comfort.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt komfort'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_401_RT601_SPV_Komf_R0401",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "401",
+			"roomName": "401",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV_Stdb",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom401.heating.standby.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Standby'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_401_RT601_SPV_Stdb_R0401",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "401",
+			"roomName": "401",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV_Natt",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 3,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom401.heating.economy.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Natt'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_401_RT601_SPV_Natt_R0401",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "401",
+			"roomName": "401",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 4,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom401.actuators.cooling.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Arbeidende settpunkt kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_401_RT601_SPC_R0401",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "401",
+			"roomName": "401",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC_Komf",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 5,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom401.cooling.comfort.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt komfort kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_401_RT601_SPC_Komf_R0401",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "401",
+			"roomName": "401",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC_Stdb",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 6,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom401.cooling.standby.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Standby kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_401_RT601_SPC_Stdb_R0401",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "401",
+			"roomName": "401",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC_Natt",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 7,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom401.cooling.economy.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Natt kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_401_RT601_SPC_Natt_R0401",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "401",
+			"roomName": "401",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "MV",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 0,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "ClimateControl_401",
+				"mapSourceSuffix": "climateController.Temp",
+				"mapTarget": ".rIN"
+			},
+			"config": [
+				"_sDescription := 'Målt temperatur'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C",
+				"_rHighLimit := 28",
+				"_ILimitEnable := ( xLowLimitReporting := FALSE, xHighLimitReporting := TRUE )",
+				"_udiNotificationClass := 22"
+			],
+			"bacnetTagName": "C_564_401_RT601_MV_R0401",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "401",
+			"roomName": "401",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "KMD_MSV",
+			"bacnetType": "FbMultiStateValue",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 0,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom401.calendar",
+				"mapTarget": ".udiPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Kalender'",
+				"_udiNumberOfStates := 10",
+				"_xEventDetectionEnable := FALSE",
+				"_udiNotificationClass := 99"
+			],
+			"bacnetTagName": "C_564_401_RT601_KMD_MSV_R0401",
+			"stateTexts": [
+				"Kalender 1",
+				"Kalender 2",
+				"Kalender 3",
+				"Kalender 4",
+				"Kalender 5",
+				"Kalender 6",
+				"Kalender 7",
+				"Kalender 8",
+				"Kalender 9",
+				"Kalender 10"
+			]
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "401",
+			"roomName": "401",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "MOD_FB",
+			"bacnetType": "FbMultiStateValue",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 1,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom401.currentMode",
+				"mapTarget": ".udiPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Tilbakemelding driftmodus'",
+				"_udiNumberOfStates := 5",
+				"_xEventDetectionEnable := FALSE",
+				"_udiNotificationClass := 99"
+			],
+			"bacnetTagName": "C_564_401_RT601_MOD_FB_R0401",
+			"stateTexts": [
+				"Frostbeskyttelse",
+				"Økonomi",
+				"Standby",
+				"Komfort",
+				"Nattkjøling"
+			]
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "401",
+			"roomName": "401",
+			"componentType": "RB",
+			"componentTypeSuffix": "601",
+			"signalType": "D",
+			"bacnetType": "FbBinaryOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 0,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "ClimateControl_401",
+				"mapSourceSuffix": "climateController.Presence",
+				"mapTarget": ".xPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Tilstedeværelsesdetektor'",
+				"_sActiveText := 'Tilstedeværelse'",
+				"_sInactiveText := 'Ingen tilstedeværelse'"
+			],
+			"bacnetTagName": "C_564_401_RB601_D_R0401",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "401",
+			"roomName": "401",
+			"componentType": "SB",
+			"componentTypeSuffix": "601",
+			"signalType": "C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 0,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "typClimateControllerInterfaceRoom401",
+				"mapSourceSuffix": "actuators.heating.controlledVariable",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag varmeovn'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_564_401_SB601_C_R0401",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "401",
+			"roomName": "401",
+			"componentType": "RY",
+			"componentTypeSuffix": "601",
+			"signalType": "SP",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 8,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom401.co2.comfort.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION"
+			],
+			"bacnetTagName": "C_564_401_RY601_SP_R0401",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "401",
+			"roomName": "401",
+			"componentType": "RY",
+			"componentTypeSuffix": "601",
+			"signalType": "MV",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 1,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "ClimateControl_401",
+				"mapSourceSuffix": "climateController.Co2",
+				"mapTarget": ".rIN"
+			},
+			"config": [
+				"_sDescription := 'Målt CO2-konsentrasjon'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION",
+				"_rHighLimit := 1000",
+				"_ILimitEnable := ( xLowLimitReporting := FALSE, xHighLimitReporting := TRUE )",
+				"_udiNotificationClass := 22"
+			],
+			"bacnetTagName": "C_564_401_RY601_MV_R0401",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "401",
+			"roomName": "401",
+			"componentType": "SQ",
+			"componentTypeSuffix": "601",
+			"signalType": "CO2_C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 1,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom401.actuators.airQuality.controlledVariable",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag VAV fra luftkvalitetsregulator'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_564_401_SQ601_CO2_C_R0401",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "401",
+			"roomName": "401",
+			"componentType": "SQ",
+			"componentTypeSuffix": "601",
+			"signalType": "KJL_C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom401.actuators.cooling.controlledVariable",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag VAV fra kjøleregulator'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_564_401_SQ601_KJL_C_R0401",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "406",
+			"roomName": "406",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 9,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom406.actuators.heating.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Arbeidende settpunkt'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_406_RT601_SPV_R0406",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "406",
+			"roomName": "406",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV_Komf",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 10,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom406.heating.comfort.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt komfort'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_406_RT601_SPV_Komf_R0406",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "406",
+			"roomName": "406",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV_Stdb",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 11,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom406.heating.standby.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Standby'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_406_RT601_SPV_Stdb_R0406",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "406",
+			"roomName": "406",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV_Natt",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 12,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom406.heating.economy.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Natt'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_406_RT601_SPV_Natt_R0406",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "406",
+			"roomName": "406",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 13,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom406.actuators.cooling.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Arbeidende settpunkt kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_406_RT601_SPC_R0406",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "406",
+			"roomName": "406",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC_Komf",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 14,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom406.cooling.comfort.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt komfort kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_406_RT601_SPC_Komf_R0406",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "406",
+			"roomName": "406",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC_Stdb",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 15,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom406.cooling.standby.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Standby kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_406_RT601_SPC_Stdb_R0406",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "406",
+			"roomName": "406",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC_Natt",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 16,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom406.cooling.economy.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Natt kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_406_RT601_SPC_Natt_R0406",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "406",
+			"roomName": "406",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "MV",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 2,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "ClimateControl_406",
+				"mapSourceSuffix": "climateController.Temp",
+				"mapTarget": ".rIN"
+			},
+			"config": [
+				"_sDescription := 'Målt temperatur'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C",
+				"_rHighLimit := 28",
+				"_ILimitEnable := ( xLowLimitReporting := FALSE, xHighLimitReporting := TRUE )",
+				"_udiNotificationClass := 22"
+			],
+			"bacnetTagName": "C_564_406_RT601_MV_R0406",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "406",
+			"roomName": "406",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "KMD_MSV",
+			"bacnetType": "FbMultiStateValue",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 2,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom406.calendar",
+				"mapTarget": ".udiPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Kalender'",
+				"_udiNumberOfStates := 10",
+				"_xEventDetectionEnable := FALSE",
+				"_udiNotificationClass := 99"
+			],
+			"bacnetTagName": "C_564_406_RT601_KMD_MSV_R0406",
+			"stateTexts": [
+				"Kalender 1",
+				"Kalender 2",
+				"Kalender 3",
+				"Kalender 4",
+				"Kalender 5",
+				"Kalender 6",
+				"Kalender 7",
+				"Kalender 8",
+				"Kalender 9",
+				"Kalender 10"
+			]
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "406",
+			"roomName": "406",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "MOD_FB",
+			"bacnetType": "FbMultiStateValue",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 3,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom406.currentMode",
+				"mapTarget": ".udiPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Tilbakemelding driftmodus'",
+				"_udiNumberOfStates := 5",
+				"_xEventDetectionEnable := FALSE",
+				"_udiNotificationClass := 99"
+			],
+			"bacnetTagName": "C_564_406_RT601_MOD_FB_R0406",
+			"stateTexts": [
+				"Frostbeskyttelse",
+				"Økonomi",
+				"Standby",
+				"Komfort",
+				"Nattkjøling"
+			]
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "406",
+			"roomName": "406",
+			"componentType": "RB",
+			"componentTypeSuffix": "601",
+			"signalType": "D",
+			"bacnetType": "FbBinaryOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 1,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "ClimateControl_406",
+				"mapSourceSuffix": "climateController.Presence",
+				"mapTarget": ".xPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Tilstedeværelsesdetektor'",
+				"_sActiveText := 'Tilstedeværelse'",
+				"_sInactiveText := 'Ingen tilstedeværelse'"
+			],
+			"bacnetTagName": "C_564_406_RB601_D_R0406",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "406",
+			"roomName": "406",
+			"componentType": "SB",
+			"componentTypeSuffix": "601",
+			"signalType": "C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 3,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "typClimateControllerInterfaceRoom406",
+				"mapSourceSuffix": "actuators.heating.controlledVariable",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag varmeovn'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_564_406_SB601_C_R0406",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "406",
+			"roomName": "406",
+			"componentType": "RY",
+			"componentTypeSuffix": "601",
+			"signalType": "SP",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 17,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom406.co2.comfort.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION"
+			],
+			"bacnetTagName": "C_564_406_RY601_SP_R0406",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "406",
+			"roomName": "406",
+			"componentType": "RY",
+			"componentTypeSuffix": "601",
+			"signalType": "MV",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 3,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "ClimateControl_406",
+				"mapSourceSuffix": "climateController.Co2",
+				"mapTarget": ".rIN"
+			},
+			"config": [
+				"_sDescription := 'Målt CO2-konsentrasjon'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION",
+				"_rHighLimit := 1000",
+				"_ILimitEnable := ( xLowLimitReporting := FALSE, xHighLimitReporting := TRUE )",
+				"_udiNotificationClass := 22"
+			],
+			"bacnetTagName": "C_564_406_RY601_MV_R0406",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "406",
+			"roomName": "406",
+			"componentType": "SQ",
+			"componentTypeSuffix": "601",
+			"signalType": "CO2_C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 4,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom406.actuators.airQuality.controlledVariable",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag VAV fra luftkvalitetsregulator'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_564_406_SQ601_CO2_C_R0406",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "406",
+			"roomName": "406",
+			"componentType": "SQ",
+			"componentTypeSuffix": "601",
+			"signalType": "KJL_C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 5,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom406.actuators.cooling.controlledVariable",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag VAV fra kjøleregulator'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_564_406_SQ601_KJL_C_R0406",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "407",
+			"roomName": "407",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 18,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom407.actuators.heating.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Arbeidende settpunkt'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_407_RT601_SPV_R0407",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "407",
+			"roomName": "407",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV_Komf",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 19,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom407.heating.comfort.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt komfort'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_407_RT601_SPV_Komf_R0407",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "407",
+			"roomName": "407",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV_Stdb",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 20,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom407.heating.standby.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Standby'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_407_RT601_SPV_Stdb_R0407",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "407",
+			"roomName": "407",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV_Natt",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 21,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom407.heating.economy.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Natt'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_407_RT601_SPV_Natt_R0407",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "407",
+			"roomName": "407",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 22,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom407.actuators.cooling.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Arbeidende settpunkt kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_407_RT601_SPC_R0407",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "407",
+			"roomName": "407",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC_Komf",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 23,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom407.cooling.comfort.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt komfort kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_407_RT601_SPC_Komf_R0407",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "407",
+			"roomName": "407",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC_Stdb",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 24,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom407.cooling.standby.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Standby kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_407_RT601_SPC_Stdb_R0407",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "407",
+			"roomName": "407",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC_Natt",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 25,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom407.cooling.economy.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Natt kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_407_RT601_SPC_Natt_R0407",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "407",
+			"roomName": "407",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "MV",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 4,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "ClimateControl_407",
+				"mapSourceSuffix": "climateController.Temp",
+				"mapTarget": ".rIN"
+			},
+			"config": [
+				"_sDescription := 'Målt temperatur'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C",
+				"_rHighLimit := 28",
+				"_ILimitEnable := ( xLowLimitReporting := FALSE, xHighLimitReporting := TRUE )",
+				"_udiNotificationClass := 22"
+			],
+			"bacnetTagName": "C_564_407_RT601_MV_R0407",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "407",
+			"roomName": "407",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "KMD_MSV",
+			"bacnetType": "FbMultiStateValue",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 4,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom407.calendar",
+				"mapTarget": ".udiPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Kalender'",
+				"_udiNumberOfStates := 10",
+				"_xEventDetectionEnable := FALSE",
+				"_udiNotificationClass := 99"
+			],
+			"bacnetTagName": "C_564_407_RT601_KMD_MSV_R0407",
+			"stateTexts": [
+				"Kalender 1",
+				"Kalender 2",
+				"Kalender 3",
+				"Kalender 4",
+				"Kalender 5",
+				"Kalender 6",
+				"Kalender 7",
+				"Kalender 8",
+				"Kalender 9",
+				"Kalender 10"
+			]
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "407",
+			"roomName": "407",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "MOD_FB",
+			"bacnetType": "FbMultiStateValue",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 5,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom407.currentMode",
+				"mapTarget": ".udiPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Tilbakemelding driftmodus'",
+				"_udiNumberOfStates := 5",
+				"_xEventDetectionEnable := FALSE",
+				"_udiNotificationClass := 99"
+			],
+			"bacnetTagName": "C_564_407_RT601_MOD_FB_R0407",
+			"stateTexts": [
+				"Frostbeskyttelse",
+				"Økonomi",
+				"Standby",
+				"Komfort",
+				"Nattkjøling"
+			]
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "407",
+			"roomName": "407",
+			"componentType": "RB",
+			"componentTypeSuffix": "601",
+			"signalType": "D",
+			"bacnetType": "FbBinaryOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "ClimateControl_407",
+				"mapSourceSuffix": "climateController.Presence",
+				"mapTarget": ".xPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Tilstedeværelsesdetektor'",
+				"_sActiveText := 'Tilstedeværelse'",
+				"_sInactiveText := 'Ingen tilstedeværelse'"
+			],
+			"bacnetTagName": "C_564_407_RB601_D_R0407",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "407",
+			"roomName": "407",
+			"componentType": "SB",
+			"componentTypeSuffix": "601",
+			"signalType": "C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 6,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "typClimateControllerInterfaceRoom407",
+				"mapSourceSuffix": "actuators.heating.controlledVariable",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag varmeovn'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_564_407_SB601_C_R0407",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "407",
+			"roomName": "407",
+			"componentType": "RY",
+			"componentTypeSuffix": "601",
+			"signalType": "SP",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 26,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom407.co2.comfort.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION"
+			],
+			"bacnetTagName": "C_564_407_RY601_SP_R0407",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "407",
+			"roomName": "407",
+			"componentType": "RY",
+			"componentTypeSuffix": "601",
+			"signalType": "MV",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 5,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "ClimateControl_407",
+				"mapSourceSuffix": "climateController.Co2",
+				"mapTarget": ".rIN"
+			},
+			"config": [
+				"_sDescription := 'Målt CO2-konsentrasjon'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION",
+				"_rHighLimit := 1000",
+				"_ILimitEnable := ( xLowLimitReporting := FALSE, xHighLimitReporting := TRUE )",
+				"_udiNotificationClass := 22"
+			],
+			"bacnetTagName": "C_564_407_RY601_MV_R0407",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "407",
+			"roomName": "407",
+			"componentType": "SQ",
+			"componentTypeSuffix": "601",
+			"signalType": "CO2_C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 7,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom407.actuators.airQuality.controlledVariable",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag VAV fra luftkvalitetsregulator'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_564_407_SQ601_CO2_C_R0407",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "407",
+			"roomName": "407",
+			"componentType": "SQ",
+			"componentTypeSuffix": "601",
+			"signalType": "KJL_C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 8,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom407.actuators.cooling.controlledVariable",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag VAV fra kjøleregulator'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_564_407_SQ601_KJL_C_R0407",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "408",
+			"roomName": "408",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 27,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom408.actuators.heating.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Arbeidende settpunkt'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_408_RT601_SPV_R0408",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "408",
+			"roomName": "408",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV_Komf",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 28,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom408.heating.comfort.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt komfort'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_408_RT601_SPV_Komf_R0408",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "408",
+			"roomName": "408",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV_Stdb",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 29,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom408.heating.standby.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Standby'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_408_RT601_SPV_Stdb_R0408",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "408",
+			"roomName": "408",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV_Natt",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 30,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom408.heating.economy.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Natt'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_408_RT601_SPV_Natt_R0408",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "408",
+			"roomName": "408",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 31,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom408.actuators.cooling.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Arbeidende settpunkt kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_408_RT601_SPC_R0408",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "408",
+			"roomName": "408",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC_Komf",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 32,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom408.cooling.comfort.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt komfort kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_408_RT601_SPC_Komf_R0408",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "408",
+			"roomName": "408",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC_Stdb",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 33,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom408.cooling.standby.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Standby kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_408_RT601_SPC_Stdb_R0408",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "408",
+			"roomName": "408",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC_Natt",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 34,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom408.cooling.economy.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Natt kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_408_RT601_SPC_Natt_R0408",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "408",
+			"roomName": "408",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "MV",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 6,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "ClimateControl_408",
+				"mapSourceSuffix": "climateController.Temp",
+				"mapTarget": ".rIN"
+			},
+			"config": [
+				"_sDescription := 'Målt temperatur'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C",
+				"_rHighLimit := 28",
+				"_ILimitEnable := ( xLowLimitReporting := FALSE, xHighLimitReporting := TRUE )",
+				"_udiNotificationClass := 22"
+			],
+			"bacnetTagName": "C_564_408_RT601_MV_R0408",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "408",
+			"roomName": "408",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "KMD_MSV",
+			"bacnetType": "FbMultiStateValue",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 6,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom408.calendar",
+				"mapTarget": ".udiPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Kalender'",
+				"_udiNumberOfStates := 10",
+				"_xEventDetectionEnable := FALSE",
+				"_udiNotificationClass := 99"
+			],
+			"bacnetTagName": "C_564_408_RT601_KMD_MSV_R0408",
+			"stateTexts": [
+				"Kalender 1",
+				"Kalender 2",
+				"Kalender 3",
+				"Kalender 4",
+				"Kalender 5",
+				"Kalender 6",
+				"Kalender 7",
+				"Kalender 8",
+				"Kalender 9",
+				"Kalender 10"
+			]
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "408",
+			"roomName": "408",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "MOD_FB",
+			"bacnetType": "FbMultiStateValue",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 7,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom408.currentMode",
+				"mapTarget": ".udiPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Tilbakemelding driftmodus'",
+				"_udiNumberOfStates := 5",
+				"_xEventDetectionEnable := FALSE",
+				"_udiNotificationClass := 99"
+			],
+			"bacnetTagName": "C_564_408_RT601_MOD_FB_R0408",
+			"stateTexts": [
+				"Frostbeskyttelse",
+				"Økonomi",
+				"Standby",
+				"Komfort",
+				"Nattkjøling"
+			]
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "408",
+			"roomName": "408",
+			"componentType": "RB",
+			"componentTypeSuffix": "601",
+			"signalType": "D",
+			"bacnetType": "FbBinaryOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 3,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "ClimateControl_408",
+				"mapSourceSuffix": "climateController.Presence",
+				"mapTarget": ".xPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Tilstedeværelsesdetektor'",
+				"_sActiveText := 'Tilstedeværelse'",
+				"_sInactiveText := 'Ingen tilstedeværelse'"
+			],
+			"bacnetTagName": "C_564_408_RB601_D_R0408",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "408",
+			"roomName": "408",
+			"componentType": "SB",
+			"componentTypeSuffix": "601",
+			"signalType": "C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 9,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "typClimateControllerInterfaceRoom408",
+				"mapSourceSuffix": "actuators.heating.controlledVariable",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag varmeovn'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_564_408_SB601_C_R0408",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "408",
+			"roomName": "408",
+			"componentType": "RY",
+			"componentTypeSuffix": "601",
+			"signalType": "SP",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 35,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom408.co2.comfort.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION"
+			],
+			"bacnetTagName": "C_564_408_RY601_SP_R0408",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "408",
+			"roomName": "408",
+			"componentType": "RY",
+			"componentTypeSuffix": "601",
+			"signalType": "MV",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 7,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "ClimateControl_408",
+				"mapSourceSuffix": "climateController.Co2",
+				"mapTarget": ".rIN"
+			},
+			"config": [
+				"_sDescription := 'Målt CO2-konsentrasjon'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION",
+				"_rHighLimit := 1000",
+				"_ILimitEnable := ( xLowLimitReporting := FALSE, xHighLimitReporting := TRUE )",
+				"_udiNotificationClass := 22"
+			],
+			"bacnetTagName": "C_564_408_RY601_MV_R0408",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "408",
+			"roomName": "408",
+			"componentType": "SQ",
+			"componentTypeSuffix": "601",
+			"signalType": "CO2_C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 10,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom408.actuators.airQuality.controlledVariable",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag VAV fra luftkvalitetsregulator'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_564_408_SQ601_CO2_C_R0408",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "408",
+			"roomName": "408",
+			"componentType": "SQ",
+			"componentTypeSuffix": "601",
+			"signalType": "KJL_C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 11,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom408.actuators.cooling.controlledVariable",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag VAV fra kjøleregulator'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_564_408_SQ601_KJL_C_R0408",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "409",
+			"roomName": "409",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 36,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom409.actuators.heating.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Arbeidende settpunkt'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_409_RT601_SPV_R0409",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "409",
+			"roomName": "409",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV_Komf",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 37,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom409.heating.comfort.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt komfort'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_409_RT601_SPV_Komf_R0409",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "409",
+			"roomName": "409",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV_Stdb",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 38,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom409.heating.standby.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Standby'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_409_RT601_SPV_Stdb_R0409",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "409",
+			"roomName": "409",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV_Natt",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 39,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom409.heating.economy.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Natt'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_409_RT601_SPV_Natt_R0409",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "409",
+			"roomName": "409",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 40,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom409.actuators.cooling.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Arbeidende settpunkt kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_409_RT601_SPC_R0409",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "409",
+			"roomName": "409",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC_Komf",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 41,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom409.cooling.comfort.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt komfort kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_409_RT601_SPC_Komf_R0409",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "409",
+			"roomName": "409",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC_Stdb",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 42,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom409.cooling.standby.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Standby kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_409_RT601_SPC_Stdb_R0409",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "409",
+			"roomName": "409",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC_Natt",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 43,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom409.cooling.economy.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Natt kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_409_RT601_SPC_Natt_R0409",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "409",
+			"roomName": "409",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "MV",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 8,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "ClimateControl_409",
+				"mapSourceSuffix": "climateController.Temp",
+				"mapTarget": ".rIN"
+			},
+			"config": [
+				"_sDescription := 'Målt temperatur'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C",
+				"_rHighLimit := 28",
+				"_ILimitEnable := ( xLowLimitReporting := FALSE, xHighLimitReporting := TRUE )",
+				"_udiNotificationClass := 22"
+			],
+			"bacnetTagName": "C_564_409_RT601_MV_R0409",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "409",
+			"roomName": "409",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "KMD_MSV",
+			"bacnetType": "FbMultiStateValue",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 8,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom409.calendar",
+				"mapTarget": ".udiPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Kalender'",
+				"_udiNumberOfStates := 10",
+				"_xEventDetectionEnable := FALSE",
+				"_udiNotificationClass := 99"
+			],
+			"bacnetTagName": "C_564_409_RT601_KMD_MSV_R0409",
+			"stateTexts": [
+				"Kalender 1",
+				"Kalender 2",
+				"Kalender 3",
+				"Kalender 4",
+				"Kalender 5",
+				"Kalender 6",
+				"Kalender 7",
+				"Kalender 8",
+				"Kalender 9",
+				"Kalender 10"
+			]
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "409",
+			"roomName": "409",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "MOD_FB",
+			"bacnetType": "FbMultiStateValue",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 9,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom409.currentMode",
+				"mapTarget": ".udiPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Tilbakemelding driftmodus'",
+				"_udiNumberOfStates := 5",
+				"_xEventDetectionEnable := FALSE",
+				"_udiNotificationClass := 99"
+			],
+			"bacnetTagName": "C_564_409_RT601_MOD_FB_R0409",
+			"stateTexts": [
+				"Frostbeskyttelse",
+				"Økonomi",
+				"Standby",
+				"Komfort",
+				"Nattkjøling"
+			]
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "409",
+			"roomName": "409",
+			"componentType": "RB",
+			"componentTypeSuffix": "601",
+			"signalType": "D",
+			"bacnetType": "FbBinaryOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 4,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "ClimateControl_409",
+				"mapSourceSuffix": "climateController.Presence",
+				"mapTarget": ".xPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Tilstedeværelsesdetektor'",
+				"_sActiveText := 'Tilstedeværelse'",
+				"_sInactiveText := 'Ingen tilstedeværelse'"
+			],
+			"bacnetTagName": "C_564_409_RB601_D_R0409",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "409",
+			"roomName": "409",
+			"componentType": "SB",
+			"componentTypeSuffix": "601",
+			"signalType": "C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 12,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "typClimateControllerInterfaceRoom409",
+				"mapSourceSuffix": "actuators.heating.controlledVariable",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag varmeovn'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_564_409_SB601_C_R0409",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "409",
+			"roomName": "409",
+			"componentType": "RY",
+			"componentTypeSuffix": "601",
+			"signalType": "SP",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 44,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom409.co2.comfort.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION"
+			],
+			"bacnetTagName": "C_564_409_RY601_SP_R0409",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "409",
+			"roomName": "409",
+			"componentType": "RY",
+			"componentTypeSuffix": "601",
+			"signalType": "MV",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 9,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "ClimateControl_409",
+				"mapSourceSuffix": "climateController.Co2",
+				"mapTarget": ".rIN"
+			},
+			"config": [
+				"_sDescription := 'Målt CO2-konsentrasjon'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION",
+				"_rHighLimit := 1000",
+				"_ILimitEnable := ( xLowLimitReporting := FALSE, xHighLimitReporting := TRUE )",
+				"_udiNotificationClass := 22"
+			],
+			"bacnetTagName": "C_564_409_RY601_MV_R0409",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "409",
+			"roomName": "409",
+			"componentType": "SQ",
+			"componentTypeSuffix": "601",
+			"signalType": "CO2_C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 13,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom409.actuators.airQuality.controlledVariable",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag VAV fra luftkvalitetsregulator'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_564_409_SQ601_CO2_C_R0409",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "409",
+			"roomName": "409",
+			"componentType": "SQ",
+			"componentTypeSuffix": "601",
+			"signalType": "KJL_C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 14,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom409.actuators.cooling.controlledVariable",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag VAV fra kjøleregulator'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_564_409_SQ601_KJL_C_R0409",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "415",
+			"roomName": "415",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 45,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom415.actuators.heating.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Arbeidende settpunkt'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_415_RT601_SPV_R0415",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "415",
+			"roomName": "415",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV_Komf",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 46,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom415.heating.comfort.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt komfort'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_415_RT601_SPV_Komf_R0415",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "415",
+			"roomName": "415",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV_Stdb",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 47,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom415.heating.standby.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Standby'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_415_RT601_SPV_Stdb_R0415",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "415",
+			"roomName": "415",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV_Natt",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 48,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom415.heating.economy.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Natt'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_415_RT601_SPV_Natt_R0415",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "415",
+			"roomName": "415",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 49,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom415.actuators.cooling.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Arbeidende settpunkt kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_415_RT601_SPC_R0415",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "415",
+			"roomName": "415",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC_Komf",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 50,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom415.cooling.comfort.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt komfort kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_415_RT601_SPC_Komf_R0415",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "415",
+			"roomName": "415",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC_Stdb",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 51,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom415.cooling.standby.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Standby kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_415_RT601_SPC_Stdb_R0415",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "415",
+			"roomName": "415",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC_Natt",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 52,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom415.cooling.economy.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Natt kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_415_RT601_SPC_Natt_R0415",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "415",
+			"roomName": "415",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "MV",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 10,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "ClimateControl_415",
+				"mapSourceSuffix": "climateController.Temp",
+				"mapTarget": ".rIN"
+			},
+			"config": [
+				"_sDescription := 'Målt temperatur'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C",
+				"_rHighLimit := 28",
+				"_ILimitEnable := ( xLowLimitReporting := FALSE, xHighLimitReporting := TRUE )",
+				"_udiNotificationClass := 22"
+			],
+			"bacnetTagName": "C_564_415_RT601_MV_R0415",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "415",
+			"roomName": "415",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "KMD_MSV",
+			"bacnetType": "FbMultiStateValue",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 10,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom415.calendar",
+				"mapTarget": ".udiPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Kalender'",
+				"_udiNumberOfStates := 10",
+				"_xEventDetectionEnable := FALSE",
+				"_udiNotificationClass := 99"
+			],
+			"bacnetTagName": "C_564_415_RT601_KMD_MSV_R0415",
+			"stateTexts": [
+				"Kalender 1",
+				"Kalender 2",
+				"Kalender 3",
+				"Kalender 4",
+				"Kalender 5",
+				"Kalender 6",
+				"Kalender 7",
+				"Kalender 8",
+				"Kalender 9",
+				"Kalender 10"
+			]
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "415",
+			"roomName": "415",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "MOD_FB",
+			"bacnetType": "FbMultiStateValue",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 11,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom415.currentMode",
+				"mapTarget": ".udiPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Tilbakemelding driftmodus'",
+				"_udiNumberOfStates := 5",
+				"_xEventDetectionEnable := FALSE",
+				"_udiNotificationClass := 99"
+			],
+			"bacnetTagName": "C_564_415_RT601_MOD_FB_R0415",
+			"stateTexts": [
+				"Frostbeskyttelse",
+				"Økonomi",
+				"Standby",
+				"Komfort",
+				"Nattkjøling"
+			]
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "415",
+			"roomName": "415",
+			"componentType": "RB",
+			"componentTypeSuffix": "601",
+			"signalType": "D",
+			"bacnetType": "FbBinaryOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 5,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "ClimateControl_415",
+				"mapSourceSuffix": "climateController.Presence",
+				"mapTarget": ".xPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Tilstedeværelsesdetektor'",
+				"_sActiveText := 'Tilstedeværelse'",
+				"_sInactiveText := 'Ingen tilstedeværelse'"
+			],
+			"bacnetTagName": "C_564_415_RB601_D_R0415",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "415",
+			"roomName": "415",
+			"componentType": "SB",
+			"componentTypeSuffix": "601",
+			"signalType": "C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 15,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "typClimateControllerInterfaceRoom415",
+				"mapSourceSuffix": "actuators.heating.controlledVariable",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag varmeovn'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_564_415_SB601_C_R0415",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "415",
+			"roomName": "415",
+			"componentType": "RY",
+			"componentTypeSuffix": "601",
+			"signalType": "SP",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 53,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom415.co2.comfort.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION"
+			],
+			"bacnetTagName": "C_564_415_RY601_SP_R0415",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "415",
+			"roomName": "415",
+			"componentType": "RY",
+			"componentTypeSuffix": "601",
+			"signalType": "MV",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 11,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "ClimateControl_415",
+				"mapSourceSuffix": "climateController.Co2",
+				"mapTarget": ".rIN"
+			},
+			"config": [
+				"_sDescription := 'Målt CO2-konsentrasjon'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION",
+				"_rHighLimit := 1000",
+				"_ILimitEnable := ( xLowLimitReporting := FALSE, xHighLimitReporting := TRUE )",
+				"_udiNotificationClass := 22"
+			],
+			"bacnetTagName": "C_564_415_RY601_MV_R0415",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "415",
+			"roomName": "415",
+			"componentType": "SQ",
+			"componentTypeSuffix": "601",
+			"signalType": "CO2_C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 16,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom415.actuators.airQuality.controlledVariable",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag VAV fra luftkvalitetsregulator'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_564_415_SQ601_CO2_C_R0415",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "415",
+			"roomName": "415",
+			"componentType": "SQ",
+			"componentTypeSuffix": "601",
+			"signalType": "KJL_C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 17,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom415.actuators.cooling.controlledVariable",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag VAV fra kjøleregulator'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_564_415_SQ601_KJL_C_R0415",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "422",
+			"roomName": "422",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 54,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom422.actuators.heating.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Arbeidende settpunkt'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_422_RT601_SPV_R0422",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "422",
+			"roomName": "422",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV_Komf",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 55,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom422.heating.comfort.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt komfort'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_422_RT601_SPV_Komf_R0422",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "422",
+			"roomName": "422",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV_Stdb",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 56,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom422.heating.standby.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Standby'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_422_RT601_SPV_Stdb_R0422",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "422",
+			"roomName": "422",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV_Natt",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 57,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom422.heating.economy.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Natt'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_422_RT601_SPV_Natt_R0422",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "422",
+			"roomName": "422",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 58,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom422.actuators.cooling.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Arbeidende settpunkt kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_422_RT601_SPC_R0422",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "422",
+			"roomName": "422",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC_Komf",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 59,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom422.cooling.comfort.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt komfort kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_422_RT601_SPC_Komf_R0422",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "422",
+			"roomName": "422",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC_Stdb",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 60,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom422.cooling.standby.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Standby kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_422_RT601_SPC_Stdb_R0422",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "422",
+			"roomName": "422",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC_Natt",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 61,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom422.cooling.economy.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Natt kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_422_RT601_SPC_Natt_R0422",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "422",
+			"roomName": "422",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "MV",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 12,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "ClimateControl_422",
+				"mapSourceSuffix": "climateController.Temp",
+				"mapTarget": ".rIN"
+			},
+			"config": [
+				"_sDescription := 'Målt temperatur'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C",
+				"_rHighLimit := 28",
+				"_ILimitEnable := ( xLowLimitReporting := FALSE, xHighLimitReporting := TRUE )",
+				"_udiNotificationClass := 22"
+			],
+			"bacnetTagName": "C_564_422_RT601_MV_R0422",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "422",
+			"roomName": "422",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "KMD_MSV",
+			"bacnetType": "FbMultiStateValue",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 12,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom422.calendar",
+				"mapTarget": ".udiPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Kalender'",
+				"_udiNumberOfStates := 10",
+				"_xEventDetectionEnable := FALSE",
+				"_udiNotificationClass := 99"
+			],
+			"bacnetTagName": "C_564_422_RT601_KMD_MSV_R0422",
+			"stateTexts": [
+				"Kalender 1",
+				"Kalender 2",
+				"Kalender 3",
+				"Kalender 4",
+				"Kalender 5",
+				"Kalender 6",
+				"Kalender 7",
+				"Kalender 8",
+				"Kalender 9",
+				"Kalender 10"
+			]
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "422",
+			"roomName": "422",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "MOD_FB",
+			"bacnetType": "FbMultiStateValue",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 13,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom422.currentMode",
+				"mapTarget": ".udiPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Tilbakemelding driftmodus'",
+				"_udiNumberOfStates := 5",
+				"_xEventDetectionEnable := FALSE",
+				"_udiNotificationClass := 99"
+			],
+			"bacnetTagName": "C_564_422_RT601_MOD_FB_R0422",
+			"stateTexts": [
+				"Frostbeskyttelse",
+				"Økonomi",
+				"Standby",
+				"Komfort",
+				"Nattkjøling"
+			]
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "422",
+			"roomName": "422",
+			"componentType": "RB",
+			"componentTypeSuffix": "601",
+			"signalType": "D",
+			"bacnetType": "FbBinaryOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 6,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "ClimateControl_422",
+				"mapSourceSuffix": "climateController.Presence",
+				"mapTarget": ".xPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Tilstedeværelsesdetektor'",
+				"_sActiveText := 'Tilstedeværelse'",
+				"_sInactiveText := 'Ingen tilstedeværelse'"
+			],
+			"bacnetTagName": "C_564_422_RB601_D_R0422",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "422",
+			"roomName": "422",
+			"componentType": "SB",
+			"componentTypeSuffix": "601",
+			"signalType": "C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 18,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "typClimateControllerInterfaceRoom422",
+				"mapSourceSuffix": "actuators.heating.controlledVariable",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag varmeovn'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_564_422_SB601_C_R0422",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "422",
+			"roomName": "422",
+			"componentType": "RY",
+			"componentTypeSuffix": "601",
+			"signalType": "SP",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 62,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom422.co2.comfort.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION"
+			],
+			"bacnetTagName": "C_564_422_RY601_SP_R0422",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "422",
+			"roomName": "422",
+			"componentType": "RY",
+			"componentTypeSuffix": "601",
+			"signalType": "MV",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 13,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "ClimateControl_422",
+				"mapSourceSuffix": "climateController.Co2",
+				"mapTarget": ".rIN"
+			},
+			"config": [
+				"_sDescription := 'Målt CO2-konsentrasjon'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION",
+				"_rHighLimit := 1000",
+				"_ILimitEnable := ( xLowLimitReporting := FALSE, xHighLimitReporting := TRUE )",
+				"_udiNotificationClass := 22"
+			],
+			"bacnetTagName": "C_564_422_RY601_MV_R0422",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "422",
+			"roomName": "422",
+			"componentType": "SQ",
+			"componentTypeSuffix": "601",
+			"signalType": "CO2_C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 19,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom422.actuators.airQuality.controlledVariable",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag VAV fra luftkvalitetsregulator'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_564_422_SQ601_CO2_C_R0422",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "422",
+			"roomName": "422",
+			"componentType": "SQ",
+			"componentTypeSuffix": "601",
+			"signalType": "KJL_C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 20,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom422.actuators.cooling.controlledVariable",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag VAV fra kjøleregulator'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_564_422_SQ601_KJL_C_R0422",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "464",
+			"roomName": "464",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 63,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom464.actuators.heating.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Arbeidende settpunkt'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_464_RT601_SPV_R0464",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "464",
+			"roomName": "464",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV_Komf",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 64,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom464.heating.comfort.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt komfort'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_464_RT601_SPV_Komf_R0464",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "464",
+			"roomName": "464",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV_Stdb",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 65,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom464.heating.standby.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Standby'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_464_RT601_SPV_Stdb_R0464",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "464",
+			"roomName": "464",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPV_Natt",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 66,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom464.heating.economy.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Natt'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_464_RT601_SPV_Natt_R0464",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "464",
+			"roomName": "464",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 67,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom464.actuators.cooling.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Arbeidende settpunkt kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_464_RT601_SPC_R0464",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "464",
+			"roomName": "464",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC_Komf",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 68,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom464.cooling.comfort.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt komfort kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_464_RT601_SPC_Komf_R0464",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "464",
+			"roomName": "464",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC_Stdb",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 69,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom464.cooling.standby.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Standby kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_464_RT601_SPC_Stdb_R0464",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "464",
+			"roomName": "464",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "SPC_Natt",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 70,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom464.cooling.economy.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt Natt kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			],
+			"bacnetTagName": "C_564_464_RT601_SPC_Natt_R0464",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "464",
+			"roomName": "464",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "MV",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 14,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "ClimateControl_464",
+				"mapSourceSuffix": "climateController.Temp",
+				"mapTarget": ".rIN"
+			},
+			"config": [
+				"_sDescription := 'Målt temperatur'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C",
+				"_rHighLimit := 28",
+				"_ILimitEnable := ( xLowLimitReporting := FALSE, xHighLimitReporting := TRUE )",
+				"_udiNotificationClass := 22"
+			],
+			"bacnetTagName": "C_564_464_RT601_MV_R0464",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "464",
+			"roomName": "464",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "KMD_MSV",
+			"bacnetType": "FbMultiStateValue",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 14,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom464.calendar",
+				"mapTarget": ".udiPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Kalender'",
+				"_udiNumberOfStates := 10",
+				"_xEventDetectionEnable := FALSE",
+				"_udiNotificationClass := 99"
+			],
+			"bacnetTagName": "C_564_464_RT601_KMD_MSV_R0464",
+			"stateTexts": [
+				"Kalender 1",
+				"Kalender 2",
+				"Kalender 3",
+				"Kalender 4",
+				"Kalender 5",
+				"Kalender 6",
+				"Kalender 7",
+				"Kalender 8",
+				"Kalender 9",
+				"Kalender 10"
+			]
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "464",
+			"roomName": "464",
+			"componentType": "RT",
+			"componentTypeSuffix": "601",
+			"signalType": "MOD_FB",
+			"bacnetType": "FbMultiStateValue",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 15,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom464.currentMode",
+				"mapTarget": ".udiPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Tilbakemelding driftmodus'",
+				"_udiNumberOfStates := 5",
+				"_xEventDetectionEnable := FALSE",
+				"_udiNotificationClass := 99"
+			],
+			"bacnetTagName": "C_564_464_RT601_MOD_FB_R0464",
+			"stateTexts": [
+				"Frostbeskyttelse",
+				"Økonomi",
+				"Standby",
+				"Komfort",
+				"Nattkjøling"
+			]
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "464",
+			"roomName": "464",
+			"componentType": "RB",
+			"componentTypeSuffix": "601",
+			"signalType": "D",
+			"bacnetType": "FbBinaryOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 7,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "ClimateControl_464",
+				"mapSourceSuffix": "climateController.Presence",
+				"mapTarget": ".xPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Tilstedeværelsesdetektor'",
+				"_sActiveText := 'Tilstedeværelse'",
+				"_sInactiveText := 'Ingen tilstedeværelse'"
+			],
+			"bacnetTagName": "C_564_464_RB601_D_R0464",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "464",
+			"roomName": "464",
+			"componentType": "SB",
+			"componentTypeSuffix": "601",
+			"signalType": "C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 21,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "typClimateControllerInterfaceRoom464",
+				"mapSourceSuffix": "actuators.heating.controlledVariable",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag varmeovn'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_564_464_SB601_C_R0464",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "464",
+			"roomName": "464",
+			"componentType": "RY",
+			"componentTypeSuffix": "601",
+			"signalType": "SP",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 71,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "typClimateControllerSettingsRoom464.co2.comfort.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION"
+			],
+			"bacnetTagName": "C_564_464_RY601_SP_R0464",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "464",
+			"roomName": "464",
+			"componentType": "RY",
+			"componentTypeSuffix": "601",
+			"signalType": "MV",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 15,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "ClimateControl_464",
+				"mapSourceSuffix": "climateController.Co2",
+				"mapTarget": ".rIN"
+			},
+			"config": [
+				"_sDescription := 'Målt CO2-konsentrasjon'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION",
+				"_rHighLimit := 1000",
+				"_ILimitEnable := ( xLowLimitReporting := FALSE, xHighLimitReporting := TRUE )",
+				"_udiNotificationClass := 22"
+			],
+			"bacnetTagName": "C_564_464_RY601_MV_R0464",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "464",
+			"roomName": "464",
+			"componentType": "SQ",
+			"componentTypeSuffix": "601",
+			"signalType": "CO2_C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 22,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom464.actuators.airQuality.controlledVariable",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag VAV fra luftkvalitetsregulator'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_564_464_SQ601_CO2_C_R0464",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "564",
+			"bacnetNumber": "464",
+			"roomName": "464",
+			"componentType": "SQ",
+			"componentTypeSuffix": "601",
+			"signalType": "KJL_C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 23,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_ClimateControl",
+				"mapSourceSuffix": "typClimateControllerInterfaceRoom464.actuators.cooling.controlledVariable",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag VAV fra kjøleregulator'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_564_464_SQ601_KJL_C_R0464",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "401",
+			"signalType": "VOL",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2000,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][1].flow",
+				"mapTarget": ".rIn"
+			},
+			"config": [
+				"_sDescription := 'Faktisk luftmengde'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_CUBIC_METERS_PER_HOUR"
+			],
+			"bacnetTagName": "C_360_001_SQ401_VOL",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "401",
+			"signalType": "SP",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2000,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][1].setpointCommandM3h",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_CUBIC_METERS_PER_HOUR"
+			],
+			"bacnetTagName": "C_360_001_SQ401_SP",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "401",
+			"signalType": "FB",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2001,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][1].position",
+				"mapTarget": ".rIn"
+			},
+			"config": [
+				"_sDescription := 'Spjeldvinkel'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_360_001_SQ401_FB",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "401",
+			"signalType": "C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2000,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][1].damperClimateInterface.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_360_001_SQ401_C",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "401",
+			"signalType": "KMD",
+			"bacnetType": "FbMultiStateValue",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 2000,
+			"mappings": {
+				"incomingValue": true,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][1].control",
+				"mapTarget": ".udiPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Manuell overstyring'",
+				"_udiNumberOfStates := 8"
+			],
+			"bacnetTagName": "C_360_001_SQ401_KMD",
+			"stateTexts": [
+				"Auto",
+				"Åpne",
+				"Lukke",
+				"Til minste luftmengde",
+				"Til midterste luftmengde",
+				"Til største luftmengde",
+				"Åpne (rask)",
+				"Lukke (rask)"
+			]
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "401",
+			"signalType": "OPT_EKSKL",
+			"bacnetType": "FbBinaryValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2000,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "ModbusDamperSetpoints[1][1].excludeFromOptimizer",
+				"mapTarget": ".xPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Optimizer'",
+				"_sActiveText := 'Utkoblet'",
+				"_sInactiveText := 'Innkoblet'"
+			],
+			"bacnetTagName": "C_360_001_SQ401_OPT_EKSKL",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "402",
+			"signalType": "VOL",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2002,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][2].flow",
+				"mapTarget": ".rIn"
+			},
+			"config": [
+				"_sDescription := 'Faktisk luftmengde'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_CUBIC_METERS_PER_HOUR"
+			],
+			"bacnetTagName": "C_360_001_SQ402_VOL",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "402",
+			"signalType": "SP",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2001,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][2].setpointCommandM3h",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_CUBIC_METERS_PER_HOUR"
+			],
+			"bacnetTagName": "C_360_001_SQ402_SP",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "402",
+			"signalType": "FB",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2003,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][2].position",
+				"mapTarget": ".rIn"
+			},
+			"config": [
+				"_sDescription := 'Spjeldvinkel'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_360_001_SQ402_FB",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "402",
+			"signalType": "C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2001,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][2].damperClimateInterface.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_360_001_SQ402_C",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "402",
+			"signalType": "KMD",
+			"bacnetType": "FbMultiStateValue",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 2001,
+			"mappings": {
+				"incomingValue": true,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][2].control",
+				"mapTarget": ".udiPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Manuell overstyring'",
+				"_udiNumberOfStates := 8"
+			],
+			"bacnetTagName": "C_360_001_SQ402_KMD",
+			"stateTexts": [
+				"Auto",
+				"Åpne",
+				"Lukke",
+				"Til minste luftmengde",
+				"Til midterste luftmengde",
+				"Til største luftmengde",
+				"Åpne (rask)",
+				"Lukke (rask)"
+			]
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "402",
+			"signalType": "OPT_EKSKL",
+			"bacnetType": "FbBinaryValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2001,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "ModbusDamperSetpoints[1][2].excludeFromOptimizer",
+				"mapTarget": ".xPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Optimizer'",
+				"_sActiveText := 'Utkoblet'",
+				"_sInactiveText := 'Innkoblet'"
+			],
+			"bacnetTagName": "C_360_001_SQ402_OPT_EKSKL",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": "M103",
+			"componentType": "SQ",
+			"componentTypeSuffix": "403",
+			"signalType": "VOL",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2004,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][3].flow",
+				"mapTarget": ".rIn"
+			},
+			"config": [
+				"_sDescription := 'Faktisk luftmengde'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_CUBIC_METERS_PER_HOUR"
+			],
+			"bacnetTagName": "C_360_001_SQ403_VOL",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": "M103",
+			"componentType": "SQ",
+			"componentTypeSuffix": "403",
+			"signalType": "SP",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2002,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][3].setpointCommandM3h",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_CUBIC_METERS_PER_HOUR"
+			],
+			"bacnetTagName": "C_360_001_SQ403_SP",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": "M103",
+			"componentType": "SQ",
+			"componentTypeSuffix": "403",
+			"signalType": "FB",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2005,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][3].position",
+				"mapTarget": ".rIn"
+			},
+			"config": [
+				"_sDescription := 'Spjeldvinkel'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_360_001_SQ403_FB",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": "M103",
+			"componentType": "SQ",
+			"componentTypeSuffix": "403",
+			"signalType": "C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2002,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][3].damperClimateInterface.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_360_001_SQ403_C",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": "M103",
+			"componentType": "SQ",
+			"componentTypeSuffix": "403",
+			"signalType": "KMD",
+			"bacnetType": "FbMultiStateValue",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 2002,
+			"mappings": {
+				"incomingValue": true,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][3].control",
+				"mapTarget": ".udiPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Manuell overstyring'",
+				"_udiNumberOfStates := 8"
+			],
+			"bacnetTagName": "C_360_001_SQ403_KMD",
+			"stateTexts": [
+				"Auto",
+				"Åpne",
+				"Lukke",
+				"Til minste luftmengde",
+				"Til midterste luftmengde",
+				"Til største luftmengde",
+				"Åpne (rask)",
+				"Lukke (rask)"
+			]
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": "M103",
+			"componentType": "SQ",
+			"componentTypeSuffix": "403",
+			"signalType": "OPT_EKSKL",
+			"bacnetType": "FbBinaryValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2002,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "ModbusDamperSetpoints[1][3].excludeFromOptimizer",
+				"mapTarget": ".xPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Optimizer'",
+				"_sActiveText := 'Utkoblet'",
+				"_sInactiveText := 'Innkoblet'"
+			],
+			"bacnetTagName": "C_360_001_SQ403_OPT_EKSKL",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "404",
+			"signalType": "VOL",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2006,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][4].flow",
+				"mapTarget": ".rIn"
+			},
+			"config": [
+				"_sDescription := 'Faktisk luftmengde'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_CUBIC_METERS_PER_HOUR"
+			],
+			"bacnetTagName": "C_360_001_SQ404_VOL",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "404",
+			"signalType": "SP",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2003,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][4].setpointCommandM3h",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_CUBIC_METERS_PER_HOUR"
+			],
+			"bacnetTagName": "C_360_001_SQ404_SP",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "404",
+			"signalType": "FB",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2007,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][4].position",
+				"mapTarget": ".rIn"
+			},
+			"config": [
+				"_sDescription := 'Spjeldvinkel'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_360_001_SQ404_FB",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "404",
+			"signalType": "C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2003,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][4].damperClimateInterface.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_360_001_SQ404_C",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "404",
+			"signalType": "KMD",
+			"bacnetType": "FbMultiStateValue",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 2003,
+			"mappings": {
+				"incomingValue": true,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][4].control",
+				"mapTarget": ".udiPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Manuell overstyring'",
+				"_udiNumberOfStates := 8"
+			],
+			"bacnetTagName": "C_360_001_SQ404_KMD",
+			"stateTexts": [
+				"Auto",
+				"Åpne",
+				"Lukke",
+				"Til minste luftmengde",
+				"Til midterste luftmengde",
+				"Til største luftmengde",
+				"Åpne (rask)",
+				"Lukke (rask)"
+			]
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "404",
+			"signalType": "OPT_EKSKL",
+			"bacnetType": "FbBinaryValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2003,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "ModbusDamperSetpoints[1][4].excludeFromOptimizer",
+				"mapTarget": ".xPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Optimizer'",
+				"_sActiveText := 'Utkoblet'",
+				"_sInactiveText := 'Innkoblet'"
+			],
+			"bacnetTagName": "C_360_001_SQ404_OPT_EKSKL",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "405",
+			"signalType": "VOL",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2008,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][5].flow",
+				"mapTarget": ".rIn"
+			},
+			"config": [
+				"_sDescription := 'Faktisk luftmengde'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_CUBIC_METERS_PER_HOUR"
+			],
+			"bacnetTagName": "C_360_001_SQ405_VOL",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "405",
+			"signalType": "SP",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2004,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][5].setpointCommandM3h",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_CUBIC_METERS_PER_HOUR"
+			],
+			"bacnetTagName": "C_360_001_SQ405_SP",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "405",
+			"signalType": "FB",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2009,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][5].position",
+				"mapTarget": ".rIn"
+			},
+			"config": [
+				"_sDescription := 'Spjeldvinkel'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_360_001_SQ405_FB",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "405",
+			"signalType": "C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2004,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][5].damperClimateInterface.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_360_001_SQ405_C",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "405",
+			"signalType": "KMD",
+			"bacnetType": "FbMultiStateValue",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 2004,
+			"mappings": {
+				"incomingValue": true,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][5].control",
+				"mapTarget": ".udiPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Manuell overstyring'",
+				"_udiNumberOfStates := 8"
+			],
+			"bacnetTagName": "C_360_001_SQ405_KMD",
+			"stateTexts": [
+				"Auto",
+				"Åpne",
+				"Lukke",
+				"Til minste luftmengde",
+				"Til midterste luftmengde",
+				"Til største luftmengde",
+				"Åpne (rask)",
+				"Lukke (rask)"
+			]
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "405",
+			"signalType": "OPT_EKSKL",
+			"bacnetType": "FbBinaryValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2004,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "ModbusDamperSetpoints[1][5].excludeFromOptimizer",
+				"mapTarget": ".xPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Optimizer'",
+				"_sActiveText := 'Utkoblet'",
+				"_sInactiveText := 'Innkoblet'"
+			],
+			"bacnetTagName": "C_360_001_SQ405_OPT_EKSKL",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": "U112",
+			"componentType": "SQ",
+			"componentTypeSuffix": "406",
+			"signalType": "VOL",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2010,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][6].flow",
+				"mapTarget": ".rIn"
+			},
+			"config": [
+				"_sDescription := 'Faktisk luftmengde'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_CUBIC_METERS_PER_HOUR"
+			],
+			"bacnetTagName": "C_360_001_SQ406_VOL",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": "U112",
+			"componentType": "SQ",
+			"componentTypeSuffix": "406",
+			"signalType": "SP",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2005,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][6].setpointCommandM3h",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_CUBIC_METERS_PER_HOUR"
+			],
+			"bacnetTagName": "C_360_001_SQ406_SP",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": "U112",
+			"componentType": "SQ",
+			"componentTypeSuffix": "406",
+			"signalType": "FB",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2011,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][6].position",
+				"mapTarget": ".rIn"
+			},
+			"config": [
+				"_sDescription := 'Spjeldvinkel'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_360_001_SQ406_FB",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": "U112",
+			"componentType": "SQ",
+			"componentTypeSuffix": "406",
+			"signalType": "C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2005,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][6].damperClimateInterface.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_360_001_SQ406_C",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": "U112",
+			"componentType": "SQ",
+			"componentTypeSuffix": "406",
+			"signalType": "KMD",
+			"bacnetType": "FbMultiStateValue",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 2005,
+			"mappings": {
+				"incomingValue": true,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][6].control",
+				"mapTarget": ".udiPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Manuell overstyring'",
+				"_udiNumberOfStates := 8"
+			],
+			"bacnetTagName": "C_360_001_SQ406_KMD",
+			"stateTexts": [
+				"Auto",
+				"Åpne",
+				"Lukke",
+				"Til minste luftmengde",
+				"Til midterste luftmengde",
+				"Til største luftmengde",
+				"Åpne (rask)",
+				"Lukke (rask)"
+			]
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": "U112",
+			"componentType": "SQ",
+			"componentTypeSuffix": "406",
+			"signalType": "OPT_EKSKL",
+			"bacnetType": "FbBinaryValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2005,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "ModbusDamperSetpoints[1][6].excludeFromOptimizer",
+				"mapTarget": ".xPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Optimizer'",
+				"_sActiveText := 'Utkoblet'",
+				"_sInactiveText := 'Innkoblet'"
+			],
+			"bacnetTagName": "C_360_001_SQ406_OPT_EKSKL",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": "",
+			"componentType": "SK",
+			"componentTypeSuffix": "502",
+			"signalType": "VOL",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2012,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][7].flow",
+				"mapTarget": ".rIn"
+			},
+			"config": [
+				"_sDescription := 'Faktisk luftmengde'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_CUBIC_METERS_PER_HOUR"
+			],
+			"bacnetTagName": "C_360_001_SK502_VOL",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": "",
+			"componentType": "SK",
+			"componentTypeSuffix": "502",
+			"signalType": "SP",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2006,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][7].setpointCommandM3h",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_CUBIC_METERS_PER_HOUR"
+			],
+			"bacnetTagName": "C_360_001_SK502_SP",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": "",
+			"componentType": "SK",
+			"componentTypeSuffix": "502",
+			"signalType": "FB",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2013,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][7].position",
+				"mapTarget": ".rIn"
+			},
+			"config": [
+				"_sDescription := 'Spjeldvinkel'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_360_001_SK502_FB",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": "",
+			"componentType": "SK",
+			"componentTypeSuffix": "502",
+			"signalType": "C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2006,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][7].damperClimateInterface.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_360_001_SK502_C",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": "",
+			"componentType": "SK",
+			"componentTypeSuffix": "502",
+			"signalType": "KMD",
+			"bacnetType": "FbMultiStateValue",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 2006,
+			"mappings": {
+				"incomingValue": true,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][7].control",
+				"mapTarget": ".udiPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Manuell overstyring'",
+				"_udiNumberOfStates := 8"
+			],
+			"bacnetTagName": "C_360_001_SK502_KMD",
+			"stateTexts": [
+				"Auto",
+				"Åpne",
+				"Lukke",
+				"Til minste luftmengde",
+				"Til midterste luftmengde",
+				"Til største luftmengde",
+				"Åpne (rask)",
+				"Lukke (rask)"
+			]
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": "",
+			"componentType": "SK",
+			"componentTypeSuffix": "502",
+			"signalType": "OPT_EKSKL",
+			"bacnetType": "FbBinaryValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2006,
+			"mappings": {
+				"incomingValue": true,
+				"retain": false,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "ModbusDamperSetpoints[1][7].excludeFromOptimizer",
+				"mapTarget": ".xPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Optimizer'",
+				"_sActiveText := 'Utkoblet'",
+				"_sInactiveText := 'Innkoblet'"
+			],
+			"bacnetTagName": "C_360_001_SK502_OPT_EKSKL",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "501",
+			"signalType": "VOL",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2014,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][8].flow",
+				"mapTarget": ".rIn"
+			},
+			"config": [
+				"_sDescription := 'Faktisk luftmengde'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_CUBIC_METERS_PER_HOUR"
+			],
+			"bacnetTagName": "C_360_001_SQ501_VOL",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "501",
+			"signalType": "SP",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2007,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][8].setpointCommandM3h",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_CUBIC_METERS_PER_HOUR"
+			],
+			"bacnetTagName": "C_360_001_SQ501_SP",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "501",
+			"signalType": "FB",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2015,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][8].position",
+				"mapTarget": ".rIn"
+			},
+			"config": [
+				"_sDescription := 'Spjeldvinkel'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_360_001_SQ501_FB",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "501",
+			"signalType": "C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2007,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][8].damperClimateInterface.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_360_001_SQ501_C",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "501",
+			"signalType": "KMD",
+			"bacnetType": "FbMultiStateValue",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 2007,
+			"mappings": {
+				"incomingValue": true,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][8].control",
+				"mapTarget": ".udiPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Manuell overstyring'",
+				"_udiNumberOfStates := 8"
+			],
+			"bacnetTagName": "C_360_001_SQ501_KMD",
+			"stateTexts": [
+				"Auto",
+				"Åpne",
+				"Lukke",
+				"Til minste luftmengde",
+				"Til midterste luftmengde",
+				"Til største luftmengde",
+				"Åpne (rask)",
+				"Lukke (rask)"
+			]
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "501",
+			"signalType": "OPT_EKSKL",
+			"bacnetType": "FbBinaryValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2007,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "ModbusDamperSetpoints[1][8].excludeFromOptimizer",
+				"mapTarget": ".xPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Optimizer'",
+				"_sActiveText := 'Utkoblet'",
+				"_sInactiveText := 'Innkoblet'"
+			],
+			"bacnetTagName": "C_360_001_SQ501_OPT_EKSKL",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": "M103",
+			"componentType": "SQ",
+			"componentTypeSuffix": "502",
+			"signalType": "VOL",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2016,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][9].flow",
+				"mapTarget": ".rIn"
+			},
+			"config": [
+				"_sDescription := 'Faktisk luftmengde'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_CUBIC_METERS_PER_HOUR"
+			],
+			"bacnetTagName": "C_360_001_SQ502_VOL",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": "M103",
+			"componentType": "SQ",
+			"componentTypeSuffix": "502",
+			"signalType": "SP",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2008,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][9].setpointCommandM3h",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_CUBIC_METERS_PER_HOUR"
+			],
+			"bacnetTagName": "C_360_001_SQ502_SP",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": "M103",
+			"componentType": "SQ",
+			"componentTypeSuffix": "502",
+			"signalType": "FB",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2017,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][9].position",
+				"mapTarget": ".rIn"
+			},
+			"config": [
+				"_sDescription := 'Spjeldvinkel'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_360_001_SQ502_FB",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": "M103",
+			"componentType": "SQ",
+			"componentTypeSuffix": "502",
+			"signalType": "C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2008,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][9].damperClimateInterface.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_360_001_SQ502_C",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": "M103",
+			"componentType": "SQ",
+			"componentTypeSuffix": "502",
+			"signalType": "KMD",
+			"bacnetType": "FbMultiStateValue",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 2008,
+			"mappings": {
+				"incomingValue": true,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][9].control",
+				"mapTarget": ".udiPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Manuell overstyring'",
+				"_udiNumberOfStates := 8"
+			],
+			"bacnetTagName": "C_360_001_SQ502_KMD",
+			"stateTexts": [
+				"Auto",
+				"Åpne",
+				"Lukke",
+				"Til minste luftmengde",
+				"Til midterste luftmengde",
+				"Til største luftmengde",
+				"Åpne (rask)",
+				"Lukke (rask)"
+			]
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": "M103",
+			"componentType": "SQ",
+			"componentTypeSuffix": "502",
+			"signalType": "OPT_EKSKL",
+			"bacnetType": "FbBinaryValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2008,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "ModbusDamperSetpoints[1][9].excludeFromOptimizer",
+				"mapTarget": ".xPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Optimizer'",
+				"_sActiveText := 'Utkoblet'",
+				"_sInactiveText := 'Innkoblet'"
+			],
+			"bacnetTagName": "C_360_001_SQ502_OPT_EKSKL",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "503",
+			"signalType": "VOL",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2018,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][10].flow",
+				"mapTarget": ".rIn"
+			},
+			"config": [
+				"_sDescription := 'Faktisk luftmengde'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_CUBIC_METERS_PER_HOUR"
+			],
+			"bacnetTagName": "C_360_001_SQ503_VOL",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "503",
+			"signalType": "SP",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2009,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][10].setpointCommandM3h",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_CUBIC_METERS_PER_HOUR"
+			],
+			"bacnetTagName": "C_360_001_SQ503_SP",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "503",
+			"signalType": "FB",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2019,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][10].position",
+				"mapTarget": ".rIn"
+			},
+			"config": [
+				"_sDescription := 'Spjeldvinkel'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_360_001_SQ503_FB",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "503",
+			"signalType": "C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2009,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][10].damperClimateInterface.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_360_001_SQ503_C",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "503",
+			"signalType": "KMD",
+			"bacnetType": "FbMultiStateValue",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 2009,
+			"mappings": {
+				"incomingValue": true,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][10].control",
+				"mapTarget": ".udiPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Manuell overstyring'",
+				"_udiNumberOfStates := 8"
+			],
+			"bacnetTagName": "C_360_001_SQ503_KMD",
+			"stateTexts": [
+				"Auto",
+				"Åpne",
+				"Lukke",
+				"Til minste luftmengde",
+				"Til midterste luftmengde",
+				"Til største luftmengde",
+				"Åpne (rask)",
+				"Lukke (rask)"
+			]
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "503",
+			"signalType": "OPT_EKSKL",
+			"bacnetType": "FbBinaryValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2009,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "ModbusDamperSetpoints[1][10].excludeFromOptimizer",
+				"mapTarget": ".xPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Optimizer'",
+				"_sActiveText := 'Utkoblet'",
+				"_sInactiveText := 'Innkoblet'"
+			],
+			"bacnetTagName": "C_360_001_SQ503_OPT_EKSKL",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "504",
+			"signalType": "VOL",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2020,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][11].flow",
+				"mapTarget": ".rIn"
+			},
+			"config": [
+				"_sDescription := 'Faktisk luftmengde'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_CUBIC_METERS_PER_HOUR"
+			],
+			"bacnetTagName": "C_360_001_SQ504_VOL",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "504",
+			"signalType": "SP",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2010,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][11].setpointCommandM3h",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_CUBIC_METERS_PER_HOUR"
+			],
+			"bacnetTagName": "C_360_001_SQ504_SP",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "504",
+			"signalType": "FB",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2021,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][11].position",
+				"mapTarget": ".rIn"
+			},
+			"config": [
+				"_sDescription := 'Spjeldvinkel'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_360_001_SQ504_FB",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "504",
+			"signalType": "C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2010,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][11].damperClimateInterface.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_360_001_SQ504_C",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "504",
+			"signalType": "KMD",
+			"bacnetType": "FbMultiStateValue",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 2010,
+			"mappings": {
+				"incomingValue": true,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][11].control",
+				"mapTarget": ".udiPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Manuell overstyring'",
+				"_udiNumberOfStates := 8"
+			],
+			"bacnetTagName": "C_360_001_SQ504_KMD",
+			"stateTexts": [
+				"Auto",
+				"Åpne",
+				"Lukke",
+				"Til minste luftmengde",
+				"Til midterste luftmengde",
+				"Til største luftmengde",
+				"Åpne (rask)",
+				"Lukke (rask)"
+			]
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": 102,
+			"componentType": "SQ",
+			"componentTypeSuffix": "504",
+			"signalType": "OPT_EKSKL",
+			"bacnetType": "FbBinaryValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2010,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "ModbusDamperSetpoints[1][11].excludeFromOptimizer",
+				"mapTarget": ".xPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Optimizer'",
+				"_sActiveText := 'Utkoblet'",
+				"_sInactiveText := 'Innkoblet'"
+			],
+			"bacnetTagName": "C_360_001_SQ504_OPT_EKSKL",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": "U114",
+			"componentType": "SQ",
+			"componentTypeSuffix": "505",
+			"signalType": "VOL",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2022,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][12].flow",
+				"mapTarget": ".rIn"
+			},
+			"config": [
+				"_sDescription := 'Faktisk luftmengde'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_CUBIC_METERS_PER_HOUR"
+			],
+			"bacnetTagName": "C_360_001_SQ505_VOL",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": "U114",
+			"componentType": "SQ",
+			"componentTypeSuffix": "505",
+			"signalType": "SP",
+			"bacnetType": "FbAnalogValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2011,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][12].setpointCommandM3h",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Settpunkt'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_CUBIC_METERS_PER_HOUR"
+			],
+			"bacnetTagName": "C_360_001_SQ505_SP",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": "U114",
+			"componentType": "SQ",
+			"componentTypeSuffix": "505",
+			"signalType": "FB",
+			"bacnetType": "FbAnalogInput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2023,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][12].position",
+				"mapTarget": ".rIn"
+			},
+			"config": [
+				"_sDescription := 'Spjeldvinkel'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_360_001_SQ505_FB",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": "U114",
+			"componentType": "SQ",
+			"componentTypeSuffix": "505",
+			"signalType": "C",
+			"bacnetType": "FbAnalogOutput",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2011,
+			"mappings": {
+				"incomingValue": false,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][12].damperClimateInterface.setpoint",
+				"mapTarget": ".rPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Pådrag'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			],
+			"bacnetTagName": "C_360_001_SQ505_C",
+			"stateTexts": []
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": "U114",
+			"componentType": "SQ",
+			"componentTypeSuffix": "505",
+			"signalType": "KMD",
+			"bacnetType": "FbMultiStateValue",
+			"bacnetSize": "Large",
+			"bacnetInstanceIndex": 2011,
+			"mappings": {
+				"incomingValue": true,
+				"mapSource": "GVL_Modbus",
+				"mapSourceSuffix": "ModbusDamperInterface[1][12].control",
+				"mapTarget": ".udiPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Manuell overstyring'",
+				"_udiNumberOfStates := 8"
+			],
+			"bacnetTagName": "C_360_001_SQ505_KMD",
+			"stateTexts": [
+				"Auto",
+				"Åpne",
+				"Lukke",
+				"Til minste luftmengde",
+				"Til midterste luftmengde",
+				"Til største luftmengde",
+				"Åpne (rask)",
+				"Lukke (rask)"
+			]
+		},
+		{
+			"bacnetPrefix": "C",
+			"bacnetSystem": "360",
+			"bacnetNumber": "001",
+			"roomName": "U114",
+			"componentType": "SQ",
+			"componentTypeSuffix": "505",
+			"signalType": "OPT_EKSKL",
+			"bacnetType": "FbBinaryValue",
+			"bacnetSize": "Medium",
+			"bacnetInstanceIndex": 2011,
+			"mappings": {
+				"incomingValue": true,
+				"retain": true,
+				"mapSource": "PersistentVars",
+				"mapSourceSuffix": "ModbusDamperSetpoints[1][12].excludeFromOptimizer",
+				"mapTarget": ".xPresentValue"
+			},
+			"config": [
+				"_sDescription := 'Optimizer'",
+				"_sActiveText := 'Utkoblet'",
+				"_sInactiveText := 'Innkoblet'"
+			],
+			"bacnetTagName": "C_360_001_SQ505_OPT_EKSKL",
+			"stateTexts": []
+		}
+	]
+}
