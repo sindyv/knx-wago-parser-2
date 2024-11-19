@@ -69,7 +69,7 @@ class BacnetObjectCollection extends Debug {
 			const componentTypeSuffix = damper.componentTypeSuffix
 			// Sjekk hvilke BACnet tags spjeldtypen skal ha
 			damperObjectData.forEach((damperObject) => {
-				if (damperObject.componentType === componentType) {
+				if (componentType.includes(damperObject.componentType)) {
 					damperObject.bacnetVars.forEach((bacnetVar) => {
 						const signalType = bacnetVar
 						// Finn BACnet objektinformasjon
@@ -77,7 +77,7 @@ class BacnetObjectCollection extends Debug {
 						bacnetObjectData.forEach((bacnetObjectData) => {
 							if (
 								bacnetObjectData.signalType === signalType &&
-								bacnetObjectData.componentType === componentType
+								componentType.includes(bacnetObjectData.componentType)
 							) {
 								bacnetError = false
 								const bacnetType = bacnetObjectData.type
@@ -94,7 +94,7 @@ class BacnetObjectCollection extends Debug {
 								if ("stateTexts" in bacnetObjectData) {
 									stateTexts = [...bacnetObjectData.stateTexts]
 								}
-
+								const interopMapping = bacnetObjectData.interopMapping
 								const bacnetObject = new BacnetObject(
 									roomName,
 									componentType,
@@ -109,7 +109,8 @@ class BacnetObjectCollection extends Debug {
 									bacnetSystem,
 									bacnetNumber,
 									CONFIG.bacnetSettings.damperBacnetTagStructure,
-									stateTexts
+									stateTexts,
+									interopMapping
 								)
 
 								bacnetObject.mappings.mapSourceSuffix = usePlaceholders(
@@ -181,6 +182,8 @@ class BacnetObjectCollection extends Debug {
 										stateTexts = [...bacnetObjectData.stateTexts]
 									}
 
+									const interopMapping = bacnetObjectData.interopMapping
+
 									const bacnetObject = new BacnetObject(
 										roomName,
 										componentType,
@@ -195,7 +198,8 @@ class BacnetObjectCollection extends Debug {
 										undefined,
 										bacnetNumber,
 										CONFIG.bacnetSettings.climateBacnetTagStructure,
-										stateTexts
+										stateTexts,
+										interopMapping
 									)
 
 									bacnetObject.mappings.mapSource = usePlaceholders(
@@ -224,7 +228,7 @@ class BacnetObjectCollection extends Debug {
 	}
 
 	xmlWriteClimateBacnetMappings(writeXml) {
-		const pouName = `ClimateControl_Mapping`
+		const pouName = `PRG_ClimateControl_Mapping`
 		const pouId = crypto.randomUUID()
 		const variables = []
 		const pou = []
@@ -401,89 +405,97 @@ IF (firstScan) THEN\n`)
 			// Lag default settings action
 			// Enable
 			damperObjects.forEach((damper) => {
-				actions[0].actionContent += `
+				if (damper.lineIndex === damperLine)
+					actions[0].actionContent += `
 GVL_Modbus.modbusDamperInterface[${damper.lineIndex}][${damper.lineAddress}].enable     := TRUE;`
 			})
 
 			// Systmenummer
 			damperObjects.forEach((damper) => {
-				actions[0].actionContent += `
+				if (damper.lineIndex === damperLine)
+					actions[0].actionContent += `
 GVL_Modbus.modbusDamperInterface[${damper.lineIndex}][${damper.lineAddress}].systemNumber     := ${damper.tfmNumber};`
 			})
 
 			// Systemprefix
 			damperObjects.forEach((damper) => {
-				if (damper.tfmLocation) {
-					actions[0].actionContent += `
+				if (damper.lineIndex === damperLine)
+					if (damper.tfmLocation) {
+						actions[0].actionContent += `
 GVL_Modbus.modbusDamperInterface[${damper.lineIndex}][${damper.lineAddress}].systemPrefix     := '${damper.tfmLocation}';`
-				}
+					}
 			})
 
 			// Luftretning
 			damperObjects.forEach((damper) => {
-				actions[0].actionContent += `
+				if (damper.lineIndex === damperLine)
+					actions[0].actionContent += `
 GVL_Modbus.modbusDamperInterface[${damper.lineIndex}][${
-					damper.lineAddress
-				}].airDirection     := ${damper.airDirection ? "1" : "0"};`
+						damper.lineAddress
+					}].airDirection     := ${damper.airDirection ? "1" : "0"};`
 			})
 
 			// vMid
 			damperObjects.forEach((damper) => {
-				if (damper.vMid) {
-					actions[0].actionContent += `
-GVL_Modbus.modbusDamperInterface[${damper.lineIndex}][${damper.lineAddress}].vMid     := ${damper.vMid};`
-				}
+				if (damper.lineIndex === damperLine)
+					if (damper.vMid) {
+						actions[0].actionContent += `
+PersistentVars.ModbusDamperSetpoints[${damper.lineIndex}][${damper.lineAddress}].vMidM3h     := ${damper.vMid};`
+					}
 			})
 
 			// Lag kall for action
 			pou.push(`
 if (firstScan) then
-    initialSsettings();
+    initialSettings();
 end_if
 `)
 
 			// Map opp navn
 			damperObjects.forEach((damper) => {
-				pou.push(`
+				if (damper.lineIndex === damperLine)
+					pou.push(`
 GVL_Modbus.modbusDamperInterface[${damper.lineIndex}][${damper.lineAddress}].tag     := '${damper.tfmLocation}=${damper.tfmSystem}.${damper.tfmNumber}-${damper.componentType}${damper.componentTypeSuffix}';`)
 			})
 
 			// Map opp pådrag
 			damperObjects.forEach((damper) => {
-				pou.push(`
+				if (damper.lineIndex === damperLine)
+					pou.push(`
 GVL_Modbus.modbusDamperInterface[${damper.lineIndex}][${
-					damper.lineAddress
-				}].damperClimateInterface${damper.cav ? ".setpoint" : ""}     := ${
-					damper.cav
-						? "100"
-						: `GVL_ClimateControl.typClimateControllerInterfaceRoom${damper.roomName}.actuators.damper`
-				};`)
+						damper.lineAddress
+					}].damperClimateInterface${damper.cav ? ".setpoint" : ""}     := ${
+						damper.cav
+							? "100"
+							: `GVL_ClimateControl.typClimateControllerInterfaceRoom${damper.roomName}.actuators.damper`
+					};`)
 			})
 
 			// Gå igjennom spjeldobjekter og finn BACnet-tag som matcher, og print dette
-			damperObjects.forEach((damper) => {
-				pou.push(`
-// Mapping for spjeld ${damper.tfmLocation}=${damper.tfmSystem}.${damper.tfmNumber}-${damper.componentType}${damper.componentTypeSuffix}\n`)
+			// 			damperObjects.forEach((damper) => {
+			// 				if (damper.lineIndex === damperLine)
+			// 					pou.push(`
+			// Mapping for spjeld ${damper.tfmLocation}=${damper.tfmSystem}.${damper.tfmNumber}-${damper.componentType}${damper.componentTypeSuffix}\n`)
 
-				if (damper.lineIndex === damperLine) {
-					this.bacnetObjects.forEach((bacnetObject) => {
-						if (
-							bacnetObject.bacnetPrefix === damper.tfmLocation &&
-							bacnetObject.bacnetSystem === damper.tfmSystem &&
-							bacnetObject.bacnetNumber === damper.tfmNumber &&
-							bacnetObject.componentType === damper.componentType &&
-							bacnetObject.componentTypeSuffix === damper.componentTypeSuffix
-						) {
-							const mapping = useCreateMappings(
-								bacnetObject,
-								bacnetObject.bacnetTagName
-							)
+			// 				if (damper.lineIndex === damperLine) {
+			// 					this.bacnetObjects.forEach((bacnetObject) => {
+			// 						if (
+			// 							bacnetObject.bacnetPrefix === damper.tfmLocation &&
+			// 							bacnetObject.bacnetSystem === damper.tfmSystem &&
+			// 							bacnetObject.bacnetNumber === damper.tfmNumber &&
+			// 							bacnetObject.componentType === damper.componentType &&
+			// 							bacnetObject.componentTypeSuffix === damper.componentTypeSuffix
+			// 						) {
+			// 							const mapping = useCreateMappings(
+			// 								bacnetObject,
+			// 								bacnetObject.bacnetTagName
+			// 							)
 
-							pou.push(mapping)
-						}
-					})
-				}
-			})
+			// 							pou.push(mapping)
+			// 						}
+			// 					})
+			// 				}
+			// 			})
 
 			// Skriv POU-header
 			writeXml.appendXmlData(xmlData.pouHeader(pouName))
@@ -564,6 +576,156 @@ GVL_Modbus.modbusDamperInterface[${damper.lineIndex}][${
 		})
 		// Avslutt GVL
 		writeXml.appendXmlData(xmlData.gvlFooter())
+	}
+
+	xmlWriteModbusMapping(writeXml, roomCollection, damperCollection) {
+		const pouName = `PRG_Mapping`
+		const pouId = crypto.randomUUID()
+		const variables = [
+			{
+				varName: "bacnetModbusClimateInterop",
+				varType: `ARRAY[0..${roomCollection.length}] OF bacnetModbusClimateInterop_00_01`,
+			},
+			{
+				varName: "bacnetModbusDamperInterop",
+				varType: `ARRAY[1..GVL_Modbus.numberOfModbusDamperLines] OF ARRAY [1..30] OF bacnetModbusDamperInterop_00_01`,
+			},
+			{
+				varName: "i",
+				varType: "INT",
+			},
+		]
+		const pou = []
+
+		// Lag modbus mappinger
+		pou.push(`i := 0;\n`)
+
+		// =======================================================================
+		// Romstyring
+		// =======================================================================
+		roomCollection.forEach((room) => {
+			// Finn bacnet objekter som tilhører rommet
+			const roomBacnetObjects = this.bacnetObjects.filter(
+				(bacnetObject) =>
+					bacnetObject.roomName === room.roomName &&
+					bacnetObject.bacnetSystem === CONFIG.bacnetSettings.bacnetSystem
+			)
+
+			// Finn største tekstlengde
+			const maxLabelLength = Math.max(
+				...roomBacnetObjects.map(
+					(bacnetObject) => bacnetObject.interopMapping.length
+				)
+			)
+
+			pou.push(`
+                
+// Mappinger for rom ${room.roomName}\n
+bacnetModbusClimateInterop[i](\n`)
+
+			roomBacnetObjects.forEach((bacnetObject) => {
+				const tabs = "\t".repeat(
+					Math.ceil((maxLabelLength - bacnetObject.interopMapping.length) / 4) +
+						1
+				)
+				pou.push(
+					`  ${bacnetObject.interopMapping}${tabs}:= ${bacnetObject.bacnetTagName},\n`
+				)
+			})
+			pou.push(
+				`  modbusHoldingRegisters		:= ADR(GVL_Modbus.awHoldingRegisters[i * 30]), \n`
+			)
+			pou.push(`  modbusCoilRegisters			:= ADR(GVL_Modbus.axCoils[i]), \n`)
+			pou.push(
+				`  typClimateControllerInterface	:= GVL_ClimateControl.typClimateControllerInterfaceRoom${room.roomName}, \n`
+			)
+			pou.push(
+				`  typClimateControllerSettings  := PersistentVars.typClimateControllerSettingsRoom${room.roomName}`
+			)
+			pou.push(`
+);
+i := i +1;`)
+		})
+
+		// =======================================================================
+		// VAV-spjeld
+		// =======================================================================
+		pou.push(`\ni := 50;\n`)
+		damperCollection.forEach((damper) => {
+			// Finn BACnet-objekter tilknyttet spjeldet
+			const damperBacnetObjects = this.bacnetObjects.filter(
+				(bacnetObject) =>
+					bacnetObject.roomName === damper.roomName &&
+					bacnetObject.bacnetPrefix === damper.tfmLocation &&
+					bacnetObject.bacnetNumber === damper.tfmNumber &&
+					bacnetObject.componentType === damper.componentType &&
+					bacnetObject.componentTypeSuffix === damper.componentTypeSuffix
+			)
+
+			// Finn største tekstlengde
+			const maxLabelLength = Math.max(
+				...damperBacnetObjects.map(
+					(bacnetObject) => bacnetObject.interopMapping.length
+				)
+			)
+
+			pou.push(`
+                
+// Mappinger for spjeld +${damper.tfmLocation}=${damper.tfmSystem}.${damper.tfmNumber}-${damper.componentType}${damper.componentTypeSuffix}\n
+bacnetModbusDamperInterop[${damper.lineIndex}][${damper.lineAddress}](\n`)
+
+			damperBacnetObjects.forEach((bacnetObject) => {
+				const tabs = "\t".repeat(
+					Math.ceil((maxLabelLength - bacnetObject.interopMapping.length) / 4) +
+						1
+				)
+				pou.push(
+					`  ${bacnetObject.interopMapping}${tabs}:= ${bacnetObject.bacnetTagName},\n`
+				)
+			})
+
+			pou.push(
+				`  modbusHoldingRegisters		:= ADR(GVL_Modbus.awHoldingRegisters[i * 30]), \n`
+			)
+			pou.push(`  modbusCoilRegisters			:= ADR(GVL_Modbus.axCoils[i]), \n`)
+			pou.push(
+				`  typDamperInterface	    :=  GVL_Modbus.ModbusDamperInterface[${damper.lineIndex}][${damper.lineAddress}], \n`
+			)
+			pou.push(
+				`  typDameperSettings       := PersistentVars.ModbusDamperSetpoints[${damper.lineIndex}][${damper.lineAddress}]`
+			)
+			pou.push(`
+);
+i := i +1;`)
+		})
+
+		// Skriv POU-header
+		writeXml.appendXmlData(xmlData.pouHeader(pouName))
+
+		// Start VAR-område
+		writeXml.appendXmlData(xmlData.pouLocalVars())
+		// Legg til variabler
+		variables.forEach((variable) => {
+			writeXml.appendXmlData(
+				xmlData.pouVariable(variable.varName, variable.varType)
+			)
+		})
+		// Slutt av VAR-område,
+		writeXml.appendXmlData(xmlData.pouEndLocalVars())
+		writeXml.appendXmlData(xmlData.pouEndInterface())
+
+		writeXml.appendXmlData(xmlData.pouMiddle())
+
+		// Kode
+		pou.forEach((mapping) => {
+			writeXml.appendXmlData(mapping)
+		})
+
+		// Avlslutt POU
+		writeXml.appendXmlData(xmlData.pouEnd(pouId))
+
+		// Registrer POU i mappestruktur
+		writeXml.registerPou(pouName, `3 - Fieldbus`, pouId)
 	}
 }
 

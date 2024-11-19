@@ -7,18 +7,18 @@
 		"bacnetPrefix": "C",
 		"bacnetSystem": "564",
 		"bacnetNumber": "{{roomName}}",
-		"tagRoomPrefix": "R0",
+		"tagRoomPrefix": "",
 		"climateBacnetTagStructure": "{{bacnetPrefix}}_{{bacnetSystem}}_{{bacnetNumber}}_{{componentType}}{{componentTypeSuffix}}_{{signalType}}_{{CONFIG.bacnetSettings.tagRoomPrefix}}{{roomName}}",
-		"damperBacnetTagStructure": "{{bacnetPrefix}}_{{bacnetSystem}}_{{bacnetNumber}}_{{componentType}}{{componentTypeSuffix}}_{{signalType}}"
+		"damperBacnetTagStructure": "{{bacnetPrefix}}_{{bacnetSystem}}_{{bacnetNumber}}_{{componentType}}_{{componentTypeSuffix}}_{{signalType}}"
 	},
 	"knxSettings": {
 		"tagIdentifier": "=",
-		"componentTagLength": 3,
-		"componentTagSuffixLength": 4
+		"componentTagLength": 2,
+		"componentTagSuffixLength": 5
 	},
 	"damperSettings": {
 		"damperSupplySearchString": "SQ4",
-		"componentTagLength": 2,
+		"componentTagLength": 3,
 		"componentTagSuffixLength": 4
 	}
 }

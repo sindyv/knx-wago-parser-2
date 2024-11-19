@@ -15,7 +15,8 @@ class BacnetObject {
 		bacnetSystem = CONFIG.bacnetSettings.bacnetSystem,
 		bacnetNumber = CONFIG.bacnetSettings.bacnetNumber,
 		bacnetTagStructure,
-		stateTexts
+		stateTexts,
+		interopMapping
 	) {
 		this.bacnetPrefix = bacnetPrefix
 		this.bacnetSystem = bacnetSystem
@@ -31,6 +32,7 @@ class BacnetObject {
 		this.config = config
 		this.bacnetTagName = usePlaceholders(bacnetTagStructure, this)
 		this.stateTexts = stateTexts
+		this.interopMapping = interopMapping
 	}
 }
 

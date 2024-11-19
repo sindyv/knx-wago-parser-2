@@ -8,7 +8,8 @@ class KnxObject {
 		signalName,
 		makeComAlarm,
 		tag,
-		varType
+		varType,
+		controlledComponent
 	) {
 		this.knxLineIndex = knxLineIndex
 		this.knxIndex = knxIndex
@@ -19,6 +20,7 @@ class KnxObject {
 		this.makeComAlarm = makeComAlarm
 		this.tag = tag
 		this.varType = varType
+		this.controlledComponent = controlledComponent || undefined
 	}
 }
 

@@ -139,13 +139,14 @@ END_IF
 
 // Tilbakestill settpunkt (global kommando)
 IF (GVL.initDefaultSettings) THEN
-    climateController.initSetpoints();
+    climateController.setDefaultSetpoints();
 END_IF
 
 // Kjør funksjonsblokk
 climateController(
     typController			:= typClimateControllerInterfaceRoom${room.roomName}, 
     typSettings				:= PersistentVars.typClimateControllerSettingsRoom${room.roomName}, 
+    typDefaultSetpoints		:= defaultSetpoints,
     dwConfigurationMask		:= dwConfigurationMask            
 );
         `
@@ -317,7 +318,9 @@ climateController.${funcionSignalType}          := PRG_KnxLine_${signal.knxLineI
 				)
 			)
 		})
-
+		writeXml.appendXmlData(
+			xmlData.gvlVar(`SLETT_MEG`, "BOOL", "Kopier til PersistentVars!")
+		)
 		this.roomCollection.forEach((room) => {
 			writeXml.appendXmlData(
 				xmlData.gvlVar(

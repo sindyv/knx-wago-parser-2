@@ -45,14 +45,18 @@ roomCollection.xmlWriteClimatePouCall(writeXml)
 // Lag KNX-prg
 knxCollection.xmlWriteKnxPou(writeXml)
 // BACnet-mappings
-bacnetCollection.xmlWriteClimateBacnetMappings(writeXml)
+// Utgår? bacnetCollection.xmlWriteClimateBacnetMappings(writeXml)
 bacnetCollection.xmlWriteDamperBacnetMappings(
 	writeXml,
 	damperCollection.damperCollection
 )
-bacnetCollection.xmlWriteReadRetainValues(writeXml)
+//bacnetCollection.xmlWriteReadRetainValues(writeXml)
 bacnetCollection.xmlWriteStateTexts(writeXml)
-
+bacnetCollection.xmlWriteModbusMapping(
+	writeXml,
+	roomCollection.roomCollection,
+	damperCollection.damperCollection
+)
 // Parti mellom POU og GVL
 writeXml.appendXmlData(xmlData.middle())
 

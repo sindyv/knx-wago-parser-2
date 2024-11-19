@@ -21,10 +21,11 @@ class DamperObjectCollection extends Debug {
 				const componentType = res[0]
 					.split("-")[1]
 					.slice(0, CONFIG.damperSettings.componentTagLength)
-				const componentTypeSuffix = res[0].split(
-					componentType,
-					CONFIG.damperSettings.componentTagSuffixLength
-				)[1]
+
+				const componentTypeSuffix = res[0]
+					.split(componentType)[1]
+					.slice(1, 7)
+					.replace("-", "_")
 				const airDirection =
 					res[0].search(
 						new RegExp(CONFIG.damperSettings.damperSupplySearchString, "i")

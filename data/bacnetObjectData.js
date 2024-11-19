@@ -16,6 +16,7 @@ module.exports = [
 				"typClimateControllerInterfaceRoom{{roomName}}.actuators.heating.setpoint",
 			mapTarget: ".rPresentValue",
 		},
+		interopMapping: "AV_CurrentHeatingSetpoint",
 	},
 	{
 		signalType: "SPV_Komf",
@@ -35,6 +36,7 @@ module.exports = [
 				"typClimateControllerSettingsRoom{{roomName}}.heating.comfort.setpoint",
 			mapTarget: ".rPresentValue",
 		},
+		interopMapping: "AV_ComfortHeatingSetpoint",
 	},
 	{
 		signalType: "SPV_Stdb",
@@ -54,6 +56,7 @@ module.exports = [
 				"typClimateControllerSettingsRoom{{roomName}}.heating.standby.setpoint",
 			mapTarget: ".rPresentValue",
 		},
+		interopMapping: "AV_StandbyHeatingSetpoint",
 	},
 	{
 		signalType: "SPV_Natt",
@@ -73,6 +76,7 @@ module.exports = [
 				"typClimateControllerSettingsRoom{{roomName}}.heating.economy.setpoint",
 			mapTarget: ".rPresentValue",
 		},
+		interopMapping: "AV_EconomyHeatingSetpoint",
 	},
 	{
 		signalType: "SPC",
@@ -91,6 +95,7 @@ module.exports = [
 				"typClimateControllerInterfaceRoom{{roomName}}.actuators.cooling.setpoint",
 			mapTarget: ".rPresentValue",
 		},
+		interopMapping: "AO_ControlledVariableCooling",
 	},
 	{
 		signalType: "SPC_Komf",
@@ -110,6 +115,7 @@ module.exports = [
 				"typClimateControllerSettingsRoom{{roomName}}.cooling.comfort.setpoint",
 			mapTarget: ".rPresentValue",
 		},
+		interopMapping: "AV_ComfortCoolingSetpoint",
 	},
 	{
 		signalType: "SPC_Stdb",
@@ -129,6 +135,7 @@ module.exports = [
 				"typClimateControllerSettingsRoom{{roomName}}.cooling.standby.setpoint",
 			mapTarget: ".rPresentValue",
 		},
+		interopMapping: "AV_StandbyCoolingSetpoint",
 	},
 	{
 		signalType: "SPC_Natt",
@@ -148,14 +155,15 @@ module.exports = [
 				"typClimateControllerSettingsRoom{{roomName}}.cooling.economy.setpoint",
 			mapTarget: ".rPresentValue",
 		},
+		interopMapping: "AV_EconomyCoolingSetpoint",
 	},
 	{
 		signalType: "C",
-		componentType: "SB",
+		componentType: "SBV",
 		type: "FbAnalogOutput",
 		size: "Medium",
 		config: [
-			"_sDescription := 'Pådrag varmeovn'",
+			"_sDescription := 'Pådrag varmeorgan'",
 			"_rCov_Increment := 1",
 			"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT",
 		],
@@ -165,6 +173,25 @@ module.exports = [
 			mapSourceSuffix: "actuators.heating.controlledVariable",
 			mapTarget: ".rPresentValue",
 		},
+		interopMapping: "AO_ControlledVariableHeating",
+	},
+	{
+		signalType: "C",
+		componentType: "SBC",
+		type: "FbAnalogOutput",
+		size: "Medium",
+		config: [
+			"_sDescription := 'Pådrag kjøleorgan'",
+			"_rCov_Increment := 1",
+			"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT",
+		],
+		mappings: {
+			incomingValue: false,
+			mapSource: "typClimateControllerInterfaceRoom{{roomName}}",
+			mapSourceSuffix: "actuators.cooling.controlledVariable",
+			mapTarget: ".rPresentValue",
+		},
+		interopMapping: "AO_ControlledVariableCooling",
 	},
 	{
 		signalType: "SP",
@@ -184,6 +211,7 @@ module.exports = [
 				"typClimateControllerSettingsRoom{{roomName}}.co2.comfort.setpoint",
 			mapTarget: ".rPresentValue",
 		},
+		interopMapping: "AV_SetpointAirQuality",
 	},
 	{
 		signalType: "MV",
@@ -200,10 +228,12 @@ module.exports = [
 		],
 		mappings: {
 			incomingValue: false,
-			mapSource: "ClimateControl_{{roomName}}",
-			mapSourceSuffix: "climateController.Temp",
+			mapSource: "GVL_ClimateControl",
+			mapSourceSuffix:
+				"typClimateControllerInterfaceRoom{{roomName}}.actuators.heating.processValue",
 			mapTarget: ".rIN",
 		},
+		interopMapping: "AI_CurrentTemperature",
 	},
 	{
 		signalType: "MOD_FB",
@@ -230,6 +260,7 @@ module.exports = [
 				"typClimateControllerInterfaceRoom{{roomName}}.currentMode",
 			mapTarget: ".udiPresentValue",
 		},
+		interopMapping: "MSV_CurrentWorkingMode",
 	},
 	{
 		signalType: "KMD_MSV",
@@ -258,9 +289,13 @@ module.exports = [
 			incomingValue: true,
 			retain: true,
 			mapSource: "PersistentVars",
+			mapSourceModbus: "GVL_ClimateControl",
 			mapSourceSuffix: "typClimateControllerSettingsRoom{{roomName}}.calendar",
+			mapSourceSuffixModbus:
+				"typClimateControllerInterfaceRoom{{roomName}}.controlMode",
 			mapTarget: ".udiPresentValue",
 		},
+		interopMapping: "MSV_Calendar",
 	},
 	{
 		signalType: "MV",
@@ -277,10 +312,12 @@ module.exports = [
 		],
 		mappings: {
 			incomingValue: false,
-			mapSource: "ClimateControl_{{roomName}}",
-			mapSourceSuffix: "climateController.Co2",
+			mapSource: "GVL_ClimateControl",
+			mapSourceSuffix:
+				"typClimateControllerInterfaceRoom{{roomName}}.actuators.airQuality.processValue",
 			mapTarget: ".rIN",
 		},
+		interopMapping: "AI_CurrentCo2",
 	},
 	{
 		signalType: "CO2_C",
@@ -299,6 +336,7 @@ module.exports = [
 				"typClimateControllerInterfaceRoom{{roomName}}.actuators.airQuality.controlledVariable",
 			mapTarget: ".rPresentValue",
 		},
+		interopMapping: "AO_ControlledVariableAirQuality",
 	},
 	{
 		signalType: "KJL_C",
@@ -317,6 +355,7 @@ module.exports = [
 				"typClimateControllerInterfaceRoom{{roomName}}.actuators.cooling.controlledVariable",
 			mapTarget: ".rPresentValue",
 		},
+		interopMapping: "AO_ControlledVariableCooling",
 	},
 	{
 		signalType: "D",
@@ -330,10 +369,12 @@ module.exports = [
 		],
 		mappings: {
 			incomingValue: false,
-			mapSource: "ClimateControl_{{roomName}}",
-			mapSourceSuffix: "climateController.Presence",
+			mapSource: "GVL_ClimateControl",
+			mapSourceSuffix:
+				"typClimateControllerInterfaceRoom{{roomName}}.sensors.presence",
 			mapTarget: ".xPresentValue",
 		},
+		interopMapping: "BO_PresenceDetection",
 	},
 	{
 		signalType: "VOL",
@@ -352,6 +393,7 @@ module.exports = [
 				"ModbusDamperInterface[{{lineIndex}}][{{lineAddress}}].flow",
 			mapTarget: ".rIn",
 		},
+		interopMapping: "AI_Volume",
 	},
 	{
 		signalType: "SP",
@@ -370,6 +412,45 @@ module.exports = [
 				"ModbusDamperInterface[{{lineIndex}}][{{lineAddress}}].setpointCommandM3h",
 			mapTarget: ".rPresentValue",
 		},
+		interopMapping: "AV_CurrentSetpoint",
+	},
+	{
+		signalType: "VMIN",
+		componentType: "SQ",
+		type: "FbAnalogValue",
+		size: "Medium",
+		config: [
+			"_sDescription := 'Minste luftmengde'",
+			"_rCov_Increment := 1",
+			"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_CUBIC_METERS_PER_HOUR",
+		],
+		mappings: {
+			incomingValue: true,
+			mapSource: "PersistentVars",
+			mapSourceSuffix:
+				"ModbusDamperSetpoints[{{lineIndex}}][{{lineAddress}}].vMinM3h",
+			mapTarget: ".rPresentValue",
+		},
+		interopMapping: "AV_vMin",
+	},
+	{
+		signalType: "VMAX",
+		componentType: "SQ",
+		type: "FbAnalogValue",
+		size: "Medium",
+		config: [
+			"_sDescription := 'Største luftmengde'",
+			"_rCov_Increment := 1",
+			"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_CUBIC_METERS_PER_HOUR",
+		],
+		mappings: {
+			incomingValue: true,
+			mapSource: "PersistentVars",
+			mapSourceSuffix:
+				"ModbusDamperSetpoints[{{lineIndex}}][{{lineAddress}}].vMaxM3h",
+			mapTarget: ".rPresentValue",
+		},
+		interopMapping: "AV_vMax",
 	},
 	{
 		signalType: "FB",
@@ -388,6 +469,7 @@ module.exports = [
 				"ModbusDamperInterface[{{lineIndex}}][{{lineAddress}}].position",
 			mapTarget: ".rIn",
 		},
+		interopMapping: "AI_Position",
 	},
 	{
 		signalType: "C",
@@ -406,6 +488,7 @@ module.exports = [
 				"ModbusDamperInterface[{{lineIndex}}][{{lineAddress}}].damperClimateInterface.setpoint",
 			mapTarget: ".rPresentValue",
 		},
+		interopMapping: "AV_ControlledVariable",
 	},
 	{
 		signalType: "KMD",
@@ -433,6 +516,7 @@ module.exports = [
 				"ModbusDamperInterface[{{lineIndex}}][{{lineAddress}}].control",
 			mapTarget: ".udiPresentValue",
 		},
+		interopMapping: "AV_ManualOverride",
 	},
 	{
 		signalType: "OPT_EKSKL",
@@ -452,6 +536,7 @@ module.exports = [
 				"ModbusDamperSetpoints[{{lineIndex}}][{{lineAddress}}].excludeFromOptimizer",
 			mapTarget: ".xPresentValue",
 		},
+		interopMapping: "BV_ExcludeFromOptimizer",
 	},
 	{
 		signalType: "A1",
@@ -507,6 +592,7 @@ module.exports = [
 				"ModbusDamperInterface[{{lineIndex}}][{{lineAddress}}].flow",
 			mapTarget: ".rIn",
 		},
+		interopMapping: "AI_Volume",
 	},
 	{
 		signalType: "SP",
@@ -525,6 +611,45 @@ module.exports = [
 				"ModbusDamperInterface[{{lineIndex}}][{{lineAddress}}].setpointCommandM3h",
 			mapTarget: ".rPresentValue",
 		},
+		interopMapping: "AV_CurrentSetpoint",
+	},
+	{
+		signalType: "VMIN",
+		componentType: "SK",
+		type: "FbAnalogValue",
+		size: "Medium",
+		config: [
+			"_sDescription := 'Minste luftmengde'",
+			"_rCov_Increment := 1",
+			"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_CUBIC_METERS_PER_HOUR",
+		],
+		mappings: {
+			incomingValue: true,
+			mapSource: "PersistentVars",
+			mapSourceSuffix:
+				"ModbusDamperSetpoints[{{lineIndex}}][{{lineAddress}}].vMinM3h",
+			mapTarget: ".rPresentValue",
+		},
+		interopMapping: "AV_vMin",
+	},
+	{
+		signalType: "VMAX",
+		componentType: "SK",
+		type: "FbAnalogValue",
+		size: "Medium",
+		config: [
+			"_sDescription := 'Største luftmengde'",
+			"_rCov_Increment := 1",
+			"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_CUBIC_METERS_PER_HOUR",
+		],
+		mappings: {
+			incomingValue: true,
+			mapSource: "PersistentVars",
+			mapSourceSuffix:
+				"ModbusDamperSetpoints[{{lineIndex}}][{{lineAddress}}].vMaxM3h",
+			mapTarget: ".rPresentValue",
+		},
+		interopMapping: "AV_vMax",
 	},
 	{
 		signalType: "FB",
@@ -543,6 +668,7 @@ module.exports = [
 				"ModbusDamperInterface[{{lineIndex}}][{{lineAddress}}].position",
 			mapTarget: ".rIn",
 		},
+		interopMapping: "AI_Position",
 	},
 	{
 		signalType: "C",
@@ -561,6 +687,7 @@ module.exports = [
 				"ModbusDamperInterface[{{lineIndex}}][{{lineAddress}}].damperClimateInterface.setpoint",
 			mapTarget: ".rPresentValue",
 		},
+		interopMapping: "AV_ControlledVariable",
 	},
 	{
 		signalType: "KMD",
@@ -588,6 +715,7 @@ module.exports = [
 				"ModbusDamperInterface[{{lineIndex}}][{{lineAddress}}].control",
 			mapTarget: ".udiPresentValue",
 		},
+		interopMapping: "AV_ManualOverride",
 	},
 	{
 		signalType: "OPT_EKSKL",
@@ -607,6 +735,7 @@ module.exports = [
 				"ModbusDamperSetpoints[{{lineIndex}}][{{lineAddress}}].excludeFromOptimizer",
 			mapTarget: ".xPresentValue",
 		},
+		interopMapping: "BV_ExcludeFromOptimizer",
 	},
 	{
 		signalType: "A1",
@@ -625,6 +754,7 @@ module.exports = [
 				"ModbusDamperInterface[{{lineIndex}}][{{lineAddress}}].deviationFromSetpoint",
 			mapTarget: ".xIn",
 		},
+		interopMapping: "",
 	},
 	{
 		signalType: "A2",
@@ -643,5 +773,6 @@ module.exports = [
 				"ModbusDamperInterface[{{lineIndex}}][{{lineAddress}}].communicationError",
 			mapTarget: ".xIn",
 		},
+		interopMapping: "",
 	},
 ]

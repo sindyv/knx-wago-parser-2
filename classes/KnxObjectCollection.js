@@ -61,11 +61,32 @@ class KnxObjectCollection extends Debug {
 											CONFIG.knxSettings.componentTagLength +
 												CONFIG.knxSettings.componentTagSuffixLength
 										)
-									const tag = `M${lineIndex}_${knxIndex}_R0${roomName}_${componentType}${componentTypeSuffix}_${signalName}`
+										.trim()
+									let knxIndexString = ""
+									if (knxIndex < 10) {
+										knxIndexString = "00" + knxIndex.toString()
+									} else if (knxIndex < 100) {
+										knxIndexString = "0" + knxIndex.toString()
+									} else {
+										knxIndexString = knxIndex.toString()
+									}
+									const tag = `M${lineIndex}_${knxIndexString}_${CONFIG.bacnetSettings.tagRoomPrefix}${roomName}_${componentType}${componentTypeSuffix}_${signalName}`
 									const varType = knxObject.signalType
 
 									if ("bacnetAlarmTag" in knxObject) {
 										makeComAlarm = KnxObject.bacnetAlarmTag
+									}
+
+									let controlledComponent = undefined
+
+									// Sjekk om dette er en kontroller komponent, varme eller kjøling
+									// Dette er ikke en god løsning og må tenkes ut en bedre
+									if (signalName === "CV") {
+										if (componentTypeSuffix.at(-1) === "V") {
+											controlledComponent = "HEAT"
+										} else if (componentTypeSuffix.at(-1) === "K") {
+											controlledComponent = "COOL"
+										}
 									}
 
 									//Opprett nytt objekt
@@ -79,7 +100,8 @@ class KnxObjectCollection extends Debug {
 											signalName,
 											makeComAlarm,
 											tag,
-											varType
+											varType,
+											controlledComponent
 										)
 									)
 
@@ -119,7 +141,7 @@ class KnxObjectCollection extends Debug {
 	xmlWriteKnxPou(writeXml) {
 		const knxLines = this.extractKnxLinesFromObjects()
 
-		// LAg en PRG for hver linje
+		// Lag en PRG for hver linje
 		knxLines.forEach((knxLine) => {
 			// Sett opp data
 			const pouName = `PRG_KnxLine_${knxLine}`
@@ -129,18 +151,35 @@ class KnxObjectCollection extends Debug {
 
 			// Opprett variabler
 			this.knxObjects.forEach((knxObject) => {
-				const variable = { varName: knxObject.tag, varType: knxObject.varType }
-				variables.push(variable)
+				if (knxObject.knxLineIndex === knxLine) {
+					const variable = {
+						varName: knxObject.tag,
+						varType: knxObject.varType,
+					}
+					variables.push(variable)
+				}
 			})
 
 			// Opprett funksjonskall
+
 			this.knxObjects.forEach((knxObject) => {
-				const functionBlock = knxFunctionBlocks[knxObject.signalName](
-					knxObject,
-					knxLine
-				)
-				functionBlocks.push(functionBlock)
+				if (
+					knxObject.signalName in knxFunctionBlocks &&
+					knxObject.knxLineIndex === knxLine
+				) {
+					const functionBlock = knxFunctionBlocks[knxObject.signalName](
+						knxObject,
+						knxLine
+					)
+					functionBlocks.push(functionBlock)
+				} else {
+					this.addCritical(
+						"The following KNX signal does not have a corresponding function block defined",
+						knxObject.signalName
+					)
+				}
 			})
+
 			// Skriv POU-header
 			writeXml.appendXmlData(xmlData.pouHeader(pouName))
 			writeXml.appendXmlData(xmlData.pouLocalVars())
