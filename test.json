@@ -1,0 +1,20 @@
+{
+	"room": {
+		"id": "#Parameter",
+		"temperature": "#Parameter",
+		"co2": "#Parameter",
+		"presence": "#Parameter",
+		"setpoints": [
+			{
+				"comfort": "#Parameter",
+				"standby": "#Parameter",
+				"economy": "#Parameter"
+			},
+			{
+				"comfort": "#Parameter",
+				"standby": "#Parameter",
+				"economy": "#Parameter"
+			}
+		]
+	}
+}

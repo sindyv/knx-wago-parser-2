@@ -6,7 +6,8 @@ class KnxObject {
 		componentType,
 		componentTypeSuffix,
 		signalName,
-		makeComAlarm,
+		bacnetAlarmTag,
+		bacnetAlarmTagName,
 		tag,
 		varType,
 		controlledComponent
@@ -17,7 +18,8 @@ class KnxObject {
 		this.componentType = componentType
 		this.componentTypeSuffix = componentTypeSuffix
 		this.signalName = signalName
-		this.makeComAlarm = makeComAlarm
+		this.bacnetAlarmTag = bacnetAlarmTag
+		this.bacnetAlarmTagName = bacnetAlarmTagName || undefined
 		this.tag = tag
 		this.varType = varType
 		this.controlledComponent = controlledComponent || undefined

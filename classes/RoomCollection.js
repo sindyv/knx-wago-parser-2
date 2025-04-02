@@ -28,10 +28,16 @@ class RoomCollection extends Debug {
 					const heatSys = res[2].toString()
 					const coolSys = res[3].toString()
 					const ventSys = res[4].toString()
+					const lightType = res[5]
 
-					const room = new Room(roomName, roomType, heatSys, coolSys, ventSys)
-
-					// room.addComponents(roomTypes)
+					const room = new Room(
+						roomName,
+						roomType,
+						heatSys,
+						coolSys,
+						ventSys,
+						lightType
+					)
 
 					// Opprett rom
 					this.roomCollection.push(room)
@@ -61,52 +67,53 @@ class RoomCollection extends Debug {
 
 	xmlWriteClimatePous(knxVariables, writeXml) {
 		this.roomCollection.forEach((room) => {
-			// Sett opp data
-			const pouName = `ClimateControl_${room.roomName}`
-			const pouId = crypto.randomUUID()
-			const variables = []
-			variables.push({
-				varName: "climateController",
-				varType: "FbMultiModeClimateControl_00_02",
-			})
-			variables.push({
-				varName: "defaultSetpoints",
-				varType: "typMultiModeClimateControllerDefaultSettings_00_01",
-			})
-			variables.push({
-				varName: "dwConfigurationMask",
-				varType: "DWORD := 2#0000_0000_0000_0000_0000_0001_0000_0010",
-			})
+			if (room.roomType > 0) {
+				// Sett opp data
+				const pouName = `ClimateControl_${room.roomName}`
+				const pouId = crypto.randomUUID()
+				const variables = []
+				variables.push({
+					varName: "climateController",
+					varType: "FbMultiModeClimateControl_00_02",
+				})
+				variables.push({
+					varName: "defaultSetpoints",
+					varType: "typMultiModeClimateControllerDefaultSettings_00_01",
+				})
+				variables.push({
+					varName: "dwConfigurationMask",
+					varType: "DWORD := 2#0000_0000_0000_0000_0000_0001_0000_0010",
+				})
 
-			const outputVariables = []
-			outputVariables.push({
-				varName: "actualSetpointHeating",
-				varType: "REAL",
-				comment: "Variabler kun for overvåking",
-			})
-			outputVariables.push({
-				varName: "actualSetpointCooling",
-				varType: "REAL",
-			})
-			outputVariables.push({ varName: "actualSetpointCo2", varType: "REAL" })
-			outputVariables.push({ varName: "meanTemp", varType: "REAL" })
-			outputVariables.push({ varName: "meanCo2", varType: "REAL" })
-			outputVariables.push({ varName: "presence", varType: "BOOL" })
-			outputVariables.push({ varName: "gainHeating", varType: "REAL" })
-			outputVariables.push({ varName: "gainCooling", varType: "REAL" })
-			outputVariables.push({ varName: "gainAirQuality", varType: "REAL" })
-			outputVariables.push({ varName: "damperOutput", varType: "REAL" })
-			outputVariables.push({
-				varName: "currentWorkingMode",
-				varType: "enumMultiModeClimateActiveControlMode_00_01",
-			})
+				const outputVariables = []
+				outputVariables.push({
+					varName: "actualSetpointHeating",
+					varType: "REAL",
+					comment: "Variabler kun for overvåking",
+				})
+				outputVariables.push({
+					varName: "actualSetpointCooling",
+					varType: "REAL",
+				})
+				outputVariables.push({ varName: "actualSetpointCo2", varType: "REAL" })
+				outputVariables.push({ varName: "meanTemp", varType: "REAL" })
+				outputVariables.push({ varName: "meanCo2", varType: "REAL" })
+				outputVariables.push({ varName: "presence", varType: "BOOL" })
+				outputVariables.push({ varName: "gainHeating", varType: "REAL" })
+				outputVariables.push({ varName: "gainCooling", varType: "REAL" })
+				outputVariables.push({ varName: "gainAirQuality", varType: "REAL" })
+				outputVariables.push({ varName: "damperOutput", varType: "REAL" })
+				outputVariables.push({
+					varName: "currentWorkingMode",
+					varType: "enumMultiModeClimateActiveControlMode_00_01",
+				})
 
-			// Sett opp Actions
+				// Sett opp Actions
 
-			const actions = [
-				{
-					actionName: "settings",
-					actionContent: `
+				const actions = [
+					{
+						actionName: "settings",
+						actionContent: `
 defaultSetpoints.heating.comfort.setpoint	:= 21;
 defaultSetpoints.heating.standby.setpoint	:= 2;
 defaultSetpoints.heating.economy.setpoint	:= 3;
@@ -121,11 +128,11 @@ defaultSetpoints.cooling.pidSettings.KP		:= 1;
 defaultSetpoints.cooling.pidSettings.TN		:= 60;
 defaultSetpoints.co2.pidSettings.KP			:= 20;
 defaultSetpoints.co2.pidSettings.TN			:= 4000;`,
-				},
-			]
+					},
+				]
 
-			// Sett opp POU
-			let pouStart = `
+				// Sett opp POU
+				let pouStart = `
 // Innstillinger for rom:
 IF (firstScan) THEN
     PersistentVars.typClimateControllerSettingsRoom${room.roomName}.ahuSystem		:= 00${room.ventSys};
@@ -150,118 +157,137 @@ climateController(
     dwConfigurationMask		:= dwConfigurationMask            
 );
         `
-			// Skriv XML
+				// Skriv XML
 
-			// Skriv POU-header
-			writeXml.appendXmlData(xmlData.pouHeader(pouName))
+				// Skriv POU-header
+				writeXml.appendXmlData(xmlData.pouHeader(pouName))
 
-			// Start VAR-område
-			writeXml.appendXmlData(xmlData.pouLocalVars())
+				// Start VAR-område
+				writeXml.appendXmlData(xmlData.pouLocalVars())
 
-			// Legg til variabler
-			variables.forEach((variable) => {
-				writeXml.appendXmlData(
-					xmlData.pouVariable(variable.varName, variable.varType)
-				)
-			})
-			// Slutt av VAR-område, start VAR_OUTPUT-område
-			writeXml.appendXmlData(xmlData.pouEndLocalVars())
-			writeXml.appendXmlData(xmlData.pouOutputVars())
-
-			// Variabler
-			outputVariables.forEach((variable) => {
-				writeXml.appendXmlData(
-					xmlData.pouVariable(
-						variable.varName,
-						variable.varType,
-						variable.comment
-					)
-				)
-			})
-			// Slutt av VAR_OUTPUT-område og Interface-område
-			writeXml.appendXmlData(xmlData.pouEndOutputVars())
-			writeXml.appendXmlData(xmlData.pouEndInterface())
-
-			// Start ACTIONS
-			writeXml.appendXmlData(xmlData.pouActions())
-
-			actions.forEach((action) => {
-				writeXml.appendXmlData(
-					xmlData.pouAction(
-						action.actionName,
-						action.actionContent,
-						crypto.randomUUID()
-					)
-				)
-			})
-
-			// Slutt ACTIONS, start POU
-			writeXml.appendXmlData(xmlData.pouEndActions())
-			writeXml.appendXmlData(xmlData.pouMiddle())
-
-			// Kode
-			writeXml.appendXmlData(pouStart)
-
-			mapSensors(
-				"Registrer temperaturer",
-				knxVariables,
-				room,
-				"TMP_ACT",
-				"Temp",
-				"rValue_OUT"
-			)
-
-			mapSensors(
-				"Registrer CO2",
-				knxVariables,
-				room,
-				"CO2_ACT",
-				"CO2",
-				"rValue_OUT"
-			)
-
-			mapSensors(
-				"Registrer tilstedeværelse",
-				knxVariables,
-				room,
-				"MOV_ACT",
-				"Presence",
-				"xSwitch_OUT"
-			)
-
-			writeXml.appendXmlData(xmlData.pouEnd(pouId))
-
-			writeXml.registerPou(pouName, `5 - Climate Control/Rooms`, pouId)
-
-			// Hjelpefunksjoner:
-			function mapSensors(
-				comment,
-				knxVariables,
-				room,
-				knxSignalType,
-				funcionSignalType,
-				knxOutputType
-			) {
-				const signalArray = []
-
-				// Skriv kommentar
-				writeXml.appendXmlData(`
-// ${comment}`)
-
-				const match = knxVariables.filter(
-					(signal) =>
-						signal.roomName === room.roomName &&
-						signal.signalName === knxSignalType
-				)
-				signalArray.push(...match)
-
-				signalArray.forEach((signal) => {
+				// Legg til variabler
+				variables.forEach((variable) => {
 					writeXml.appendXmlData(
-						`
-climateController.${funcionSignalType}          := PRG_KnxLine_${signal.knxLineIndex}.${signal.tag}.${knxOutputType};`
+						xmlData.pouVariable(variable.varName, variable.varType)
 					)
 				})
-				writeXml.appendXmlData(`\n`)
+				// Slutt av VAR-område, start VAR_OUTPUT-område
+				writeXml.appendXmlData(xmlData.pouEndLocalVars())
+				writeXml.appendXmlData(xmlData.pouOutputVars())
+
+				// Variabler
+				outputVariables.forEach((variable) => {
+					writeXml.appendXmlData(
+						xmlData.pouVariable(
+							variable.varName,
+							variable.varType,
+							variable.comment
+						)
+					)
+				})
+				// Slutt av VAR_OUTPUT-område og Interface-område
+				writeXml.appendXmlData(xmlData.pouEndOutputVars())
+				writeXml.appendXmlData(xmlData.pouEndInterface())
+
+				// Start ACTIONS
+				writeXml.appendXmlData(xmlData.pouActions())
+
+				actions.forEach((action) => {
+					writeXml.appendXmlData(
+						xmlData.pouAction(
+							action.actionName,
+							action.actionContent,
+							crypto.randomUUID()
+						)
+					)
+				})
+
+				// Slutt ACTIONS, start POU
+				writeXml.appendXmlData(xmlData.pouEndActions())
+				writeXml.appendXmlData(xmlData.pouMiddle())
+
+				// Kode
+				writeXml.appendXmlData(pouStart)
+
+				mapSensors(
+					"Registrer temperaturer",
+					knxVariables,
+					room,
+					"TMP_ACT",
+					"Temp",
+					"rValue_OUT"
+				)
+
+				mapSensors(
+					"Registrer CO2",
+					knxVariables,
+					room,
+					"CO2_ACT",
+					"CO2",
+					"rValue_OUT"
+				)
+
+				mapSensors(
+					"Registrer tilstedeværelse",
+					knxVariables,
+					room,
+					"MOV_ACT",
+					"Presence",
+					"xSwitch_OUT"
+				)
+
+				writeXml.appendXmlData(`
+meanTemp					:= typClimateControllerInterfaceRoom${room.roomName}.actuators.heating.processValue;
+meanCo2						:= climateController.Co2;
+presence					:= climateController.Presence;
+
+actualSetpointHeating 		:= typClimateControllerInterfaceRoom${room.roomName}.actuators.heating.setpoint;
+gainHeating 				:= typClimateControllerInterfaceRoom${room.roomName}.actuators.heating.controlledVariable;
+
+actualSetpointCooling 		:= typClimateControllerInterfaceRoom${room.roomName}.actuators.cooling.setpoint;
+gainCooling 				:= typClimateControllerInterfaceRoom${room.roomName}.actuators.cooling.controlledVariable;
+
+actualSetpointCo2			:= typClimateControllerInterfaceRoom${room.roomName}.actuators.airQuality.setpoint;
+gainAirQuality				:= typClimateControllerInterfaceRoom${room.roomName}.actuators.airQuality.controlledVariable; 
+damperOutput				:= typClimateControllerInterfaceRoom${room.roomName}.actuators.damper.setpoint;
+
+currentWorkingMode			:= typClimateControllerInterfaceRoom${room.roomName}.currentMode;                   
+                `)
+
+				writeXml.appendXmlData(xmlData.pouEnd(pouId))
+
+				writeXml.registerPou(pouName, `5 - Climate Control/Rooms`, pouId)
+
+				// Hjelpefunksjoner:
+				function mapSensors(
+					comment,
+					knxVariables,
+					room,
+					knxSignalType,
+					funcionSignalType,
+					knxOutputType
+				) {
+					const signalArray = []
+
+					// Skriv kommentar
+					writeXml.appendXmlData(`
+// ${comment}`)
+
+					const match = knxVariables.filter(
+						(signal) =>
+							signal.roomName === room.roomName &&
+							signal.signalName === knxSignalType
+					)
+					signalArray.push(...match)
+
+					signalArray.forEach((signal) => {
+						writeXml.appendXmlData(
+							`
+climateController.${funcionSignalType}          := PRG_KnxLine_${signal.knxLineIndex}.${signal.tag}.${knxOutputType};`
+						)
+					})
+					writeXml.appendXmlData(`\n`)
+				}
 			}
 		})
 	}
@@ -318,21 +344,36 @@ climateController.${funcionSignalType}          := PRG_KnxLine_${signal.knxLineI
 				)
 			)
 		})
+
+		// Midlertidig variabel for å få inn en kommentar
 		writeXml.appendXmlData(
 			xmlData.gvlVar(`SLETT_MEG`, "BOOL", "Kopier til PersistentVars!")
 		)
+
+		// Variabler som skal være persistent
 		this.roomCollection.forEach((room) => {
 			writeXml.appendXmlData(
 				xmlData.gvlVar(
 					`typClimateControllerSettingsRoom${room.roomName}`,
-					"typMultiModeClimateControlSettings_00_01",
-					"Kopier til PersistentVars!"
+					"typMultiModeClimateControlSettings_00_01"
 				)
 			)
 		})
 
+		// Lysinnstillinger
+		this.roomCollection.forEach((room) => {
+			if (room.lightType > 0) {
+				writeXml.appendXmlData(
+					xmlData.gvlVar(
+						`typLightSettingsRoom${room.roomName}`,
+						"typLightingSettings_01_00"
+					)
+				)
+			}
+		})
 		// Avslutt GVL
 		writeXml.appendXmlData(xmlData.gvlFooter())
+		writeXml.registerPou(gvlName, `5 - Climate Control`, glvId)
 	}
 }
 

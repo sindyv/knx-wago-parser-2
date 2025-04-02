@@ -34,6 +34,8 @@ module.exports = {
         `
 	},
 	CV: (variable, knxLineIndex) => {
+		// Sjekk om dette er en kontroller komponent, varme eller kjøling
+		// Dette er ikke en god løsning og må tenkes ut en bedre
 		let controlledComponent = ""
 		if (variable.controlledComponent === "HEAT") {
 			controlledComponent = "heating"
@@ -48,7 +50,7 @@ module.exports = {
             xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
         );
 
-        ${variable.tag}.rValue_IN := GVL_ClimateControl.typClimateControllerInterfaceRoom${variable.roomName}.actuators.${controlledComponent}.controlledVariable;        
+        ${variable.tag}.rValue_IN := GVL_ClimateControl.typClimateControllerInterfaceRoom${variable.roomName}.actuators.heating.controlledVariable;        
          `
 	},
 	POS_ACT: (variable, knxLineIndex) => {
@@ -56,11 +58,9 @@ module.exports = {
         ${variable.tag}(
             bPortKNX		   := ${knxLineIndex}, 
             dwIndex_DPT		:= ${variable.knxIndex}, 
-            typDPT			  := PersistentVars.typDPT[${knxLineIndex}][${variable.knxIndex}],
-            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            typDPT			  := PersistentVars.typDPT[${knxLineIndex}][${variable.knxIndex}], 
         );
 
-        
         `
 	},
 	ON_OFF: (variable, knxLineIndex) => {

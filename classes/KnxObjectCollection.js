@@ -53,7 +53,7 @@ class KnxObjectCollection extends Debug {
 									const componentType = res[0]
 										.split("-")[1]
 										.slice(0, CONFIG.knxSettings.componentTagLength)
-									let makeComAlarm = false
+
 									const componentTypeSuffix = res[0]
 										.split("-")[1]
 										.slice(
@@ -72,9 +72,12 @@ class KnxObjectCollection extends Debug {
 									}
 									const tag = `M${lineIndex}_${knxIndexString}_${CONFIG.bacnetSettings.tagRoomPrefix}${roomName}_${componentType}${componentTypeSuffix}_${signalName}`
 									const varType = knxObject.signalType
+									let bacnetAlarmTag = false
+									let bacnetAlarmTagName = undefined
 
 									if ("bacnetAlarmTag" in knxObject) {
-										makeComAlarm = KnxObject.bacnetAlarmTag
+										bacnetAlarmTag = knxObject.bacnetAlarmTag
+										bacnetAlarmTagName = knxObject.bacnetAlarmTagName
 									}
 
 									let controlledComponent = undefined
@@ -98,7 +101,8 @@ class KnxObjectCollection extends Debug {
 											componentType,
 											componentTypeSuffix,
 											signalName,
-											makeComAlarm,
+											bacnetAlarmTag,
+											bacnetAlarmTagName,
 											tag,
 											varType,
 											controlledComponent
@@ -163,20 +167,21 @@ class KnxObjectCollection extends Debug {
 			// Opprett funksjonskall
 
 			this.knxObjects.forEach((knxObject) => {
-				if (
-					knxObject.signalName in knxFunctionBlocks &&
-					knxObject.knxLineIndex === knxLine
-				) {
-					const functionBlock = knxFunctionBlocks[knxObject.signalName](
-						knxObject,
-						knxLine
-					)
-					functionBlocks.push(functionBlock)
-				} else {
-					this.addCritical(
-						"The following KNX signal does not have a corresponding function block defined",
-						knxObject.signalName
-					)
+				if (knxObject.knxLineIndex === knxLine) {
+					if (knxObject.signalName in knxFunctionBlocks) {
+						const functionBlock = knxFunctionBlocks[knxObject.signalName](
+							knxObject,
+							knxLine
+						)
+						functionBlocks.push(functionBlock)
+					} else {
+						this.addCritical(
+							"In line " +
+								knxObject.knxLineIndex +
+								"The following KNX signal does not have a corresponding function block defined",
+							knxObject.signalName
+						)
+					}
 				}
 			})
 

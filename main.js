@@ -31,7 +31,19 @@ roomCollection.createRooms(roomMatrixJson) // Opprett rom
 roomCollection.addKnxObjectsToRooms(knxCollection) // Legg til KNX-objekter til rommene
 
 // BACnet
-bacnetCollection.createClimateBacnetObjects(roomCollection.roomCollection) // Legg til BACnet tags for klimastyring
+
+// Legg til BACnet tags for klimastyring
+bacnetCollection.createClimateBacnetObjects(
+	roomCollection.roomCollection,
+	knxCollection.knxObjects
+)
+
+// Legg til BACnet tags for lysstyring
+bacnetCollection.createLightingBacnetObjects(
+	roomCollection.roomCollection,
+	knxCollection.knxObjects
+)
+
 bacnetCollection.createDamperBacnetObjects(damperCollection.damperCollection) // Legg til BACnet tags for spjeld
 //
 //
@@ -45,7 +57,6 @@ roomCollection.xmlWriteClimatePouCall(writeXml)
 // Lag KNX-prg
 knxCollection.xmlWriteKnxPou(writeXml)
 // BACnet-mappings
-// Utgår? bacnetCollection.xmlWriteClimateBacnetMappings(writeXml)
 bacnetCollection.xmlWriteDamperBacnetMappings(
 	writeXml,
 	damperCollection.damperCollection

@@ -2,6 +2,8 @@ const knxObjectData = [
 	{
 		signalName: "TMP_ACT",
 		signalType: "FbDPT_Value_Temp_pro",
+		bacnetAlarmTag: true,
+		bacnetAlarmTagName: "A1",
 	},
 	{
 		signalName: "ON_OFF",
@@ -37,6 +39,7 @@ const knxObjectData = [
 		signalName: "POS_ACT",
 		signalType: "FbDPT_Scaling_pro",
 		bacnetAlarmTag: true,
+		bacnetAlarmTagName: "A1",
 	},
 ]
 

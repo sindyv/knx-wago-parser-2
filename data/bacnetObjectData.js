@@ -1,7 +1,7 @@
 module.exports = [
 	{
 		signalType: "SPV",
-		componentType: "RT",
+		componentType: "RTC",
 		type: "FbAnalogValue",
 		size: "Medium",
 		config: [
@@ -20,7 +20,7 @@ module.exports = [
 	},
 	{
 		signalType: "SPV_Komf",
-		componentType: "RT",
+		componentType: "RTC",
 		type: "FbAnalogValue",
 		size: "Medium",
 		config: [
@@ -40,7 +40,7 @@ module.exports = [
 	},
 	{
 		signalType: "SPV_Stdb",
-		componentType: "RT",
+		componentType: "RTC",
 		type: "FbAnalogValue",
 		size: "Medium",
 		config: [
@@ -60,7 +60,7 @@ module.exports = [
 	},
 	{
 		signalType: "SPV_Natt",
-		componentType: "RT",
+		componentType: "RTC",
 		type: "FbAnalogValue",
 		size: "Medium",
 		config: [
@@ -80,7 +80,7 @@ module.exports = [
 	},
 	{
 		signalType: "SPC",
-		componentType: "RT",
+		componentType: "RTC",
 		type: "FbAnalogValue",
 		size: "Medium",
 		config: [
@@ -95,11 +95,11 @@ module.exports = [
 				"typClimateControllerInterfaceRoom{{roomName}}.actuators.cooling.setpoint",
 			mapTarget: ".rPresentValue",
 		},
-		interopMapping: "AO_ControlledVariableCooling",
+		interopMapping: "AV_CurrentCoolingSetpoint",
 	},
 	{
 		signalType: "SPC_Komf",
-		componentType: "RT",
+		componentType: "RTC",
 		type: "FbAnalogValue",
 		size: "Medium",
 		config: [
@@ -119,7 +119,7 @@ module.exports = [
 	},
 	{
 		signalType: "SPC_Stdb",
-		componentType: "RT",
+		componentType: "RTC",
 		type: "FbAnalogValue",
 		size: "Medium",
 		config: [
@@ -139,7 +139,7 @@ module.exports = [
 	},
 	{
 		signalType: "SPC_Natt",
-		componentType: "RT",
+		componentType: "RTC",
 		type: "FbAnalogValue",
 		size: "Medium",
 		config: [
@@ -158,8 +158,28 @@ module.exports = [
 		interopMapping: "AV_EconomyCoolingSetpoint",
 	},
 	{
+		signalType: "SP_Tid_Stdb",
+		componentType: "RTC",
+		type: "FbAnalogValue",
+		size: "Medium",
+		config: [
+			"_sDescription := 'Utløpstid tilstedeværelse'",
+			"_rCov_Increment := 1",
+			"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_MINUTES",
+		],
+		mappings: {
+			incomingValue: true,
+			retain: true,
+			mapSource: "PersistentVars",
+			mapSourceSuffix:
+				"typClimateControllerSettingsRoom{{roomName}}.presenceDelayOff",
+			mapTarget: ".rPresentValue",
+		},
+		interopMapping: "AV_PresenceDelayOff",
+	},
+	{
 		signalType: "C",
-		componentType: "SBV",
+		componentType: "SBB",
 		type: "FbAnalogOutput",
 		size: "Medium",
 		config: [
@@ -174,6 +194,20 @@ module.exports = [
 			mapTarget: ".rPresentValue",
 		},
 		interopMapping: "AO_ControlledVariableHeating",
+	},
+	{
+		signalType: "A1",
+		componentType: "KAB",
+		type: "FbBinaryInput",
+		size: "Large",
+		config: ["_sDescription := 'Kommunikasjonsfeil'"],
+		mappings: {
+			incomingValue: false,
+			mapSource: "PRG_KnxLine_{{knxLineIndex}}",
+			mapSourceSuffix: "{{tag}}.xTimeOut",
+			mapTarget: ".xIn",
+		},
+		interopMapping: "",
 	},
 	{
 		signalType: "C",
@@ -195,7 +229,7 @@ module.exports = [
 	},
 	{
 		signalType: "SP",
-		componentType: "RY",
+		componentType: "RYA",
 		type: "FbAnalogValue",
 		size: "Medium",
 		config: [
@@ -215,7 +249,7 @@ module.exports = [
 	},
 	{
 		signalType: "MV",
-		componentType: "RT",
+		componentType: "RTC",
 		type: "FbAnalogInput",
 		size: "Large",
 		config: [
@@ -236,8 +270,22 @@ module.exports = [
 		interopMapping: "AI_CurrentTemperature",
 	},
 	{
+		signalType: "A1",
+		componentType: "RMA",
+		type: "FbBinaryInput",
+		size: "Large",
+		config: ["_sDescription := 'Kommunikasjonsfeil'"],
+		mappings: {
+			incomingValue: false,
+			mapSource: "PRG_KnxLine_{{knxLineIndex}}",
+			mapSourceSuffix: "{{tag}}.xTimeOut",
+			mapTarget: ".xIn",
+		},
+		interopMapping: "",
+	},
+	{
 		signalType: "MOD_FB",
-		componentType: "RT",
+		componentType: "RTC",
 		type: "FbMultiStateValue",
 		size: "Large",
 		config: [
@@ -264,7 +312,7 @@ module.exports = [
 	},
 	{
 		signalType: "KMD_MSV",
-		componentType: "RT",
+		componentType: "RTC",
 		type: "FbMultiStateValue",
 		size: "Large",
 		config: [
@@ -299,7 +347,7 @@ module.exports = [
 	},
 	{
 		signalType: "MV",
-		componentType: "RY",
+		componentType: "RYA",
 		type: "FbAnalogInput",
 		size: "Large",
 		config: [
@@ -321,7 +369,7 @@ module.exports = [
 	},
 	{
 		signalType: "CO2_C",
-		componentType: "SQ",
+		componentType: "SQZ",
 		type: "FbAnalogOutput",
 		size: "Medium",
 		config: [
@@ -340,7 +388,7 @@ module.exports = [
 	},
 	{
 		signalType: "KJL_C",
-		componentType: "SQ",
+		componentType: "SQZ",
 		type: "FbAnalogOutput",
 		size: "Medium",
 		config: [
@@ -359,7 +407,7 @@ module.exports = [
 	},
 	{
 		signalType: "D",
-		componentType: "RB",
+		componentType: "RBA",
 		type: "FbBinaryOutput",
 		size: "Medium",
 		config: [
@@ -375,6 +423,44 @@ module.exports = [
 			mapTarget: ".xPresentValue",
 		},
 		interopMapping: "BO_PresenceDetection",
+	},
+	{
+		signalType: "SP_OffDelayLight",
+		componentType: "UPA",
+		type: "FbAnalogValue",
+		size: "Medium",
+		config: [
+			"_sDescription := 'Utløpstid for lys'",
+			"_rCov_Increment := 1",
+			"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_MINUTES",
+		],
+		mappings: {
+			incomingValue: true,
+			retain: true,
+			mapSource: "PersistentVars",
+			mapSourceSuffix: "typLightingSettingsRoom{{roomName}}.timeDelay",
+			mapTarget: ".rPresentValue",
+		},
+		interopMapping: "AV_LightingTimeDelay",
+	},
+	{
+		signalType: "SP_MaxLight",
+		componentType: "UPA",
+		type: "FbAnalogValue",
+		size: "Medium",
+		config: [
+			"_sDescription := 'Maksimal lysstyrke'",
+			"_rCov_Increment := 1",
+			"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT",
+		],
+		mappings: {
+			incomingValue: true,
+			retain: true,
+			mapSource: "PersistentVars",
+			mapSourceSuffix: "typLightingSettingsRoom{{roomName}}.maximumLighting",
+			mapTarget: ".rPresentValue",
+		},
+		interopMapping: "AV_MaxLightValue",
 	},
 	{
 		signalType: "VOL",
@@ -542,11 +628,12 @@ module.exports = [
 		signalType: "A1",
 		componentType: "SQ",
 		type: "FbBinaryInput",
-		size: "Medium",
+		size: "Large",
 		config: [
 			"_sDescription := 'Luftmengde Sjeld'",
 			"_sActiveText := 'Feil på luftmengde'",
 			"_sInactiveText := 'Ingen feil'",
+			"_udiNotificationClass := 22",
 		],
 		mappings: {
 			incomingValue: false,
@@ -555,16 +642,18 @@ module.exports = [
 				"ModbusDamperInterface[{{lineIndex}}][{{lineAddress}}].deviationFromSetpoint",
 			mapTarget: ".xIn",
 		},
+		interopMapping: "BV_DamperError",
 	},
 	{
 		signalType: "A2",
 		componentType: "SQ",
 		type: "FbBinaryInput",
-		size: "Medium",
+		size: "Large",
 		config: [
 			"_sDescription := 'Kommunikasjonovervåking'",
 			"_sActiveText := 'Kommunikasjonsfeil'",
 			"_sInactiveText := 'Ingen feil'",
+			"_udiNotificationClass := 22",
 		],
 		mappings: {
 			incomingValue: false,
@@ -573,6 +662,7 @@ module.exports = [
 				"ModbusDamperInterface[{{lineIndex}}][{{lineAddress}}].communicationError",
 			mapTarget: ".xIn",
 		},
+		interopMapping: "BV_CommunicationError",
 	},
 
 	{
@@ -741,11 +831,12 @@ module.exports = [
 		signalType: "A1",
 		componentType: "SK",
 		type: "FbBinaryInput",
-		size: "Medium",
+		size: "Large",
 		config: [
 			"_sDescription := 'Luftmengde Sjeld'",
 			"_sActiveText := 'Feil på luftmengde'",
 			"_sInactiveText := 'Ingen feil'",
+			"_udiNotificationClass := 22",
 		],
 		mappings: {
 			incomingValue: false,
@@ -754,17 +845,18 @@ module.exports = [
 				"ModbusDamperInterface[{{lineIndex}}][{{lineAddress}}].deviationFromSetpoint",
 			mapTarget: ".xIn",
 		},
-		interopMapping: "",
+		interopMapping: "BV_DamperError",
 	},
 	{
 		signalType: "A2",
 		componentType: "SK",
 		type: "FbBinaryInput",
-		size: "Medium",
+		size: "Large",
 		config: [
 			"_sDescription := 'Kommunikasjonovervåking'",
 			"_sActiveText := 'Kommunikasjonsfeil'",
 			"_sInactiveText := 'Ingen feil'",
+			"_udiNotificationClass := 22",
 		],
 		mappings: {
 			incomingValue: false,
@@ -773,6 +865,6 @@ module.exports = [
 				"ModbusDamperInterface[{{lineIndex}}][{{lineAddress}}].communicationError",
 			mapTarget: ".xIn",
 		},
-		interopMapping: "",
+		interopMapping: "BV_CommunicationError",
 	},
 ]
