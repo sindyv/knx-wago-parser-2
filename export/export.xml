@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project xmlns="http://www.plcopen.org/xml/tc6_0200">
-  <fileHeader companyName="" productName="CODESYS" productVersion="CODESYS V3.5 SP19 Patch 7" creationDateTime="2025-04-01T10:55:13.896" />
-  <contentHeader name="Export.project" modificationDateTime="2025-04-01T10:55:13.896">
+  <fileHeader companyName="" productName="CODESYS" productVersion="CODESYS V3.5 SP19 Patch 7" creationDateTime="2025-04-03T07:54:30.183" />
+  <contentHeader name="Export.project" modificationDateTime="2025-04-03T07:54:30.183">
     <coordinateInfo>
       <fbd>
         <scaling x="1" y="1" />
@@ -154,7 +154,7 @@ defaultSetpoints.co2.pidSettings.TN			:= 4000;
                         </body>    
                         <addData>
                             <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                                <ObjectId>f46da758-dd6b-4361-8a98-eddd59714a63</ObjectId>
+                                <ObjectId>0cbab160-af9b-407d-8722-88741d434858</ObjectId>
                             </data>
                         </addData>                                               
                     </action>   
@@ -221,7 +221,7 @@ currentWorkingMode			:= typClimateControllerInterfaceRoom401.currentMode;
             </body>
             <addData>
                 <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                    <ObjectId>4ccffd2c-7b98-4ce2-adfc-544f9b44525d</ObjectId>
+                    <ObjectId>482573d5-fdda-46f3-af0b-f380691c3533</ObjectId>
                 </data>
             </addData>
           </pou>
@@ -358,7 +358,7 @@ defaultSetpoints.co2.pidSettings.TN			:= 4000;
                         </body>    
                         <addData>
                             <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                                <ObjectId>0ca63c53-7d59-4021-92ed-5df2ff93ea72</ObjectId>
+                                <ObjectId>0e2f9140-3a91-4387-9f47-ee7b552bf4f5</ObjectId>
                             </data>
                         </addData>                                               
                     </action>   
@@ -422,7 +422,7 @@ currentWorkingMode			:= typClimateControllerInterfaceRoom406.currentMode;
             </body>
             <addData>
                 <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                    <ObjectId>ffa1fc1f-7b6f-4514-b1fe-c0215f32c1b0</ObjectId>
+                    <ObjectId>5901de23-74e7-4248-86bd-a76b101ad9b8</ObjectId>
                 </data>
             </addData>
           </pou>
@@ -559,7 +559,7 @@ defaultSetpoints.co2.pidSettings.TN			:= 4000;
                         </body>    
                         <addData>
                             <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                                <ObjectId>5eabfb1f-7b66-4c6b-82f3-dafc46d2b21d</ObjectId>
+                                <ObjectId>d9288c3f-3b5c-4859-a9d8-f48f5b7148b8</ObjectId>
                             </data>
                         </addData>                                               
                     </action>   
@@ -623,7 +623,7 @@ currentWorkingMode			:= typClimateControllerInterfaceRoom407.currentMode;
             </body>
             <addData>
                 <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                    <ObjectId>3b5119c5-d3fd-4ff8-a096-c45f84466812</ObjectId>
+                    <ObjectId>6bbb9dc0-d279-4a0b-8ab7-f3ad61bb50d7</ObjectId>
                 </data>
             </addData>
           </pou>
@@ -760,7 +760,7 @@ defaultSetpoints.co2.pidSettings.TN			:= 4000;
                         </body>    
                         <addData>
                             <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                                <ObjectId>3d0515f2-867e-46a4-af47-f2c69376e9fe</ObjectId>
+                                <ObjectId>30fd4dd1-cd2a-40eb-9f7d-074a165548fb</ObjectId>
                             </data>
                         </addData>                                               
                     </action>   
@@ -824,7 +824,7 @@ currentWorkingMode			:= typClimateControllerInterfaceRoom408.currentMode;
             </body>
             <addData>
                 <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                    <ObjectId>4e81724a-13b7-4ba2-a15c-512f20aceaec</ObjectId>
+                    <ObjectId>698306d1-6987-44b7-81e7-b664b1cfcb47</ObjectId>
                 </data>
             </addData>
           </pou>
@@ -961,7 +961,7 @@ defaultSetpoints.co2.pidSettings.TN			:= 4000;
                         </body>    
                         <addData>
                             <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                                <ObjectId>94a0fbd7-3916-47a9-ad83-05b731115139</ObjectId>
+                                <ObjectId>3d32df1c-64b3-47c0-89b2-68b143a04271</ObjectId>
                             </data>
                         </addData>                                               
                     </action>   
@@ -1031,7 +1031,7 @@ currentWorkingMode			:= typClimateControllerInterfaceRoom409.currentMode;
             </body>
             <addData>
                 <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                    <ObjectId>64faacc0-cacd-4564-a153-dbb3260d7134</ObjectId>
+                    <ObjectId>62bd1182-53ad-47ae-9874-16a600db901f</ObjectId>
                 </data>
             </addData>
           </pou>
@@ -1168,7 +1168,7 @@ defaultSetpoints.co2.pidSettings.TN			:= 4000;
                         </body>    
                         <addData>
                             <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                                <ObjectId>014ec9f3-029d-41fc-a88d-0d8a6123686e</ObjectId>
+                                <ObjectId>fe732ebf-8c52-412e-934b-7871d7da3bf5</ObjectId>
                             </data>
                         </addData>                                               
                     </action>   
@@ -1235,7 +1235,7 @@ currentWorkingMode			:= typClimateControllerInterfaceRoom464.currentMode;
             </body>
             <addData>
                 <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                    <ObjectId>361e3b85-7365-4dd6-9a43-d91c75d8a207</ObjectId>
+                    <ObjectId>4b7189ce-3a8a-48f7-9541-45f71c3d97a9</ObjectId>
                 </data>
             </addData>
           </pou>
@@ -1372,7 +1372,7 @@ defaultSetpoints.co2.pidSettings.TN			:= 4000;
                         </body>    
                         <addData>
                             <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                                <ObjectId>6ce3b36e-0c40-4866-95a7-8ca94cf42502</ObjectId>
+                                <ObjectId>6197adf6-6dc3-4919-badd-15a5f5fad3b8</ObjectId>
                             </data>
                         </addData>                                               
                     </action>   
@@ -1436,7 +1436,7 @@ currentWorkingMode			:= typClimateControllerInterfaceRoom415.currentMode;
             </body>
             <addData>
                 <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                    <ObjectId>95085c15-f6e7-4971-97c4-337e742e8016</ObjectId>
+                    <ObjectId>e95cc2df-938b-4bcf-95ef-508e3f826b8c</ObjectId>
                 </data>
             </addData>
           </pou>
@@ -1573,7 +1573,7 @@ defaultSetpoints.co2.pidSettings.TN			:= 4000;
                         </body>    
                         <addData>
                             <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                                <ObjectId>229bd97a-40e8-4860-ad85-0720f8a2fb88</ObjectId>
+                                <ObjectId>0a7f1304-285d-4fe6-9bfa-04e6158be3c2</ObjectId>
                             </data>
                         </addData>                                               
                     </action>   
@@ -1640,7 +1640,7 @@ currentWorkingMode			:= typClimateControllerInterfaceRoom422.currentMode;
             </body>
             <addData>
                 <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                    <ObjectId>911f5ee0-efbc-4d62-ac7e-0bafea35e40f</ObjectId>
+                    <ObjectId>76804cc4-6811-4c5e-8095-30f7fe5c450c</ObjectId>
                 </data>
             </addData>
           </pou>
@@ -1777,7 +1777,7 @@ defaultSetpoints.co2.pidSettings.TN			:= 4000;
                         </body>    
                         <addData>
                             <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                                <ObjectId>20c54dcd-d441-4847-a137-8d9b717245b5</ObjectId>
+                                <ObjectId>779c1ded-641e-4c54-bbd2-97b84f601e51</ObjectId>
                             </data>
                         </addData>                                               
                     </action>   
@@ -1841,7 +1841,7 @@ currentWorkingMode			:= typClimateControllerInterfaceRoom426_1.currentMode;
             </body>
             <addData>
                 <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                    <ObjectId>d935d2bb-ec2f-43d3-9abb-ffdcf8d9f231</ObjectId>
+                    <ObjectId>27eab162-5fbf-4933-ae37-1a89833012c7</ObjectId>
                 </data>
             </addData>
           </pou>
@@ -1978,7 +1978,7 @@ defaultSetpoints.co2.pidSettings.TN			:= 4000;
                         </body>    
                         <addData>
                             <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                                <ObjectId>2144f9d3-97e0-4cfd-a820-01684890b6a7</ObjectId>
+                                <ObjectId>29f59802-0673-491a-9771-2bb183264e60</ObjectId>
                             </data>
                         </addData>                                               
                     </action>   
@@ -2042,7 +2042,7 @@ currentWorkingMode			:= typClimateControllerInterfaceRoom426_2.currentMode;
             </body>
             <addData>
                 <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                    <ObjectId>f792db88-555b-42bf-a1fa-b9c59b0a0441</ObjectId>
+                    <ObjectId>658a977a-7114-4ed6-ac53-56094e58b4b5</ObjectId>
                 </data>
             </addData>
           </pou>
@@ -2179,7 +2179,7 @@ defaultSetpoints.co2.pidSettings.TN			:= 4000;
                         </body>    
                         <addData>
                             <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                                <ObjectId>e429e22e-4b80-48c5-bcb3-28b0bb0e4839</ObjectId>
+                                <ObjectId>999bc251-cab9-4060-8e53-0619ac135a3a</ObjectId>
                             </data>
                         </addData>                                               
                     </action>   
@@ -2243,7 +2243,7 @@ currentWorkingMode			:= typClimateControllerInterfaceRoom426_3.currentMode;
             </body>
             <addData>
                 <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                    <ObjectId>5104f2ec-3d08-4514-b710-35c22054438f</ObjectId>
+                    <ObjectId>0ce0d315-61cf-48b6-8c49-1a2f669fdc1a</ObjectId>
                 </data>
             </addData>
           </pou>
@@ -2380,7 +2380,7 @@ defaultSetpoints.co2.pidSettings.TN			:= 4000;
                         </body>    
                         <addData>
                             <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                                <ObjectId>2a0ce5a8-aea9-4347-8f32-7a9deb81ccb7</ObjectId>
+                                <ObjectId>9af809e0-6157-499d-84c7-b9b3f9a1d39d</ObjectId>
                             </data>
                         </addData>                                               
                     </action>   
@@ -2444,7 +2444,7 @@ currentWorkingMode			:= typClimateControllerInterfaceRoom528.currentMode;
             </body>
             <addData>
                 <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                    <ObjectId>e523dfa9-a62f-4ccd-a4a7-a0683206cbfa</ObjectId>
+                    <ObjectId>7af2186e-270d-4e94-9f1a-d89e530ddb75</ObjectId>
                 </data>
             </addData>
           </pou>
@@ -2581,7 +2581,7 @@ defaultSetpoints.co2.pidSettings.TN			:= 4000;
                         </body>    
                         <addData>
                             <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                                <ObjectId>d1269e93-0b9f-454a-856d-230afe68dcdd</ObjectId>
+                                <ObjectId>49f87bb4-60bc-480f-9293-67e3a7a78de6</ObjectId>
                             </data>
                         </addData>                                               
                     </action>   
@@ -2645,7 +2645,7 @@ currentWorkingMode			:= typClimateControllerInterfaceRoom523.currentMode;
             </body>
             <addData>
                 <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                    <ObjectId>2c2d51d0-8b79-455e-971a-8fa8416d3f32</ObjectId>
+                    <ObjectId>ed59a654-3ccf-4444-950d-46edf38ccb0e</ObjectId>
                 </data>
             </addData>
           </pou>
@@ -2782,7 +2782,7 @@ defaultSetpoints.co2.pidSettings.TN			:= 4000;
                         </body>    
                         <addData>
                             <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                                <ObjectId>a60cc0a7-d359-4cc0-bc5c-3d1dd24c54d5</ObjectId>
+                                <ObjectId>dfb71e8f-39b0-4754-bafa-d15dd68334b5</ObjectId>
                             </data>
                         </addData>                                               
                     </action>   
@@ -2846,7 +2846,7 @@ currentWorkingMode			:= typClimateControllerInterfaceRoom531.currentMode;
             </body>
             <addData>
                 <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                    <ObjectId>1dfb7867-6368-4e45-b637-ad9b8a4d73f3</ObjectId>
+                    <ObjectId>2e4e3799-327c-4250-a597-ec49148b2cfb</ObjectId>
                 </data>
             </addData>
           </pou>
@@ -2983,7 +2983,7 @@ defaultSetpoints.co2.pidSettings.TN			:= 4000;
                         </body>    
                         <addData>
                             <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                                <ObjectId>54df0d6b-d738-4c0d-a5b9-5c4977309260</ObjectId>
+                                <ObjectId>33a60317-942a-4215-95c7-585dac21ede1</ObjectId>
                             </data>
                         </addData>                                               
                     </action>   
@@ -3047,7 +3047,7 @@ currentWorkingMode			:= typClimateControllerInterfaceRoom535_1.currentMode;
             </body>
             <addData>
                 <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                    <ObjectId>4e97b441-017b-42e8-aa37-62089d3299bc</ObjectId>
+                    <ObjectId>6331ce5d-1d22-4eae-b6db-290f1bd68621</ObjectId>
                 </data>
             </addData>
           </pou>
@@ -3184,7 +3184,7 @@ defaultSetpoints.co2.pidSettings.TN			:= 4000;
                         </body>    
                         <addData>
                             <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                                <ObjectId>afb02602-6e93-4185-8219-5dd2234db107</ObjectId>
+                                <ObjectId>77ff48b4-15a9-4361-9213-b87fc6676347</ObjectId>
                             </data>
                         </addData>                                               
                     </action>   
@@ -3248,7 +3248,7 @@ currentWorkingMode			:= typClimateControllerInterfaceRoom535_2.currentMode;
             </body>
             <addData>
                 <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                    <ObjectId>51d75d47-863a-47e6-8163-41274525df67</ObjectId>
+                    <ObjectId>6505f308-245f-4b0e-99b9-465f6d67d741</ObjectId>
                 </data>
             </addData>
           </pou>
@@ -3385,7 +3385,7 @@ defaultSetpoints.co2.pidSettings.TN			:= 4000;
                         </body>    
                         <addData>
                             <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                                <ObjectId>2394dcc8-4ec8-454e-b9ae-a2c0978c3bbe</ObjectId>
+                                <ObjectId>9e7619af-2cbe-48ae-bac0-9ab717a2a5e5</ObjectId>
                             </data>
                         </addData>                                               
                     </action>   
@@ -3449,7 +3449,7 @@ currentWorkingMode			:= typClimateControllerInterfaceRoom535_3.currentMode;
             </body>
             <addData>
                 <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                    <ObjectId>f7f0425f-4a4f-44b4-a369-641404b858dc</ObjectId>
+                    <ObjectId>43e51c42-eb97-4649-b306-27c087db5825</ObjectId>
                 </data>
             </addData>
           </pou>
@@ -3586,7 +3586,7 @@ defaultSetpoints.co2.pidSettings.TN			:= 4000;
                         </body>    
                         <addData>
                             <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                                <ObjectId>8cd55248-eddc-4ec1-bf1c-6426bc54de90</ObjectId>
+                                <ObjectId>80dc7345-f9cd-4bf6-8e85-202b2a7814d4</ObjectId>
                             </data>
                         </addData>                                               
                     </action>   
@@ -3650,7 +3650,7 @@ currentWorkingMode			:= typClimateControllerInterfaceRoom536.currentMode;
             </body>
             <addData>
                 <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                    <ObjectId>5eb7ace2-caae-451b-b38b-d11ab3cc88b9</ObjectId>
+                    <ObjectId>e83d6ea1-0e03-4368-913f-e5bc1abfe68e</ObjectId>
                 </data>
             </addData>
           </pou>
@@ -3787,7 +3787,7 @@ defaultSetpoints.co2.pidSettings.TN			:= 4000;
                         </body>    
                         <addData>
                             <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                                <ObjectId>f28fa072-e314-4200-ba09-efce424c2f04</ObjectId>
+                                <ObjectId>75749fe7-f3c8-49df-86d6-b5cdf7ff4bcc</ObjectId>
                             </data>
                         </addData>                                               
                     </action>   
@@ -3851,7 +3851,7 @@ currentWorkingMode			:= typClimateControllerInterfaceRoom543.currentMode;
             </body>
             <addData>
                 <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                    <ObjectId>181a27ba-4d03-4bb1-a9fe-e16eec3675f7</ObjectId>
+                    <ObjectId>0f425c60-356d-4730-b3b6-85a1a8019f7f</ObjectId>
                 </data>
             </addData>
           </pou>
@@ -3988,7 +3988,7 @@ defaultSetpoints.co2.pidSettings.TN			:= 4000;
                         </body>    
                         <addData>
                             <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                                <ObjectId>3eada8bd-92db-4941-ac2c-37e5d23218ce</ObjectId>
+                                <ObjectId>94825c5f-3337-4374-a8d9-83470b376412</ObjectId>
                             </data>
                         </addData>                                               
                     </action>   
@@ -4052,7 +4052,7 @@ currentWorkingMode			:= typClimateControllerInterfaceRoom547_1.currentMode;
             </body>
             <addData>
                 <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                    <ObjectId>e4e5b72a-3cda-4513-ba02-2a742ba82476</ObjectId>
+                    <ObjectId>5e216f92-c26e-4675-aac6-19efa613a312</ObjectId>
                 </data>
             </addData>
           </pou>
@@ -4189,7 +4189,7 @@ defaultSetpoints.co2.pidSettings.TN			:= 4000;
                         </body>    
                         <addData>
                             <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                                <ObjectId>8b7e3c0a-7b56-4d58-a6c1-1b7af1fe4717</ObjectId>
+                                <ObjectId>faadbf76-0743-4fc6-9a00-37065973df38</ObjectId>
                             </data>
                         </addData>                                               
                     </action>   
@@ -4253,7 +4253,7 @@ currentWorkingMode			:= typClimateControllerInterfaceRoom547_2.currentMode;
             </body>
             <addData>
                 <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                    <ObjectId>d5c558c0-9404-44b1-b73d-0dc59e28e9b4</ObjectId>
+                    <ObjectId>8246941a-4edd-4100-b38d-2c70d4405963</ObjectId>
                 </data>
             </addData>
           </pou>
@@ -4390,7 +4390,7 @@ defaultSetpoints.co2.pidSettings.TN			:= 4000;
                         </body>    
                         <addData>
                             <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                                <ObjectId>a89efbf0-bba8-448e-8e9c-2b64bd8fdb93</ObjectId>
+                                <ObjectId>43eb4a2e-bccc-41c5-8a3f-faa6b789d068</ObjectId>
                             </data>
                         </addData>                                               
                     </action>   
@@ -4457,7 +4457,7 @@ currentWorkingMode			:= typClimateControllerInterfaceRoom544.currentMode;
             </body>
             <addData>
                 <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                    <ObjectId>6aadc8fd-45b9-49e2-9c37-a6e52ed73772</ObjectId>
+                    <ObjectId>f0096273-160b-4611-a225-8fc48bca78df</ObjectId>
                 </data>
             </addData>
           </pou>
@@ -4498,7 +4498,7 @@ ClimateControl_544();
             </body>
             <addData>
                 <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                    <ObjectId>7a3c7d52-0a4a-4195-8c60-09b1510e7d30</ObjectId>
+                    <ObjectId>19e3fa1b-5399-4871-b71d-6a053396ad06</ObjectId>
                 </data>
             </addData>
           </pou>
@@ -5403,6 +5403,9 @@ ClimateControl_544();
         );
 
         
+                                    
+        C_5640_501_06_RMA6001_A1_R0401.xIn := M1_017_401_RMA6001_TMP_ACT.xTimeOut;
+                                    
         M1_018_401_RMA6002_TMP_ACT(
             bPortKNX      := 1,
             dwIndex_DPT   := 18,
@@ -5412,6 +5415,9 @@ ClimateControl_544();
         );
 
         
+                                    
+        C_5640_501_06_RMA6002_A1_R0401.xIn := M1_018_401_RMA6002_TMP_ACT.xTimeOut;
+                                    
         M1_019_406_RMA6003_TMP_ACT(
             bPortKNX      := 1,
             dwIndex_DPT   := 19,
@@ -5421,6 +5427,9 @@ ClimateControl_544();
         );
 
         
+                                    
+        C_5640_501_06_RMA6003_A1_R0406.xIn := M1_019_406_RMA6003_TMP_ACT.xTimeOut;
+                                    
         M1_020_407_RMA6004_TMP_ACT(
             bPortKNX      := 1,
             dwIndex_DPT   := 20,
@@ -5430,6 +5439,9 @@ ClimateControl_544();
         );
 
         
+                                    
+        C_5640_501_06_RMA6004_A1_R0407.xIn := M1_020_407_RMA6004_TMP_ACT.xTimeOut;
+                                    
         M1_021_408_RMA6005_TMP_ACT(
             bPortKNX      := 1,
             dwIndex_DPT   := 21,
@@ -5439,6 +5451,9 @@ ClimateControl_544();
         );
 
         
+                                    
+        C_5640_501_06_RMA6005_A1_R0408.xIn := M1_021_408_RMA6005_TMP_ACT.xTimeOut;
+                                    
         M1_022_409_RMA6006_TMP_ACT(
             bPortKNX      := 1,
             dwIndex_DPT   := 22,
@@ -5448,6 +5463,9 @@ ClimateControl_544();
         );
 
         
+                                    
+        C_5640_501_06_RMA6006_A1_R0409.xIn := M1_022_409_RMA6006_TMP_ACT.xTimeOut;
+                                    
         M1_023_409_RMA6007_TMP_ACT(
             bPortKNX      := 1,
             dwIndex_DPT   := 23,
@@ -5457,6 +5475,9 @@ ClimateControl_544();
         );
 
         
+                                    
+        C_5640_501_06_RMA6007_A1_R0409.xIn := M1_023_409_RMA6007_TMP_ACT.xTimeOut;
+                                    
         M1_024_409_RMA6008_TMP_ACT(
             bPortKNX      := 1,
             dwIndex_DPT   := 24,
@@ -5466,6 +5487,9 @@ ClimateControl_544();
         );
 
         
+                                    
+        C_5640_501_06_RMA6008_A1_R0409.xIn := M1_024_409_RMA6008_TMP_ACT.xTimeOut;
+                                    
         M1_025_464_RMA6009_TMP_ACT(
             bPortKNX      := 1,
             dwIndex_DPT   := 25,
@@ -5475,6 +5499,9 @@ ClimateControl_544();
         );
 
         
+                                    
+        C_5640_501_06_RMA6009_A1_R0464.xIn := M1_025_464_RMA6009_TMP_ACT.xTimeOut;
+                                    
         M1_026_464_RMA6010_TMP_ACT(
             bPortKNX      := 1,
             dwIndex_DPT   := 26,
@@ -5484,6 +5511,9 @@ ClimateControl_544();
         );
 
         
+                                    
+        C_5640_501_06_RMA6010_A1_R0464.xIn := M1_026_464_RMA6010_TMP_ACT.xTimeOut;
+                                    
         M1_027_415_RMA6011_TMP_ACT(
             bPortKNX      := 1,
             dwIndex_DPT   := 27,
@@ -5493,6 +5523,9 @@ ClimateControl_544();
         );
 
         
+                                    
+        C_5640_501_06_RMA6011_A1_R0415.xIn := M1_027_415_RMA6011_TMP_ACT.xTimeOut;
+                                    
         M1_028_422_RMA6012_TMP_ACT(
             bPortKNX      := 1,
             dwIndex_DPT   := 28,
@@ -5502,6 +5535,9 @@ ClimateControl_544();
         );
 
         
+                                    
+        C_5640_501_06_RMA6012_A1_R0422.xIn := M1_028_422_RMA6012_TMP_ACT.xTimeOut;
+                                    
         M1_029_422_RMA6013_TMP_ACT(
             bPortKNX      := 1,
             dwIndex_DPT   := 29,
@@ -5511,6 +5547,9 @@ ClimateControl_544();
         );
 
         
+                                    
+        C_5640_501_06_RMA6013_A1_R0422.xIn := M1_029_422_RMA6013_TMP_ACT.xTimeOut;
+                                    
         M1_030_426_1_RMA6014_TMP_ACT(
             bPortKNX      := 1,
             dwIndex_DPT   := 30,
@@ -5520,6 +5559,9 @@ ClimateControl_544();
         );
 
         
+                                    
+        C_5640_501_06_RMA6014_A1_R0426_1.xIn := M1_030_426_1_RMA6014_TMP_ACT.xTimeOut;
+                                    
         M1_031_426_2_RMA6015_TMP_ACT(
             bPortKNX      := 1,
             dwIndex_DPT   := 31,
@@ -5529,6 +5571,9 @@ ClimateControl_544();
         );
 
         
+                                    
+        C_5640_501_06_RMA6015_A1_R0426_2.xIn := M1_031_426_2_RMA6015_TMP_ACT.xTimeOut;
+                                    
         M1_032_426_3_RMA6016_TMP_ACT(
             bPortKNX      := 1,
             dwIndex_DPT   := 32,
@@ -5538,6 +5583,9 @@ ClimateControl_544();
         );
 
         
+                                    
+        C_5640_501_06_RMA6016_A1_R0426_3.xIn := M1_032_426_3_RMA6016_TMP_ACT.xTimeOut;
+                                    
         M1_033_401_RMA6001_CO2_ACT(
             bPortKNX      := 1,
             dwIndex_DPT   := 33,
@@ -5698,7 +5746,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6001_A1_R0401.xIn := M1_050_401_KAB6001_POS_ACT.xTimeOut;
+                                    
         M1_051_401_KAB6002_CV(
             bPortKNX		  := 1, 
             dwIndex_DPT		:= 51, 
@@ -5715,7 +5765,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6002_A1_R0401.xIn := M1_052_401_KAB6002_POS_ACT.xTimeOut;
+                                    
         M1_053_401_KAB6003_CV(
             bPortKNX		  := 1, 
             dwIndex_DPT		:= 53, 
@@ -5732,7 +5784,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6003_A1_R0401.xIn := M1_054_401_KAB6003_POS_ACT.xTimeOut;
+                                    
         M1_055_401_KAB6004_CV(
             bPortKNX		  := 1, 
             dwIndex_DPT		:= 55, 
@@ -5749,7 +5803,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6004_A1_R0401.xIn := M1_056_401_KAB6004_POS_ACT.xTimeOut;
+                                    
         M1_057_401_KAB6005_CV(
             bPortKNX		  := 1, 
             dwIndex_DPT		:= 57, 
@@ -5766,7 +5822,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6005_A1_R0401.xIn := M1_058_401_KAB6005_POS_ACT.xTimeOut;
+                                    
         M1_059_406_KAB6006_CV(
             bPortKNX		  := 1, 
             dwIndex_DPT		:= 59, 
@@ -5783,7 +5841,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6006_A1_R0406.xIn := M1_060_406_KAB6006_POS_ACT.xTimeOut;
+                                    
         M1_061_406_KAB6007_CV(
             bPortKNX		  := 1, 
             dwIndex_DPT		:= 61, 
@@ -5800,7 +5860,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6007_A1_R0406.xIn := M1_062_406_KAB6007_POS_ACT.xTimeOut;
+                                    
         M1_063_407_KAB6008_CV(
             bPortKNX		  := 1, 
             dwIndex_DPT		:= 63, 
@@ -5817,7 +5879,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6008_A1_R0407.xIn := M1_064_407_KAB6008_POS_ACT.xTimeOut;
+                                    
         M1_065_407_KAB6009_CV(
             bPortKNX		  := 1, 
             dwIndex_DPT		:= 65, 
@@ -5834,7 +5898,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6009_A1_R0407.xIn := M1_066_407_KAB6009_POS_ACT.xTimeOut;
+                                    
         M1_067_408_KAB6010_CV(
             bPortKNX		  := 1, 
             dwIndex_DPT		:= 67, 
@@ -5851,7 +5917,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6010_A1_R0408.xIn := M1_068_408_KAB6010_POS_ACT.xTimeOut;
+                                    
         M1_069_409_KAB6011_CV(
             bPortKNX		  := 1, 
             dwIndex_DPT		:= 69, 
@@ -5868,7 +5936,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6011_A1_R0409.xIn := M1_070_409_KAB6011_POS_ACT.xTimeOut;
+                                    
         M1_071_409_KAB6012_CV(
             bPortKNX		  := 1, 
             dwIndex_DPT		:= 71, 
@@ -5885,7 +5955,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6012_A1_R0409.xIn := M1_072_409_KAB6012_POS_ACT.xTimeOut;
+                                    
         M1_073_409_KAB6013_CV(
             bPortKNX		  := 1, 
             dwIndex_DPT		:= 73, 
@@ -5902,7 +5974,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6013_A1_R0409.xIn := M1_074_409_KAB6013_POS_ACT.xTimeOut;
+                                    
         M1_075_409_KAB6014_CV(
             bPortKNX		  := 1, 
             dwIndex_DPT		:= 75, 
@@ -5919,7 +5993,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6014_A1_R0409.xIn := M1_076_409_KAB6014_POS_ACT.xTimeOut;
+                                    
         M1_077_409_KAB6015_CV(
             bPortKNX		  := 1, 
             dwIndex_DPT		:= 77, 
@@ -5936,7 +6012,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6015_A1_R0409.xIn := M1_078_409_KAB6015_POS_ACT.xTimeOut;
+                                    
         M1_079_409_KAB6016_CV(
             bPortKNX		  := 1, 
             dwIndex_DPT		:= 79, 
@@ -5953,7 +6031,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6016_A1_R0409.xIn := M1_080_409_KAB6016_POS_ACT.xTimeOut;
+                                    
         M1_081_409_KAB6017_CV(
             bPortKNX		  := 1, 
             dwIndex_DPT		:= 81, 
@@ -5970,7 +6050,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6017_A1_R0409.xIn := M1_082_409_KAB6017_POS_ACT.xTimeOut;
+                                    
         M1_083_464_KAB6018_CV(
             bPortKNX		  := 1, 
             dwIndex_DPT		:= 83, 
@@ -5987,7 +6069,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6018_A1_R0464.xIn := M1_084_464_KAB6018_POS_ACT.xTimeOut;
+                                    
         M1_085_464_KAB6019_CV(
             bPortKNX		  := 1, 
             dwIndex_DPT		:= 85, 
@@ -6004,7 +6088,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6019_A1_R0464.xIn := M1_086_464_KAB6019_POS_ACT.xTimeOut;
+                                    
         M1_087_464_KAB6020_CV(
             bPortKNX		  := 1, 
             dwIndex_DPT		:= 87, 
@@ -6021,7 +6107,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6020_A1_R0464.xIn := M1_088_464_KAB6020_POS_ACT.xTimeOut;
+                                    
         M1_089_464_KAB6021_CV(
             bPortKNX		  := 1, 
             dwIndex_DPT		:= 89, 
@@ -6038,7 +6126,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6021_A1_R0464.xIn := M1_090_464_KAB6021_POS_ACT.xTimeOut;
+                                    
         M1_091_415_KAB6022_CV(
             bPortKNX		  := 1, 
             dwIndex_DPT		:= 91, 
@@ -6055,7 +6145,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6022_A1_R0415.xIn := M1_092_415_KAB6022_POS_ACT.xTimeOut;
+                                    
         M1_093_415_KAB6023_CV(
             bPortKNX		  := 1, 
             dwIndex_DPT		:= 93, 
@@ -6072,7 +6164,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6023_A1_R0415.xIn := M1_094_415_KAB6023_POS_ACT.xTimeOut;
+                                    
         M1_095_422_KAB6024_CV(
             bPortKNX		  := 1, 
             dwIndex_DPT		:= 95, 
@@ -6089,7 +6183,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6024_A1_R0422.xIn := M1_096_422_KAB6024_POS_ACT.xTimeOut;
+                                    
         M1_097_422_KAB6025_CV(
             bPortKNX		  := 1, 
             dwIndex_DPT		:= 97, 
@@ -6106,7 +6202,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6025_A1_R0422.xIn := M1_098_422_KAB6025_POS_ACT.xTimeOut;
+                                    
         M1_099_422_KAB6026_CV(
             bPortKNX		  := 1, 
             dwIndex_DPT		:= 99, 
@@ -6123,7 +6221,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6026_A1_R0422.xIn := M1_100_422_KAB6026_POS_ACT.xTimeOut;
+                                    
         M1_101_422_KAB6027_CV(
             bPortKNX		  := 1, 
             dwIndex_DPT		:= 101, 
@@ -6140,7 +6240,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6027_A1_R0422.xIn := M1_102_422_KAB6027_POS_ACT.xTimeOut;
+                                    
         M1_103_422_KAB6028_CV(
             bPortKNX		  := 1, 
             dwIndex_DPT		:= 103, 
@@ -6157,7 +6259,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6028_A1_R0422.xIn := M1_104_422_KAB6028_POS_ACT.xTimeOut;
+                                    
         M1_105_426_1_KAB6029_CV(
             bPortKNX		  := 1, 
             dwIndex_DPT		:= 105, 
@@ -6174,7 +6278,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6029_A1_R0426_1.xIn := M1_106_426_1_KAB6029_POS_ACT.xTimeOut;
+                                    
         M1_107_426_2_KAB6030_CV(
             bPortKNX		  := 1, 
             dwIndex_DPT		:= 107, 
@@ -6191,7 +6297,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6030_A1_R0426_2.xIn := M1_108_426_2_KAB6030_POS_ACT.xTimeOut;
+                                    
         M1_109_426_3_KAB6031_CV(
             bPortKNX		  := 1, 
             dwIndex_DPT		:= 109, 
@@ -6208,13 +6316,15 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6031_A1_R0426_3.xIn := M1_110_426_3_KAB6031_POS_ACT.xTimeOut;
+                                    
                 </xhtml>
               </ST>
             </body>
             <addData>
                 <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                    <ObjectId>b4ecf557-7637-44ed-bb13-6581dc57f343</ObjectId>
+                    <ObjectId>d9fadaa3-8b17-4f70-88d5-d96f7eb9d3a5</ObjectId>
                 </data>
             </addData>
           </pou>
@@ -6965,6 +7075,9 @@ ClimateControl_544();
         );
 
         
+                                    
+        C_5640_501_06_RMA6001_A1_R0528.xIn := M2_013_528_RMA6001_TMP_ACT.xTimeOut;
+                                    
         M2_014_523_RMA6002_TMP_ACT(
             bPortKNX      := 2,
             dwIndex_DPT   := 14,
@@ -6974,6 +7087,9 @@ ClimateControl_544();
         );
 
         
+                                    
+        C_5640_501_06_RMA6002_A1_R0523.xIn := M2_014_523_RMA6002_TMP_ACT.xTimeOut;
+                                    
         M2_015_531_RMA6003_TMP_ACT(
             bPortKNX      := 2,
             dwIndex_DPT   := 15,
@@ -6983,6 +7099,9 @@ ClimateControl_544();
         );
 
         
+                                    
+        C_5640_501_06_RMA6003_A1_R0531.xIn := M2_015_531_RMA6003_TMP_ACT.xTimeOut;
+                                    
         M2_016_535_1_RMA6004_TMP_ACT(
             bPortKNX      := 2,
             dwIndex_DPT   := 16,
@@ -6992,6 +7111,9 @@ ClimateControl_544();
         );
 
         
+                                    
+        C_5640_501_06_RMA6004_A1_R0535_1.xIn := M2_016_535_1_RMA6004_TMP_ACT.xTimeOut;
+                                    
         M2_017_535_2_RMA6005_TMP_ACT(
             bPortKNX      := 2,
             dwIndex_DPT   := 17,
@@ -7001,6 +7123,9 @@ ClimateControl_544();
         );
 
         
+                                    
+        C_5640_501_06_RMA6005_A1_R0535_2.xIn := M2_017_535_2_RMA6005_TMP_ACT.xTimeOut;
+                                    
         M2_018_535_3_RMA6006_TMP_ACT(
             bPortKNX      := 2,
             dwIndex_DPT   := 18,
@@ -7010,6 +7135,9 @@ ClimateControl_544();
         );
 
         
+                                    
+        C_5640_501_06_RMA6006_A1_R0535_3.xIn := M2_018_535_3_RMA6006_TMP_ACT.xTimeOut;
+                                    
         M2_019_536_RMA6007_TMP_ACT(
             bPortKNX      := 2,
             dwIndex_DPT   := 19,
@@ -7019,6 +7147,9 @@ ClimateControl_544();
         );
 
         
+                                    
+        C_5640_501_06_RMA6007_A1_R0536.xIn := M2_019_536_RMA6007_TMP_ACT.xTimeOut;
+                                    
         M2_020_543_RMA6008_TMP_ACT(
             bPortKNX      := 2,
             dwIndex_DPT   := 20,
@@ -7028,6 +7159,9 @@ ClimateControl_544();
         );
 
         
+                                    
+        C_5640_501_06_RMA6008_A1_R0543.xIn := M2_020_543_RMA6008_TMP_ACT.xTimeOut;
+                                    
         M2_021_547_1_RMA6009_TMP_ACT(
             bPortKNX      := 2,
             dwIndex_DPT   := 21,
@@ -7037,6 +7171,9 @@ ClimateControl_544();
         );
 
         
+                                    
+        C_5640_501_06_RMA6009_A1_R0547_1.xIn := M2_021_547_1_RMA6009_TMP_ACT.xTimeOut;
+                                    
         M2_022_547_2_RMA6010_TMP_ACT(
             bPortKNX      := 2,
             dwIndex_DPT   := 22,
@@ -7046,6 +7183,9 @@ ClimateControl_544();
         );
 
         
+                                    
+        C_5640_501_06_RMA6010_A1_R0547_2.xIn := M2_022_547_2_RMA6010_TMP_ACT.xTimeOut;
+                                    
         M2_023_544_RMA6011_TMP_ACT(
             bPortKNX      := 2,
             dwIndex_DPT   := 23,
@@ -7055,6 +7195,9 @@ ClimateControl_544();
         );
 
         
+                                    
+        C_5640_501_06_RMA6011_A1_R0544.xIn := M2_023_544_RMA6011_TMP_ACT.xTimeOut;
+                                    
         M2_024_544_RMA6012_TMP_ACT(
             bPortKNX      := 2,
             dwIndex_DPT   := 24,
@@ -7064,6 +7207,9 @@ ClimateControl_544();
         );
 
         
+                                    
+        C_5640_501_06_RMA6012_A1_R0544.xIn := M2_024_544_RMA6012_TMP_ACT.xTimeOut;
+                                    
         M2_025_528_RMA6001_CO2_ACT(
             bPortKNX      := 2,
             dwIndex_DPT   := 25,
@@ -7188,7 +7334,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6001_A1_R0528.xIn := M2_038_528_KAB6001_POS_ACT.xTimeOut;
+                                    
         M2_039_523_KAB6002_CV(
             bPortKNX		  := 2, 
             dwIndex_DPT		:= 39, 
@@ -7205,7 +7353,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6002_A1_R0523.xIn := M2_040_523_KAB6002_POS_ACT.xTimeOut;
+                                    
         M2_041_531_KAB6003_CV(
             bPortKNX		  := 2, 
             dwIndex_DPT		:= 41, 
@@ -7222,7 +7372,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6003_A1_R0531.xIn := M2_042_531_KAB6003_POS_ACT.xTimeOut;
+                                    
         M2_043_531_KAB6004_CV(
             bPortKNX		  := 2, 
             dwIndex_DPT		:= 43, 
@@ -7239,7 +7391,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6004_A1_R0531.xIn := M2_044_531_KAB6004_POS_ACT.xTimeOut;
+                                    
         M2_045_535_1_KAB6005_CV(
             bPortKNX		  := 2, 
             dwIndex_DPT		:= 45, 
@@ -7256,7 +7410,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6005_A1_R0535_1.xIn := M2_046_535_1_KAB6005_POS_ACT.xTimeOut;
+                                    
         M2_047_535_1_KAB6006_CV(
             bPortKNX		  := 2, 
             dwIndex_DPT		:= 47, 
@@ -7273,7 +7429,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6006_A1_R0535_1.xIn := M2_048_535_1_KAB6006_POS_ACT.xTimeOut;
+                                    
         M2_049_535_1_KAB6007_CV(
             bPortKNX		  := 2, 
             dwIndex_DPT		:= 49, 
@@ -7290,7 +7448,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6007_A1_R0535_1.xIn := M2_050_535_1_KAB6007_POS_ACT.xTimeOut;
+                                    
         M2_051_535_1_KAB6008_CV(
             bPortKNX		  := 2, 
             dwIndex_DPT		:= 51, 
@@ -7307,7 +7467,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6008_A1_R0535_1.xIn := M2_052_535_1_KAB6008_POS_ACT.xTimeOut;
+                                    
         M2_053_535_2_KAB6009_CV(
             bPortKNX		  := 2, 
             dwIndex_DPT		:= 53, 
@@ -7324,7 +7486,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6009_A1_R0535_2.xIn := M2_054_535_2_KAB6009_POS_ACT.xTimeOut;
+                                    
         M2_055_535_2_KAB6010_CV(
             bPortKNX		  := 2, 
             dwIndex_DPT		:= 55, 
@@ -7341,7 +7505,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6010_A1_R0535_2.xIn := M2_056_535_2_KAB6010_POS_ACT.xTimeOut;
+                                    
         M2_057_535_2_KAB6011_CV(
             bPortKNX		  := 2, 
             dwIndex_DPT		:= 57, 
@@ -7358,7 +7524,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6011_A1_R0535_2.xIn := M2_058_535_2_KAB6011_POS_ACT.xTimeOut;
+                                    
         M2_059_535_2_KAB6012_CV(
             bPortKNX		  := 2, 
             dwIndex_DPT		:= 59, 
@@ -7375,7 +7543,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6012_A1_R0535_2.xIn := M2_060_535_2_KAB6012_POS_ACT.xTimeOut;
+                                    
         M2_061_535_2_KAB6013_CV(
             bPortKNX		  := 2, 
             dwIndex_DPT		:= 61, 
@@ -7392,7 +7562,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6013_A1_R0535_2.xIn := M2_062_535_2_KAB6013_POS_ACT.xTimeOut;
+                                    
         M2_063_535_2_KAB6014_CV(
             bPortKNX		  := 2, 
             dwIndex_DPT		:= 63, 
@@ -7409,7 +7581,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6014_A1_R0535_2.xIn := M2_064_535_2_KAB6014_POS_ACT.xTimeOut;
+                                    
         M2_065_535_3_KAB6015_CV(
             bPortKNX		  := 2, 
             dwIndex_DPT		:= 65, 
@@ -7426,7 +7600,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6015_A1_R0535_3.xIn := M2_066_535_3_KAB6015_POS_ACT.xTimeOut;
+                                    
         M2_067_535_3_KAB6016_CV(
             bPortKNX		  := 2, 
             dwIndex_DPT		:= 67, 
@@ -7443,7 +7619,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6016_A1_R0535_3.xIn := M2_068_535_3_KAB6016_POS_ACT.xTimeOut;
+                                    
         M2_069_535_3_KAB6017_CV(
             bPortKNX		  := 2, 
             dwIndex_DPT		:= 69, 
@@ -7460,7 +7638,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6017_A1_R0535_3.xIn := M2_070_535_3_KAB6017_POS_ACT.xTimeOut;
+                                    
         M2_071_536_KAB6018_CV(
             bPortKNX		  := 2, 
             dwIndex_DPT		:= 71, 
@@ -7477,7 +7657,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6018_A1_R0536.xIn := M2_072_536_KAB6018_POS_ACT.xTimeOut;
+                                    
         M2_073_536_KAB6019_CV(
             bPortKNX		  := 2, 
             dwIndex_DPT		:= 73, 
@@ -7494,7 +7676,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6019_A1_R0536.xIn := M2_074_536_KAB6019_POS_ACT.xTimeOut;
+                                    
         M2_075_543_KAB6020_CV(
             bPortKNX		  := 2, 
             dwIndex_DPT		:= 75, 
@@ -7511,7 +7695,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6020_A1_R0543.xIn := M2_076_543_KAB6020_POS_ACT.xTimeOut;
+                                    
         M2_077_543_KAB6021_CV(
             bPortKNX		  := 2, 
             dwIndex_DPT		:= 77, 
@@ -7528,7 +7714,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6021_A1_R0543.xIn := M2_078_543_KAB6021_POS_ACT.xTimeOut;
+                                    
         M2_079_547_1_KAB6022_CV(
             bPortKNX		  := 2, 
             dwIndex_DPT		:= 79, 
@@ -7545,7 +7733,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6022_A1_R0547_1.xIn := M2_080_547_1_KAB6022_POS_ACT.xTimeOut;
+                                    
         M2_081_547_1_KAB6023_CV(
             bPortKNX		  := 2, 
             dwIndex_DPT		:= 81, 
@@ -7562,7 +7752,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6023_A1_R0547_1.xIn := M2_082_547_1_KAB6023_POS_ACT.xTimeOut;
+                                    
         M2_083_547_1_KAB6024_CV(
             bPortKNX		  := 2, 
             dwIndex_DPT		:= 83, 
@@ -7579,7 +7771,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6024_A1_R0547_1.xIn := M2_084_547_1_KAB6024_POS_ACT.xTimeOut;
+                                    
         M2_085_547_2_KAB6025_CV(
             bPortKNX		  := 2, 
             dwIndex_DPT		:= 85, 
@@ -7596,7 +7790,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6025_A1_R0547_2.xIn := M2_086_547_2_KAB6025_POS_ACT.xTimeOut;
+                                    
         M2_087_547_2_KAB6026_CV(
             bPortKNX		  := 2, 
             dwIndex_DPT		:= 87, 
@@ -7613,7 +7809,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6026_A1_R0547_2.xIn := M2_088_547_2_KAB6026_POS_ACT.xTimeOut;
+                                    
         M2_089_547_2_KAB6027_CV(
             bPortKNX		  := 2, 
             dwIndex_DPT		:= 89, 
@@ -7630,7 +7828,9 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6027_A1_R0547_2.xIn := M2_090_547_2_KAB6027_POS_ACT.xTimeOut;
+                                    
         M2_091_544_KAB6028_CV(
             bPortKNX		  := 2, 
             dwIndex_DPT		:= 91, 
@@ -7647,13 +7847,15 @@ ClimateControl_544();
         );
 
         
-        
+                                    
+        C_5640_501_06_KAB6028_A1_R0544.xIn := M2_092_544_KAB6028_POS_ACT.xTimeOut;
+                                    
                 </xhtml>
               </ST>
             </body>
             <addData>
                 <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                    <ObjectId>88a38351-f925-4706-a595-09fe6ef9e15d</ObjectId>
+                    <ObjectId>6988ff8b-8cf8-434a-b3f4-72c4bac334cc</ObjectId>
                 </data>
             </addData>
           </pou>
@@ -7777,7 +7979,7 @@ ClimateControl_544();
                         </body>    
                         <addData>
                             <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                                <ObjectId>98265015-006c-4ff2-848a-859d20d47d74</ObjectId>
+                                <ObjectId>9a7f4ece-402b-441b-b99c-0976cc034db0</ObjectId>
                             </data>
                         </addData>                                               
                     </action>   
@@ -7840,7 +8042,7 @@ ClimateControl_544();
             </body>
             <addData>
                 <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                    <ObjectId>90514c7b-d2a4-41cf-9097-95edd58a76d6</ObjectId>
+                    <ObjectId>913f169c-c22e-4168-9526-46faddeb46b7</ObjectId>
                 </data>
             </addData>
           </pou>
@@ -7985,7 +8187,7 @@ ClimateControl_544();
                         </body>    
                         <addData>
                             <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                                <ObjectId>05e1938b-d10c-421c-bfdf-038f94ad465d</ObjectId>
+                                <ObjectId>b42a9047-23c8-44a6-9c32-cd56b7d61081</ObjectId>
                             </data>
                         </addData>                                               
                     </action>   
@@ -8056,7 +8258,7 @@ ClimateControl_544();
             </body>
             <addData>
                 <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                    <ObjectId>aad42a2c-f92d-4d90-b17d-9bcdcc9cadf0</ObjectId>
+                    <ObjectId>1041ae32-6cc0-41a8-a03b-2c5638d7563c</ObjectId>
                 </data>
             </addData>
           </pou>
@@ -8095,7 +8297,7 @@ ClimateControl_544();
                         </body>    
                         <addData>
                             <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                                <ObjectId>2727bf27-6c93-4a31-a3fb-a80dbd928623</ObjectId>
+                                <ObjectId>eafe85e0-fea4-4148-9d8b-ddf4cfd6172b</ObjectId>
                             </data>
                         </addData>                                               
                     </action>   
@@ -8122,7 +8324,7 @@ ClimateControl_544();
             </body>
             <addData>
                 <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                    <ObjectId>8e0a7584-847e-420d-95ba-7894c64105f7</ObjectId>
+                    <ObjectId>30c57161-c526-49de-84e6-740827f93325</ObjectId>
                 </data>
             </addData>
           </pou>
@@ -8889,7 +9091,7 @@ END_IF
             </body>
             <addData>
                 <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                    <ObjectId>8881696e-efae-40cd-9890-1beddaa0dd30</ObjectId>
+                    <ObjectId>af9fabc6-f916-4192-b700-3508df6a6466</ObjectId>
                 </data>
             </addData>
           </pou>
@@ -8935,10 +9137,6 @@ bacnetModbusClimateInterop[i](
   AV_ComfortHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Komf_R0401,
   AV_StandbyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Stdb_R0401,
   AV_EconomyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Natt_R0401,
-  AV_CurrentCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_R0401,
-  AV_ComfortCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Komf_R0401,
-  AV_StandbyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Stdb_R0401,
-  AV_EconomyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Natt_R0401,
   MSV_CurrentWorkingMode			:= C_5640_501_06_RTC01_MOD_FB_R0401,
   MSV_Calendar					:= C_5640_501_06_RTC01_KMD_MSV_R0401,
   AV_PresenceDelayOff				:= C_5640_501_06_RTC01_SP_Tid_Stdb_R0401,
@@ -8961,10 +9159,6 @@ bacnetModbusClimateInterop[i](
   AV_ComfortHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Komf_R0406,
   AV_StandbyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Stdb_R0406,
   AV_EconomyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Natt_R0406,
-  AV_CurrentCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_R0406,
-  AV_ComfortCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Komf_R0406,
-  AV_StandbyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Stdb_R0406,
-  AV_EconomyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Natt_R0406,
   MSV_CurrentWorkingMode			:= C_5640_501_06_RTC01_MOD_FB_R0406,
   MSV_Calendar					:= C_5640_501_06_RTC01_KMD_MSV_R0406,
   AV_PresenceDelayOff				:= C_5640_501_06_RTC01_SP_Tid_Stdb_R0406,
@@ -8987,10 +9181,6 @@ bacnetModbusClimateInterop[i](
   AV_ComfortHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Komf_R0407,
   AV_StandbyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Stdb_R0407,
   AV_EconomyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Natt_R0407,
-  AV_CurrentCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_R0407,
-  AV_ComfortCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Komf_R0407,
-  AV_StandbyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Stdb_R0407,
-  AV_EconomyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Natt_R0407,
   MSV_CurrentWorkingMode			:= C_5640_501_06_RTC01_MOD_FB_R0407,
   MSV_Calendar					:= C_5640_501_06_RTC01_KMD_MSV_R0407,
   AV_PresenceDelayOff				:= C_5640_501_06_RTC01_SP_Tid_Stdb_R0407,
@@ -9013,10 +9203,6 @@ bacnetModbusClimateInterop[i](
   AV_ComfortHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Komf_R0408,
   AV_StandbyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Stdb_R0408,
   AV_EconomyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Natt_R0408,
-  AV_CurrentCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_R0408,
-  AV_ComfortCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Komf_R0408,
-  AV_StandbyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Stdb_R0408,
-  AV_EconomyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Natt_R0408,
   MSV_CurrentWorkingMode			:= C_5640_501_06_RTC01_MOD_FB_R0408,
   MSV_Calendar					:= C_5640_501_06_RTC01_KMD_MSV_R0408,
   AV_PresenceDelayOff				:= C_5640_501_06_RTC01_SP_Tid_Stdb_R0408,
@@ -9039,10 +9225,6 @@ bacnetModbusClimateInterop[i](
   AV_ComfortHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Komf_R0409,
   AV_StandbyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Stdb_R0409,
   AV_EconomyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Natt_R0409,
-  AV_CurrentCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_R0409,
-  AV_ComfortCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Komf_R0409,
-  AV_StandbyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Stdb_R0409,
-  AV_EconomyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Natt_R0409,
   MSV_CurrentWorkingMode			:= C_5640_501_06_RTC01_MOD_FB_R0409,
   MSV_Calendar					:= C_5640_501_06_RTC01_KMD_MSV_R0409,
   AV_PresenceDelayOff				:= C_5640_501_06_RTC01_SP_Tid_Stdb_R0409,
@@ -9065,10 +9247,6 @@ bacnetModbusClimateInterop[i](
   AV_ComfortHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Komf_R0464,
   AV_StandbyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Stdb_R0464,
   AV_EconomyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Natt_R0464,
-  AV_CurrentCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_R0464,
-  AV_ComfortCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Komf_R0464,
-  AV_StandbyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Stdb_R0464,
-  AV_EconomyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Natt_R0464,
   MSV_CurrentWorkingMode			:= C_5640_501_06_RTC01_MOD_FB_R0464,
   MSV_Calendar					:= C_5640_501_06_RTC01_KMD_MSV_R0464,
   AV_PresenceDelayOff				:= C_5640_501_06_RTC01_SP_Tid_Stdb_R0464,
@@ -9091,10 +9269,6 @@ bacnetModbusClimateInterop[i](
   AV_ComfortHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Komf_R0415,
   AV_StandbyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Stdb_R0415,
   AV_EconomyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Natt_R0415,
-  AV_CurrentCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_R0415,
-  AV_ComfortCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Komf_R0415,
-  AV_StandbyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Stdb_R0415,
-  AV_EconomyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Natt_R0415,
   MSV_CurrentWorkingMode			:= C_5640_501_06_RTC01_MOD_FB_R0415,
   MSV_Calendar					:= C_5640_501_06_RTC01_KMD_MSV_R0415,
   AV_PresenceDelayOff				:= C_5640_501_06_RTC01_SP_Tid_Stdb_R0415,
@@ -9117,10 +9291,6 @@ bacnetModbusClimateInterop[i](
   AV_ComfortHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Komf_R0422,
   AV_StandbyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Stdb_R0422,
   AV_EconomyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Natt_R0422,
-  AV_CurrentCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_R0422,
-  AV_ComfortCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Komf_R0422,
-  AV_StandbyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Stdb_R0422,
-  AV_EconomyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Natt_R0422,
   MSV_CurrentWorkingMode			:= C_5640_501_06_RTC01_MOD_FB_R0422,
   MSV_Calendar					:= C_5640_501_06_RTC01_KMD_MSV_R0422,
   AV_PresenceDelayOff				:= C_5640_501_06_RTC01_SP_Tid_Stdb_R0422,
@@ -9143,10 +9313,6 @@ bacnetModbusClimateInterop[i](
   AV_ComfortHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Komf_R0426_1,
   AV_StandbyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Stdb_R0426_1,
   AV_EconomyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Natt_R0426_1,
-  AV_CurrentCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_R0426_1,
-  AV_ComfortCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Komf_R0426_1,
-  AV_StandbyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Stdb_R0426_1,
-  AV_EconomyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Natt_R0426_1,
   MSV_CurrentWorkingMode			:= C_5640_501_06_RTC01_MOD_FB_R0426_1,
   MSV_Calendar					:= C_5640_501_06_RTC01_KMD_MSV_R0426_1,
   AV_PresenceDelayOff				:= C_5640_501_06_RTC01_SP_Tid_Stdb_R0426_1,
@@ -9169,10 +9335,6 @@ bacnetModbusClimateInterop[i](
   AV_ComfortHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Komf_R0426_2,
   AV_StandbyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Stdb_R0426_2,
   AV_EconomyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Natt_R0426_2,
-  AV_CurrentCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_R0426_2,
-  AV_ComfortCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Komf_R0426_2,
-  AV_StandbyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Stdb_R0426_2,
-  AV_EconomyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Natt_R0426_2,
   MSV_CurrentWorkingMode			:= C_5640_501_06_RTC01_MOD_FB_R0426_2,
   MSV_Calendar					:= C_5640_501_06_RTC01_KMD_MSV_R0426_2,
   AV_PresenceDelayOff				:= C_5640_501_06_RTC01_SP_Tid_Stdb_R0426_2,
@@ -9195,10 +9357,6 @@ bacnetModbusClimateInterop[i](
   AV_ComfortHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Komf_R0426_3,
   AV_StandbyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Stdb_R0426_3,
   AV_EconomyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Natt_R0426_3,
-  AV_CurrentCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_R0426_3,
-  AV_ComfortCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Komf_R0426_3,
-  AV_StandbyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Stdb_R0426_3,
-  AV_EconomyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Natt_R0426_3,
   MSV_CurrentWorkingMode			:= C_5640_501_06_RTC01_MOD_FB_R0426_3,
   MSV_Calendar					:= C_5640_501_06_RTC01_KMD_MSV_R0426_3,
   AV_PresenceDelayOff				:= C_5640_501_06_RTC01_SP_Tid_Stdb_R0426_3,
@@ -9221,10 +9379,6 @@ bacnetModbusClimateInterop[i](
   AV_ComfortHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Komf_R0528,
   AV_StandbyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Stdb_R0528,
   AV_EconomyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Natt_R0528,
-  AV_CurrentCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_R0528,
-  AV_ComfortCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Komf_R0528,
-  AV_StandbyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Stdb_R0528,
-  AV_EconomyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Natt_R0528,
   MSV_CurrentWorkingMode			:= C_5640_501_06_RTC01_MOD_FB_R0528,
   MSV_Calendar					:= C_5640_501_06_RTC01_KMD_MSV_R0528,
   AV_PresenceDelayOff				:= C_5640_501_06_RTC01_SP_Tid_Stdb_R0528,
@@ -9247,10 +9401,6 @@ bacnetModbusClimateInterop[i](
   AV_ComfortHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Komf_R0523,
   AV_StandbyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Stdb_R0523,
   AV_EconomyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Natt_R0523,
-  AV_CurrentCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_R0523,
-  AV_ComfortCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Komf_R0523,
-  AV_StandbyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Stdb_R0523,
-  AV_EconomyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Natt_R0523,
   MSV_CurrentWorkingMode			:= C_5640_501_06_RTC01_MOD_FB_R0523,
   MSV_Calendar					:= C_5640_501_06_RTC01_KMD_MSV_R0523,
   AV_PresenceDelayOff				:= C_5640_501_06_RTC01_SP_Tid_Stdb_R0523,
@@ -9273,10 +9423,6 @@ bacnetModbusClimateInterop[i](
   AV_ComfortHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Komf_R0531,
   AV_StandbyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Stdb_R0531,
   AV_EconomyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Natt_R0531,
-  AV_CurrentCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_R0531,
-  AV_ComfortCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Komf_R0531,
-  AV_StandbyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Stdb_R0531,
-  AV_EconomyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Natt_R0531,
   MSV_CurrentWorkingMode			:= C_5640_501_06_RTC01_MOD_FB_R0531,
   MSV_Calendar					:= C_5640_501_06_RTC01_KMD_MSV_R0531,
   AV_PresenceDelayOff				:= C_5640_501_06_RTC01_SP_Tid_Stdb_R0531,
@@ -9299,10 +9445,6 @@ bacnetModbusClimateInterop[i](
   AV_ComfortHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Komf_R0535_1,
   AV_StandbyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Stdb_R0535_1,
   AV_EconomyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Natt_R0535_1,
-  AV_CurrentCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_R0535_1,
-  AV_ComfortCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Komf_R0535_1,
-  AV_StandbyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Stdb_R0535_1,
-  AV_EconomyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Natt_R0535_1,
   MSV_CurrentWorkingMode			:= C_5640_501_06_RTC01_MOD_FB_R0535_1,
   MSV_Calendar					:= C_5640_501_06_RTC01_KMD_MSV_R0535_1,
   AV_PresenceDelayOff				:= C_5640_501_06_RTC01_SP_Tid_Stdb_R0535_1,
@@ -9325,10 +9467,6 @@ bacnetModbusClimateInterop[i](
   AV_ComfortHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Komf_R0535_2,
   AV_StandbyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Stdb_R0535_2,
   AV_EconomyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Natt_R0535_2,
-  AV_CurrentCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_R0535_2,
-  AV_ComfortCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Komf_R0535_2,
-  AV_StandbyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Stdb_R0535_2,
-  AV_EconomyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Natt_R0535_2,
   MSV_CurrentWorkingMode			:= C_5640_501_06_RTC01_MOD_FB_R0535_2,
   MSV_Calendar					:= C_5640_501_06_RTC01_KMD_MSV_R0535_2,
   AV_PresenceDelayOff				:= C_5640_501_06_RTC01_SP_Tid_Stdb_R0535_2,
@@ -9351,10 +9489,6 @@ bacnetModbusClimateInterop[i](
   AV_ComfortHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Komf_R0535_3,
   AV_StandbyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Stdb_R0535_3,
   AV_EconomyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Natt_R0535_3,
-  AV_CurrentCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_R0535_3,
-  AV_ComfortCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Komf_R0535_3,
-  AV_StandbyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Stdb_R0535_3,
-  AV_EconomyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Natt_R0535_3,
   MSV_CurrentWorkingMode			:= C_5640_501_06_RTC01_MOD_FB_R0535_3,
   MSV_Calendar					:= C_5640_501_06_RTC01_KMD_MSV_R0535_3,
   AV_PresenceDelayOff				:= C_5640_501_06_RTC01_SP_Tid_Stdb_R0535_3,
@@ -9377,10 +9511,6 @@ bacnetModbusClimateInterop[i](
   AV_ComfortHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Komf_R0536,
   AV_StandbyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Stdb_R0536,
   AV_EconomyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Natt_R0536,
-  AV_CurrentCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_R0536,
-  AV_ComfortCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Komf_R0536,
-  AV_StandbyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Stdb_R0536,
-  AV_EconomyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Natt_R0536,
   MSV_CurrentWorkingMode			:= C_5640_501_06_RTC01_MOD_FB_R0536,
   MSV_Calendar					:= C_5640_501_06_RTC01_KMD_MSV_R0536,
   AV_PresenceDelayOff				:= C_5640_501_06_RTC01_SP_Tid_Stdb_R0536,
@@ -9403,10 +9533,6 @@ bacnetModbusClimateInterop[i](
   AV_ComfortHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Komf_R0543,
   AV_StandbyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Stdb_R0543,
   AV_EconomyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Natt_R0543,
-  AV_CurrentCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_R0543,
-  AV_ComfortCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Komf_R0543,
-  AV_StandbyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Stdb_R0543,
-  AV_EconomyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Natt_R0543,
   MSV_CurrentWorkingMode			:= C_5640_501_06_RTC01_MOD_FB_R0543,
   MSV_Calendar					:= C_5640_501_06_RTC01_KMD_MSV_R0543,
   AV_PresenceDelayOff				:= C_5640_501_06_RTC01_SP_Tid_Stdb_R0543,
@@ -9429,10 +9555,6 @@ bacnetModbusClimateInterop[i](
   AV_ComfortHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Komf_R0547_1,
   AV_StandbyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Stdb_R0547_1,
   AV_EconomyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Natt_R0547_1,
-  AV_CurrentCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_R0547_1,
-  AV_ComfortCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Komf_R0547_1,
-  AV_StandbyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Stdb_R0547_1,
-  AV_EconomyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Natt_R0547_1,
   MSV_CurrentWorkingMode			:= C_5640_501_06_RTC01_MOD_FB_R0547_1,
   MSV_Calendar					:= C_5640_501_06_RTC01_KMD_MSV_R0547_1,
   AV_PresenceDelayOff				:= C_5640_501_06_RTC01_SP_Tid_Stdb_R0547_1,
@@ -9455,10 +9577,6 @@ bacnetModbusClimateInterop[i](
   AV_ComfortHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Komf_R0547_2,
   AV_StandbyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Stdb_R0547_2,
   AV_EconomyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Natt_R0547_2,
-  AV_CurrentCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_R0547_2,
-  AV_ComfortCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Komf_R0547_2,
-  AV_StandbyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Stdb_R0547_2,
-  AV_EconomyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Natt_R0547_2,
   MSV_CurrentWorkingMode			:= C_5640_501_06_RTC01_MOD_FB_R0547_2,
   MSV_Calendar					:= C_5640_501_06_RTC01_KMD_MSV_R0547_2,
   AV_PresenceDelayOff				:= C_5640_501_06_RTC01_SP_Tid_Stdb_R0547_2,
@@ -9481,10 +9599,6 @@ bacnetModbusClimateInterop[i](
   AV_ComfortHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Komf_R0544,
   AV_StandbyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Stdb_R0544,
   AV_EconomyHeatingSetpoint		:= C_5640_501_06_RTC01_SPV_Natt_R0544,
-  AV_CurrentCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_R0544,
-  AV_ComfortCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Komf_R0544,
-  AV_StandbyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Stdb_R0544,
-  AV_EconomyCoolingSetpoint		:= C_5640_501_06_RTC01_SPC_Natt_R0544,
   MSV_CurrentWorkingMode			:= C_5640_501_06_RTC01_MOD_FB_R0544,
   MSV_Calendar					:= C_5640_501_06_RTC01_KMD_MSV_R0544,
   AV_PresenceDelayOff				:= C_5640_501_06_RTC01_SP_Tid_Stdb_R0544,
@@ -10648,7 +10762,7 @@ i := i +1;
             </body>
             <addData>
                 <data name="http://www.3s-software.com/plcopenxml/objectid" handleUnknown="discard">
-                    <ObjectId>5239c594-3b0c-4f0b-a0b6-d1c4b7c66689</ObjectId>
+                    <ObjectId>e2d5fa12-5c16-4bb5-80cc-5f6f1b89e172</ObjectId>
                 </data>
             </addData>
           </pou>
@@ -11056,50 +11170,6 @@ i := i +1;
       
     </variable>
   
-      <variable name="C_5640_501_06_RTC01_SPC_R0401">
-      <type>
-        <derived name="FbAnalogValue_Medium (4) := (
-               _sDescription := 'Arbeidende settpunkt kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Komf_R0401">
-      <type>
-        <derived name="FbAnalogValue_Medium (5) := (
-               _sDescription := 'Settpunkt komfort kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Stdb_R0401">
-      <type>
-        <derived name="FbAnalogValue_Medium (6) := (
-               _sDescription := 'Settpunkt Standby kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Natt_R0401">
-      <type>
-        <derived name="FbAnalogValue_Medium (7) := (
-               _sDescription := 'Settpunkt Natt kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
       <variable name="C_5640_501_06_RTC01_MOD_FB_R0401">
       <type>
         <derived name="FbMultiStateValue_Large (0) := (
@@ -11126,7 +11196,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SP_Tid_Stdb_R0401">
       <type>
-        <derived name="FbAnalogValue_Medium (8) := (
+        <derived name="FbAnalogValue_Medium (4) := (
                _sDescription := 'Utløpstid tilstedeværelse', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_MINUTES 
@@ -11137,7 +11207,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RYA601_SP_R0401">
       <type>
-        <derived name="FbAnalogValue_Medium (9) := (
+        <derived name="FbAnalogValue_Medium (5) := (
                _sDescription := 'Settpunkt', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION 
@@ -11198,7 +11268,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_R0406">
       <type>
-        <derived name="FbAnalogValue_Medium (10) := (
+        <derived name="FbAnalogValue_Medium (6) := (
                _sDescription := 'Arbeidende settpunkt', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -11209,7 +11279,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Komf_R0406">
       <type>
-        <derived name="FbAnalogValue_Medium (11) := (
+        <derived name="FbAnalogValue_Medium (7) := (
                _sDescription := 'Settpunkt komfort', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -11220,7 +11290,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Stdb_R0406">
       <type>
-        <derived name="FbAnalogValue_Medium (12) := (
+        <derived name="FbAnalogValue_Medium (8) := (
                _sDescription := 'Settpunkt Standby', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -11231,52 +11301,8 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Natt_R0406">
       <type>
-        <derived name="FbAnalogValue_Medium (13) := (
+        <derived name="FbAnalogValue_Medium (9) := (
                _sDescription := 'Settpunkt Natt', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_R0406">
-      <type>
-        <derived name="FbAnalogValue_Medium (14) := (
-               _sDescription := 'Arbeidende settpunkt kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Komf_R0406">
-      <type>
-        <derived name="FbAnalogValue_Medium (15) := (
-               _sDescription := 'Settpunkt komfort kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Stdb_R0406">
-      <type>
-        <derived name="FbAnalogValue_Medium (16) := (
-               _sDescription := 'Settpunkt Standby kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Natt_R0406">
-      <type>
-        <derived name="FbAnalogValue_Medium (17) := (
-               _sDescription := 'Settpunkt Natt kjøling', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
          )" />
@@ -11310,7 +11336,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SP_Tid_Stdb_R0406">
       <type>
-        <derived name="FbAnalogValue_Medium (18) := (
+        <derived name="FbAnalogValue_Medium (10) := (
                _sDescription := 'Utløpstid tilstedeværelse', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_MINUTES 
@@ -11321,7 +11347,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RYA601_SP_R0406">
       <type>
-        <derived name="FbAnalogValue_Medium (19) := (
+        <derived name="FbAnalogValue_Medium (11) := (
                _sDescription := 'Settpunkt', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION 
@@ -11382,7 +11408,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_R0407">
       <type>
-        <derived name="FbAnalogValue_Medium (20) := (
+        <derived name="FbAnalogValue_Medium (12) := (
                _sDescription := 'Arbeidende settpunkt', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -11393,7 +11419,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Komf_R0407">
       <type>
-        <derived name="FbAnalogValue_Medium (21) := (
+        <derived name="FbAnalogValue_Medium (13) := (
                _sDescription := 'Settpunkt komfort', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -11404,7 +11430,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Stdb_R0407">
       <type>
-        <derived name="FbAnalogValue_Medium (22) := (
+        <derived name="FbAnalogValue_Medium (14) := (
                _sDescription := 'Settpunkt Standby', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -11415,52 +11441,8 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Natt_R0407">
       <type>
-        <derived name="FbAnalogValue_Medium (23) := (
+        <derived name="FbAnalogValue_Medium (15) := (
                _sDescription := 'Settpunkt Natt', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_R0407">
-      <type>
-        <derived name="FbAnalogValue_Medium (24) := (
-               _sDescription := 'Arbeidende settpunkt kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Komf_R0407">
-      <type>
-        <derived name="FbAnalogValue_Medium (25) := (
-               _sDescription := 'Settpunkt komfort kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Stdb_R0407">
-      <type>
-        <derived name="FbAnalogValue_Medium (26) := (
-               _sDescription := 'Settpunkt Standby kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Natt_R0407">
-      <type>
-        <derived name="FbAnalogValue_Medium (27) := (
-               _sDescription := 'Settpunkt Natt kjøling', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
          )" />
@@ -11494,7 +11476,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SP_Tid_Stdb_R0407">
       <type>
-        <derived name="FbAnalogValue_Medium (28) := (
+        <derived name="FbAnalogValue_Medium (16) := (
                _sDescription := 'Utløpstid tilstedeværelse', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_MINUTES 
@@ -11505,7 +11487,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RYA601_SP_R0407">
       <type>
-        <derived name="FbAnalogValue_Medium (29) := (
+        <derived name="FbAnalogValue_Medium (17) := (
                _sDescription := 'Settpunkt', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION 
@@ -11566,7 +11548,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_R0408">
       <type>
-        <derived name="FbAnalogValue_Medium (30) := (
+        <derived name="FbAnalogValue_Medium (18) := (
                _sDescription := 'Arbeidende settpunkt', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -11577,7 +11559,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Komf_R0408">
       <type>
-        <derived name="FbAnalogValue_Medium (31) := (
+        <derived name="FbAnalogValue_Medium (19) := (
                _sDescription := 'Settpunkt komfort', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -11588,7 +11570,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Stdb_R0408">
       <type>
-        <derived name="FbAnalogValue_Medium (32) := (
+        <derived name="FbAnalogValue_Medium (20) := (
                _sDescription := 'Settpunkt Standby', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -11599,52 +11581,8 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Natt_R0408">
       <type>
-        <derived name="FbAnalogValue_Medium (33) := (
+        <derived name="FbAnalogValue_Medium (21) := (
                _sDescription := 'Settpunkt Natt', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_R0408">
-      <type>
-        <derived name="FbAnalogValue_Medium (34) := (
-               _sDescription := 'Arbeidende settpunkt kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Komf_R0408">
-      <type>
-        <derived name="FbAnalogValue_Medium (35) := (
-               _sDescription := 'Settpunkt komfort kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Stdb_R0408">
-      <type>
-        <derived name="FbAnalogValue_Medium (36) := (
-               _sDescription := 'Settpunkt Standby kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Natt_R0408">
-      <type>
-        <derived name="FbAnalogValue_Medium (37) := (
-               _sDescription := 'Settpunkt Natt kjøling', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
          )" />
@@ -11678,7 +11616,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SP_Tid_Stdb_R0408">
       <type>
-        <derived name="FbAnalogValue_Medium (38) := (
+        <derived name="FbAnalogValue_Medium (22) := (
                _sDescription := 'Utløpstid tilstedeværelse', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_MINUTES 
@@ -11689,7 +11627,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RYA601_SP_R0408">
       <type>
-        <derived name="FbAnalogValue_Medium (39) := (
+        <derived name="FbAnalogValue_Medium (23) := (
                _sDescription := 'Settpunkt', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION 
@@ -11750,7 +11688,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_R0409">
       <type>
-        <derived name="FbAnalogValue_Medium (40) := (
+        <derived name="FbAnalogValue_Medium (24) := (
                _sDescription := 'Arbeidende settpunkt', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -11761,7 +11699,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Komf_R0409">
       <type>
-        <derived name="FbAnalogValue_Medium (41) := (
+        <derived name="FbAnalogValue_Medium (25) := (
                _sDescription := 'Settpunkt komfort', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -11772,7 +11710,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Stdb_R0409">
       <type>
-        <derived name="FbAnalogValue_Medium (42) := (
+        <derived name="FbAnalogValue_Medium (26) := (
                _sDescription := 'Settpunkt Standby', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -11783,52 +11721,8 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Natt_R0409">
       <type>
-        <derived name="FbAnalogValue_Medium (43) := (
+        <derived name="FbAnalogValue_Medium (27) := (
                _sDescription := 'Settpunkt Natt', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_R0409">
-      <type>
-        <derived name="FbAnalogValue_Medium (44) := (
-               _sDescription := 'Arbeidende settpunkt kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Komf_R0409">
-      <type>
-        <derived name="FbAnalogValue_Medium (45) := (
-               _sDescription := 'Settpunkt komfort kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Stdb_R0409">
-      <type>
-        <derived name="FbAnalogValue_Medium (46) := (
-               _sDescription := 'Settpunkt Standby kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Natt_R0409">
-      <type>
-        <derived name="FbAnalogValue_Medium (47) := (
-               _sDescription := 'Settpunkt Natt kjøling', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
          )" />
@@ -11862,7 +11756,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SP_Tid_Stdb_R0409">
       <type>
-        <derived name="FbAnalogValue_Medium (48) := (
+        <derived name="FbAnalogValue_Medium (28) := (
                _sDescription := 'Utløpstid tilstedeværelse', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_MINUTES 
@@ -11873,7 +11767,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RYA601_SP_R0409">
       <type>
-        <derived name="FbAnalogValue_Medium (49) := (
+        <derived name="FbAnalogValue_Medium (29) := (
                _sDescription := 'Settpunkt', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION 
@@ -11934,7 +11828,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_R0464">
       <type>
-        <derived name="FbAnalogValue_Medium (50) := (
+        <derived name="FbAnalogValue_Medium (30) := (
                _sDescription := 'Arbeidende settpunkt', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -11945,7 +11839,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Komf_R0464">
       <type>
-        <derived name="FbAnalogValue_Medium (51) := (
+        <derived name="FbAnalogValue_Medium (31) := (
                _sDescription := 'Settpunkt komfort', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -11956,7 +11850,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Stdb_R0464">
       <type>
-        <derived name="FbAnalogValue_Medium (52) := (
+        <derived name="FbAnalogValue_Medium (32) := (
                _sDescription := 'Settpunkt Standby', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -11967,52 +11861,8 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Natt_R0464">
       <type>
-        <derived name="FbAnalogValue_Medium (53) := (
+        <derived name="FbAnalogValue_Medium (33) := (
                _sDescription := 'Settpunkt Natt', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_R0464">
-      <type>
-        <derived name="FbAnalogValue_Medium (54) := (
-               _sDescription := 'Arbeidende settpunkt kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Komf_R0464">
-      <type>
-        <derived name="FbAnalogValue_Medium (55) := (
-               _sDescription := 'Settpunkt komfort kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Stdb_R0464">
-      <type>
-        <derived name="FbAnalogValue_Medium (56) := (
-               _sDescription := 'Settpunkt Standby kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Natt_R0464">
-      <type>
-        <derived name="FbAnalogValue_Medium (57) := (
-               _sDescription := 'Settpunkt Natt kjøling', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
          )" />
@@ -12046,7 +11896,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SP_Tid_Stdb_R0464">
       <type>
-        <derived name="FbAnalogValue_Medium (58) := (
+        <derived name="FbAnalogValue_Medium (34) := (
                _sDescription := 'Utløpstid tilstedeværelse', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_MINUTES 
@@ -12057,7 +11907,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RYA601_SP_R0464">
       <type>
-        <derived name="FbAnalogValue_Medium (59) := (
+        <derived name="FbAnalogValue_Medium (35) := (
                _sDescription := 'Settpunkt', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION 
@@ -12118,7 +11968,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_R0415">
       <type>
-        <derived name="FbAnalogValue_Medium (60) := (
+        <derived name="FbAnalogValue_Medium (36) := (
                _sDescription := 'Arbeidende settpunkt', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -12129,7 +11979,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Komf_R0415">
       <type>
-        <derived name="FbAnalogValue_Medium (61) := (
+        <derived name="FbAnalogValue_Medium (37) := (
                _sDescription := 'Settpunkt komfort', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -12140,7 +11990,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Stdb_R0415">
       <type>
-        <derived name="FbAnalogValue_Medium (62) := (
+        <derived name="FbAnalogValue_Medium (38) := (
                _sDescription := 'Settpunkt Standby', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -12151,52 +12001,8 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Natt_R0415">
       <type>
-        <derived name="FbAnalogValue_Medium (63) := (
+        <derived name="FbAnalogValue_Medium (39) := (
                _sDescription := 'Settpunkt Natt', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_R0415">
-      <type>
-        <derived name="FbAnalogValue_Medium (64) := (
-               _sDescription := 'Arbeidende settpunkt kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Komf_R0415">
-      <type>
-        <derived name="FbAnalogValue_Medium (65) := (
-               _sDescription := 'Settpunkt komfort kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Stdb_R0415">
-      <type>
-        <derived name="FbAnalogValue_Medium (66) := (
-               _sDescription := 'Settpunkt Standby kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Natt_R0415">
-      <type>
-        <derived name="FbAnalogValue_Medium (67) := (
-               _sDescription := 'Settpunkt Natt kjøling', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
          )" />
@@ -12230,7 +12036,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SP_Tid_Stdb_R0415">
       <type>
-        <derived name="FbAnalogValue_Medium (68) := (
+        <derived name="FbAnalogValue_Medium (40) := (
                _sDescription := 'Utløpstid tilstedeværelse', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_MINUTES 
@@ -12241,7 +12047,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RYA601_SP_R0415">
       <type>
-        <derived name="FbAnalogValue_Medium (69) := (
+        <derived name="FbAnalogValue_Medium (41) := (
                _sDescription := 'Settpunkt', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION 
@@ -12302,7 +12108,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_R0422">
       <type>
-        <derived name="FbAnalogValue_Medium (70) := (
+        <derived name="FbAnalogValue_Medium (42) := (
                _sDescription := 'Arbeidende settpunkt', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -12313,7 +12119,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Komf_R0422">
       <type>
-        <derived name="FbAnalogValue_Medium (71) := (
+        <derived name="FbAnalogValue_Medium (43) := (
                _sDescription := 'Settpunkt komfort', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -12324,7 +12130,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Stdb_R0422">
       <type>
-        <derived name="FbAnalogValue_Medium (72) := (
+        <derived name="FbAnalogValue_Medium (44) := (
                _sDescription := 'Settpunkt Standby', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -12335,52 +12141,8 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Natt_R0422">
       <type>
-        <derived name="FbAnalogValue_Medium (73) := (
+        <derived name="FbAnalogValue_Medium (45) := (
                _sDescription := 'Settpunkt Natt', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_R0422">
-      <type>
-        <derived name="FbAnalogValue_Medium (74) := (
-               _sDescription := 'Arbeidende settpunkt kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Komf_R0422">
-      <type>
-        <derived name="FbAnalogValue_Medium (75) := (
-               _sDescription := 'Settpunkt komfort kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Stdb_R0422">
-      <type>
-        <derived name="FbAnalogValue_Medium (76) := (
-               _sDescription := 'Settpunkt Standby kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Natt_R0422">
-      <type>
-        <derived name="FbAnalogValue_Medium (77) := (
-               _sDescription := 'Settpunkt Natt kjøling', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
          )" />
@@ -12414,7 +12176,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SP_Tid_Stdb_R0422">
       <type>
-        <derived name="FbAnalogValue_Medium (78) := (
+        <derived name="FbAnalogValue_Medium (46) := (
                _sDescription := 'Utløpstid tilstedeværelse', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_MINUTES 
@@ -12425,7 +12187,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RYA601_SP_R0422">
       <type>
-        <derived name="FbAnalogValue_Medium (79) := (
+        <derived name="FbAnalogValue_Medium (47) := (
                _sDescription := 'Settpunkt', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION 
@@ -12486,7 +12248,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_R0426_1">
       <type>
-        <derived name="FbAnalogValue_Medium (80) := (
+        <derived name="FbAnalogValue_Medium (48) := (
                _sDescription := 'Arbeidende settpunkt', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -12497,7 +12259,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Komf_R0426_1">
       <type>
-        <derived name="FbAnalogValue_Medium (81) := (
+        <derived name="FbAnalogValue_Medium (49) := (
                _sDescription := 'Settpunkt komfort', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -12508,7 +12270,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Stdb_R0426_1">
       <type>
-        <derived name="FbAnalogValue_Medium (82) := (
+        <derived name="FbAnalogValue_Medium (50) := (
                _sDescription := 'Settpunkt Standby', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -12519,52 +12281,8 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Natt_R0426_1">
       <type>
-        <derived name="FbAnalogValue_Medium (83) := (
+        <derived name="FbAnalogValue_Medium (51) := (
                _sDescription := 'Settpunkt Natt', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_R0426_1">
-      <type>
-        <derived name="FbAnalogValue_Medium (84) := (
-               _sDescription := 'Arbeidende settpunkt kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Komf_R0426_1">
-      <type>
-        <derived name="FbAnalogValue_Medium (85) := (
-               _sDescription := 'Settpunkt komfort kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Stdb_R0426_1">
-      <type>
-        <derived name="FbAnalogValue_Medium (86) := (
-               _sDescription := 'Settpunkt Standby kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Natt_R0426_1">
-      <type>
-        <derived name="FbAnalogValue_Medium (87) := (
-               _sDescription := 'Settpunkt Natt kjøling', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
          )" />
@@ -12598,7 +12316,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SP_Tid_Stdb_R0426_1">
       <type>
-        <derived name="FbAnalogValue_Medium (88) := (
+        <derived name="FbAnalogValue_Medium (52) := (
                _sDescription := 'Utløpstid tilstedeværelse', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_MINUTES 
@@ -12609,7 +12327,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RYA601_SP_R0426_1">
       <type>
-        <derived name="FbAnalogValue_Medium (89) := (
+        <derived name="FbAnalogValue_Medium (53) := (
                _sDescription := 'Settpunkt', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION 
@@ -12670,7 +12388,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_R0426_2">
       <type>
-        <derived name="FbAnalogValue_Medium (90) := (
+        <derived name="FbAnalogValue_Medium (54) := (
                _sDescription := 'Arbeidende settpunkt', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -12681,7 +12399,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Komf_R0426_2">
       <type>
-        <derived name="FbAnalogValue_Medium (91) := (
+        <derived name="FbAnalogValue_Medium (55) := (
                _sDescription := 'Settpunkt komfort', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -12692,7 +12410,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Stdb_R0426_2">
       <type>
-        <derived name="FbAnalogValue_Medium (92) := (
+        <derived name="FbAnalogValue_Medium (56) := (
                _sDescription := 'Settpunkt Standby', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -12703,52 +12421,8 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Natt_R0426_2">
       <type>
-        <derived name="FbAnalogValue_Medium (93) := (
+        <derived name="FbAnalogValue_Medium (57) := (
                _sDescription := 'Settpunkt Natt', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_R0426_2">
-      <type>
-        <derived name="FbAnalogValue_Medium (94) := (
-               _sDescription := 'Arbeidende settpunkt kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Komf_R0426_2">
-      <type>
-        <derived name="FbAnalogValue_Medium (95) := (
-               _sDescription := 'Settpunkt komfort kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Stdb_R0426_2">
-      <type>
-        <derived name="FbAnalogValue_Medium (96) := (
-               _sDescription := 'Settpunkt Standby kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Natt_R0426_2">
-      <type>
-        <derived name="FbAnalogValue_Medium (97) := (
-               _sDescription := 'Settpunkt Natt kjøling', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
          )" />
@@ -12782,7 +12456,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SP_Tid_Stdb_R0426_2">
       <type>
-        <derived name="FbAnalogValue_Medium (98) := (
+        <derived name="FbAnalogValue_Medium (58) := (
                _sDescription := 'Utløpstid tilstedeværelse', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_MINUTES 
@@ -12793,7 +12467,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RYA601_SP_R0426_2">
       <type>
-        <derived name="FbAnalogValue_Medium (99) := (
+        <derived name="FbAnalogValue_Medium (59) := (
                _sDescription := 'Settpunkt', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION 
@@ -12854,7 +12528,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_R0426_3">
       <type>
-        <derived name="FbAnalogValue_Medium (100) := (
+        <derived name="FbAnalogValue_Medium (60) := (
                _sDescription := 'Arbeidende settpunkt', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -12865,7 +12539,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Komf_R0426_3">
       <type>
-        <derived name="FbAnalogValue_Medium (101) := (
+        <derived name="FbAnalogValue_Medium (61) := (
                _sDescription := 'Settpunkt komfort', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -12876,7 +12550,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Stdb_R0426_3">
       <type>
-        <derived name="FbAnalogValue_Medium (102) := (
+        <derived name="FbAnalogValue_Medium (62) := (
                _sDescription := 'Settpunkt Standby', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -12887,52 +12561,8 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Natt_R0426_3">
       <type>
-        <derived name="FbAnalogValue_Medium (103) := (
+        <derived name="FbAnalogValue_Medium (63) := (
                _sDescription := 'Settpunkt Natt', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_R0426_3">
-      <type>
-        <derived name="FbAnalogValue_Medium (104) := (
-               _sDescription := 'Arbeidende settpunkt kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Komf_R0426_3">
-      <type>
-        <derived name="FbAnalogValue_Medium (105) := (
-               _sDescription := 'Settpunkt komfort kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Stdb_R0426_3">
-      <type>
-        <derived name="FbAnalogValue_Medium (106) := (
-               _sDescription := 'Settpunkt Standby kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Natt_R0426_3">
-      <type>
-        <derived name="FbAnalogValue_Medium (107) := (
-               _sDescription := 'Settpunkt Natt kjøling', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
          )" />
@@ -12966,7 +12596,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SP_Tid_Stdb_R0426_3">
       <type>
-        <derived name="FbAnalogValue_Medium (108) := (
+        <derived name="FbAnalogValue_Medium (64) := (
                _sDescription := 'Utløpstid tilstedeværelse', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_MINUTES 
@@ -12977,7 +12607,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RYA601_SP_R0426_3">
       <type>
-        <derived name="FbAnalogValue_Medium (109) := (
+        <derived name="FbAnalogValue_Medium (65) := (
                _sDescription := 'Settpunkt', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION 
@@ -13038,7 +12668,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_R0528">
       <type>
-        <derived name="FbAnalogValue_Medium (110) := (
+        <derived name="FbAnalogValue_Medium (66) := (
                _sDescription := 'Arbeidende settpunkt', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -13049,7 +12679,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Komf_R0528">
       <type>
-        <derived name="FbAnalogValue_Medium (111) := (
+        <derived name="FbAnalogValue_Medium (67) := (
                _sDescription := 'Settpunkt komfort', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -13060,7 +12690,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Stdb_R0528">
       <type>
-        <derived name="FbAnalogValue_Medium (112) := (
+        <derived name="FbAnalogValue_Medium (68) := (
                _sDescription := 'Settpunkt Standby', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -13071,52 +12701,8 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Natt_R0528">
       <type>
-        <derived name="FbAnalogValue_Medium (113) := (
+        <derived name="FbAnalogValue_Medium (69) := (
                _sDescription := 'Settpunkt Natt', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_R0528">
-      <type>
-        <derived name="FbAnalogValue_Medium (114) := (
-               _sDescription := 'Arbeidende settpunkt kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Komf_R0528">
-      <type>
-        <derived name="FbAnalogValue_Medium (115) := (
-               _sDescription := 'Settpunkt komfort kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Stdb_R0528">
-      <type>
-        <derived name="FbAnalogValue_Medium (116) := (
-               _sDescription := 'Settpunkt Standby kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Natt_R0528">
-      <type>
-        <derived name="FbAnalogValue_Medium (117) := (
-               _sDescription := 'Settpunkt Natt kjøling', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
          )" />
@@ -13150,7 +12736,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SP_Tid_Stdb_R0528">
       <type>
-        <derived name="FbAnalogValue_Medium (118) := (
+        <derived name="FbAnalogValue_Medium (70) := (
                _sDescription := 'Utløpstid tilstedeværelse', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_MINUTES 
@@ -13161,7 +12747,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RYA601_SP_R0528">
       <type>
-        <derived name="FbAnalogValue_Medium (119) := (
+        <derived name="FbAnalogValue_Medium (71) := (
                _sDescription := 'Settpunkt', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION 
@@ -13222,7 +12808,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_R0523">
       <type>
-        <derived name="FbAnalogValue_Medium (120) := (
+        <derived name="FbAnalogValue_Medium (72) := (
                _sDescription := 'Arbeidende settpunkt', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -13233,7 +12819,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Komf_R0523">
       <type>
-        <derived name="FbAnalogValue_Medium (121) := (
+        <derived name="FbAnalogValue_Medium (73) := (
                _sDescription := 'Settpunkt komfort', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -13244,7 +12830,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Stdb_R0523">
       <type>
-        <derived name="FbAnalogValue_Medium (122) := (
+        <derived name="FbAnalogValue_Medium (74) := (
                _sDescription := 'Settpunkt Standby', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -13255,52 +12841,8 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Natt_R0523">
       <type>
-        <derived name="FbAnalogValue_Medium (123) := (
+        <derived name="FbAnalogValue_Medium (75) := (
                _sDescription := 'Settpunkt Natt', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_R0523">
-      <type>
-        <derived name="FbAnalogValue_Medium (124) := (
-               _sDescription := 'Arbeidende settpunkt kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Komf_R0523">
-      <type>
-        <derived name="FbAnalogValue_Medium (125) := (
-               _sDescription := 'Settpunkt komfort kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Stdb_R0523">
-      <type>
-        <derived name="FbAnalogValue_Medium (126) := (
-               _sDescription := 'Settpunkt Standby kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Natt_R0523">
-      <type>
-        <derived name="FbAnalogValue_Medium (127) := (
-               _sDescription := 'Settpunkt Natt kjøling', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
          )" />
@@ -13334,7 +12876,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SP_Tid_Stdb_R0523">
       <type>
-        <derived name="FbAnalogValue_Medium (128) := (
+        <derived name="FbAnalogValue_Medium (76) := (
                _sDescription := 'Utløpstid tilstedeværelse', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_MINUTES 
@@ -13345,7 +12887,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RYA601_SP_R0523">
       <type>
-        <derived name="FbAnalogValue_Medium (129) := (
+        <derived name="FbAnalogValue_Medium (77) := (
                _sDescription := 'Settpunkt', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION 
@@ -13406,7 +12948,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_R0531">
       <type>
-        <derived name="FbAnalogValue_Medium (130) := (
+        <derived name="FbAnalogValue_Medium (78) := (
                _sDescription := 'Arbeidende settpunkt', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -13417,7 +12959,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Komf_R0531">
       <type>
-        <derived name="FbAnalogValue_Medium (131) := (
+        <derived name="FbAnalogValue_Medium (79) := (
                _sDescription := 'Settpunkt komfort', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -13428,7 +12970,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Stdb_R0531">
       <type>
-        <derived name="FbAnalogValue_Medium (132) := (
+        <derived name="FbAnalogValue_Medium (80) := (
                _sDescription := 'Settpunkt Standby', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -13439,52 +12981,8 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Natt_R0531">
       <type>
-        <derived name="FbAnalogValue_Medium (133) := (
+        <derived name="FbAnalogValue_Medium (81) := (
                _sDescription := 'Settpunkt Natt', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_R0531">
-      <type>
-        <derived name="FbAnalogValue_Medium (134) := (
-               _sDescription := 'Arbeidende settpunkt kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Komf_R0531">
-      <type>
-        <derived name="FbAnalogValue_Medium (135) := (
-               _sDescription := 'Settpunkt komfort kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Stdb_R0531">
-      <type>
-        <derived name="FbAnalogValue_Medium (136) := (
-               _sDescription := 'Settpunkt Standby kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Natt_R0531">
-      <type>
-        <derived name="FbAnalogValue_Medium (137) := (
-               _sDescription := 'Settpunkt Natt kjøling', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
          )" />
@@ -13518,7 +13016,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SP_Tid_Stdb_R0531">
       <type>
-        <derived name="FbAnalogValue_Medium (138) := (
+        <derived name="FbAnalogValue_Medium (82) := (
                _sDescription := 'Utløpstid tilstedeværelse', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_MINUTES 
@@ -13529,7 +13027,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RYA601_SP_R0531">
       <type>
-        <derived name="FbAnalogValue_Medium (139) := (
+        <derived name="FbAnalogValue_Medium (83) := (
                _sDescription := 'Settpunkt', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION 
@@ -13590,7 +13088,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_R0535_1">
       <type>
-        <derived name="FbAnalogValue_Medium (140) := (
+        <derived name="FbAnalogValue_Medium (84) := (
                _sDescription := 'Arbeidende settpunkt', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -13601,7 +13099,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Komf_R0535_1">
       <type>
-        <derived name="FbAnalogValue_Medium (141) := (
+        <derived name="FbAnalogValue_Medium (85) := (
                _sDescription := 'Settpunkt komfort', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -13612,7 +13110,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Stdb_R0535_1">
       <type>
-        <derived name="FbAnalogValue_Medium (142) := (
+        <derived name="FbAnalogValue_Medium (86) := (
                _sDescription := 'Settpunkt Standby', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -13623,52 +13121,8 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Natt_R0535_1">
       <type>
-        <derived name="FbAnalogValue_Medium (143) := (
+        <derived name="FbAnalogValue_Medium (87) := (
                _sDescription := 'Settpunkt Natt', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_R0535_1">
-      <type>
-        <derived name="FbAnalogValue_Medium (144) := (
-               _sDescription := 'Arbeidende settpunkt kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Komf_R0535_1">
-      <type>
-        <derived name="FbAnalogValue_Medium (145) := (
-               _sDescription := 'Settpunkt komfort kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Stdb_R0535_1">
-      <type>
-        <derived name="FbAnalogValue_Medium (146) := (
-               _sDescription := 'Settpunkt Standby kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Natt_R0535_1">
-      <type>
-        <derived name="FbAnalogValue_Medium (147) := (
-               _sDescription := 'Settpunkt Natt kjøling', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
          )" />
@@ -13702,7 +13156,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SP_Tid_Stdb_R0535_1">
       <type>
-        <derived name="FbAnalogValue_Medium (148) := (
+        <derived name="FbAnalogValue_Medium (88) := (
                _sDescription := 'Utløpstid tilstedeværelse', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_MINUTES 
@@ -13713,7 +13167,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RYA601_SP_R0535_1">
       <type>
-        <derived name="FbAnalogValue_Medium (149) := (
+        <derived name="FbAnalogValue_Medium (89) := (
                _sDescription := 'Settpunkt', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION 
@@ -13774,7 +13228,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_R0535_2">
       <type>
-        <derived name="FbAnalogValue_Medium (150) := (
+        <derived name="FbAnalogValue_Medium (90) := (
                _sDescription := 'Arbeidende settpunkt', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -13785,7 +13239,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Komf_R0535_2">
       <type>
-        <derived name="FbAnalogValue_Medium (151) := (
+        <derived name="FbAnalogValue_Medium (91) := (
                _sDescription := 'Settpunkt komfort', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -13796,7 +13250,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Stdb_R0535_2">
       <type>
-        <derived name="FbAnalogValue_Medium (152) := (
+        <derived name="FbAnalogValue_Medium (92) := (
                _sDescription := 'Settpunkt Standby', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -13807,52 +13261,8 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Natt_R0535_2">
       <type>
-        <derived name="FbAnalogValue_Medium (153) := (
+        <derived name="FbAnalogValue_Medium (93) := (
                _sDescription := 'Settpunkt Natt', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_R0535_2">
-      <type>
-        <derived name="FbAnalogValue_Medium (154) := (
-               _sDescription := 'Arbeidende settpunkt kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Komf_R0535_2">
-      <type>
-        <derived name="FbAnalogValue_Medium (155) := (
-               _sDescription := 'Settpunkt komfort kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Stdb_R0535_2">
-      <type>
-        <derived name="FbAnalogValue_Medium (156) := (
-               _sDescription := 'Settpunkt Standby kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Natt_R0535_2">
-      <type>
-        <derived name="FbAnalogValue_Medium (157) := (
-               _sDescription := 'Settpunkt Natt kjøling', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
          )" />
@@ -13886,7 +13296,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SP_Tid_Stdb_R0535_2">
       <type>
-        <derived name="FbAnalogValue_Medium (158) := (
+        <derived name="FbAnalogValue_Medium (94) := (
                _sDescription := 'Utløpstid tilstedeværelse', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_MINUTES 
@@ -13897,7 +13307,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RYA601_SP_R0535_2">
       <type>
-        <derived name="FbAnalogValue_Medium (159) := (
+        <derived name="FbAnalogValue_Medium (95) := (
                _sDescription := 'Settpunkt', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION 
@@ -13958,7 +13368,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_R0535_3">
       <type>
-        <derived name="FbAnalogValue_Medium (160) := (
+        <derived name="FbAnalogValue_Medium (96) := (
                _sDescription := 'Arbeidende settpunkt', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -13969,7 +13379,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Komf_R0535_3">
       <type>
-        <derived name="FbAnalogValue_Medium (161) := (
+        <derived name="FbAnalogValue_Medium (97) := (
                _sDescription := 'Settpunkt komfort', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -13980,7 +13390,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Stdb_R0535_3">
       <type>
-        <derived name="FbAnalogValue_Medium (162) := (
+        <derived name="FbAnalogValue_Medium (98) := (
                _sDescription := 'Settpunkt Standby', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -13991,52 +13401,8 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Natt_R0535_3">
       <type>
-        <derived name="FbAnalogValue_Medium (163) := (
+        <derived name="FbAnalogValue_Medium (99) := (
                _sDescription := 'Settpunkt Natt', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_R0535_3">
-      <type>
-        <derived name="FbAnalogValue_Medium (164) := (
-               _sDescription := 'Arbeidende settpunkt kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Komf_R0535_3">
-      <type>
-        <derived name="FbAnalogValue_Medium (165) := (
-               _sDescription := 'Settpunkt komfort kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Stdb_R0535_3">
-      <type>
-        <derived name="FbAnalogValue_Medium (166) := (
-               _sDescription := 'Settpunkt Standby kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Natt_R0535_3">
-      <type>
-        <derived name="FbAnalogValue_Medium (167) := (
-               _sDescription := 'Settpunkt Natt kjøling', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
          )" />
@@ -14070,7 +13436,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SP_Tid_Stdb_R0535_3">
       <type>
-        <derived name="FbAnalogValue_Medium (168) := (
+        <derived name="FbAnalogValue_Medium (100) := (
                _sDescription := 'Utløpstid tilstedeværelse', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_MINUTES 
@@ -14081,7 +13447,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RYA601_SP_R0535_3">
       <type>
-        <derived name="FbAnalogValue_Medium (169) := (
+        <derived name="FbAnalogValue_Medium (101) := (
                _sDescription := 'Settpunkt', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION 
@@ -14142,7 +13508,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_R0536">
       <type>
-        <derived name="FbAnalogValue_Medium (170) := (
+        <derived name="FbAnalogValue_Medium (102) := (
                _sDescription := 'Arbeidende settpunkt', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -14153,7 +13519,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Komf_R0536">
       <type>
-        <derived name="FbAnalogValue_Medium (171) := (
+        <derived name="FbAnalogValue_Medium (103) := (
                _sDescription := 'Settpunkt komfort', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -14164,7 +13530,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Stdb_R0536">
       <type>
-        <derived name="FbAnalogValue_Medium (172) := (
+        <derived name="FbAnalogValue_Medium (104) := (
                _sDescription := 'Settpunkt Standby', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -14175,52 +13541,8 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Natt_R0536">
       <type>
-        <derived name="FbAnalogValue_Medium (173) := (
+        <derived name="FbAnalogValue_Medium (105) := (
                _sDescription := 'Settpunkt Natt', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_R0536">
-      <type>
-        <derived name="FbAnalogValue_Medium (174) := (
-               _sDescription := 'Arbeidende settpunkt kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Komf_R0536">
-      <type>
-        <derived name="FbAnalogValue_Medium (175) := (
-               _sDescription := 'Settpunkt komfort kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Stdb_R0536">
-      <type>
-        <derived name="FbAnalogValue_Medium (176) := (
-               _sDescription := 'Settpunkt Standby kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Natt_R0536">
-      <type>
-        <derived name="FbAnalogValue_Medium (177) := (
-               _sDescription := 'Settpunkt Natt kjøling', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
          )" />
@@ -14254,7 +13576,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SP_Tid_Stdb_R0536">
       <type>
-        <derived name="FbAnalogValue_Medium (178) := (
+        <derived name="FbAnalogValue_Medium (106) := (
                _sDescription := 'Utløpstid tilstedeværelse', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_MINUTES 
@@ -14265,7 +13587,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RYA601_SP_R0536">
       <type>
-        <derived name="FbAnalogValue_Medium (179) := (
+        <derived name="FbAnalogValue_Medium (107) := (
                _sDescription := 'Settpunkt', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION 
@@ -14326,7 +13648,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_R0543">
       <type>
-        <derived name="FbAnalogValue_Medium (180) := (
+        <derived name="FbAnalogValue_Medium (108) := (
                _sDescription := 'Arbeidende settpunkt', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -14337,7 +13659,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Komf_R0543">
       <type>
-        <derived name="FbAnalogValue_Medium (181) := (
+        <derived name="FbAnalogValue_Medium (109) := (
                _sDescription := 'Settpunkt komfort', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -14348,7 +13670,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Stdb_R0543">
       <type>
-        <derived name="FbAnalogValue_Medium (182) := (
+        <derived name="FbAnalogValue_Medium (110) := (
                _sDescription := 'Settpunkt Standby', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -14359,52 +13681,8 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Natt_R0543">
       <type>
-        <derived name="FbAnalogValue_Medium (183) := (
+        <derived name="FbAnalogValue_Medium (111) := (
                _sDescription := 'Settpunkt Natt', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_R0543">
-      <type>
-        <derived name="FbAnalogValue_Medium (184) := (
-               _sDescription := 'Arbeidende settpunkt kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Komf_R0543">
-      <type>
-        <derived name="FbAnalogValue_Medium (185) := (
-               _sDescription := 'Settpunkt komfort kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Stdb_R0543">
-      <type>
-        <derived name="FbAnalogValue_Medium (186) := (
-               _sDescription := 'Settpunkt Standby kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Natt_R0543">
-      <type>
-        <derived name="FbAnalogValue_Medium (187) := (
-               _sDescription := 'Settpunkt Natt kjøling', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
          )" />
@@ -14438,7 +13716,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SP_Tid_Stdb_R0543">
       <type>
-        <derived name="FbAnalogValue_Medium (188) := (
+        <derived name="FbAnalogValue_Medium (112) := (
                _sDescription := 'Utløpstid tilstedeværelse', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_MINUTES 
@@ -14449,7 +13727,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RYA601_SP_R0543">
       <type>
-        <derived name="FbAnalogValue_Medium (189) := (
+        <derived name="FbAnalogValue_Medium (113) := (
                _sDescription := 'Settpunkt', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION 
@@ -14510,7 +13788,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_R0547_1">
       <type>
-        <derived name="FbAnalogValue_Medium (190) := (
+        <derived name="FbAnalogValue_Medium (114) := (
                _sDescription := 'Arbeidende settpunkt', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -14521,7 +13799,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Komf_R0547_1">
       <type>
-        <derived name="FbAnalogValue_Medium (191) := (
+        <derived name="FbAnalogValue_Medium (115) := (
                _sDescription := 'Settpunkt komfort', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -14532,7 +13810,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Stdb_R0547_1">
       <type>
-        <derived name="FbAnalogValue_Medium (192) := (
+        <derived name="FbAnalogValue_Medium (116) := (
                _sDescription := 'Settpunkt Standby', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -14543,52 +13821,8 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Natt_R0547_1">
       <type>
-        <derived name="FbAnalogValue_Medium (193) := (
+        <derived name="FbAnalogValue_Medium (117) := (
                _sDescription := 'Settpunkt Natt', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_R0547_1">
-      <type>
-        <derived name="FbAnalogValue_Medium (194) := (
-               _sDescription := 'Arbeidende settpunkt kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Komf_R0547_1">
-      <type>
-        <derived name="FbAnalogValue_Medium (195) := (
-               _sDescription := 'Settpunkt komfort kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Stdb_R0547_1">
-      <type>
-        <derived name="FbAnalogValue_Medium (196) := (
-               _sDescription := 'Settpunkt Standby kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Natt_R0547_1">
-      <type>
-        <derived name="FbAnalogValue_Medium (197) := (
-               _sDescription := 'Settpunkt Natt kjøling', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
          )" />
@@ -14622,7 +13856,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SP_Tid_Stdb_R0547_1">
       <type>
-        <derived name="FbAnalogValue_Medium (198) := (
+        <derived name="FbAnalogValue_Medium (118) := (
                _sDescription := 'Utløpstid tilstedeværelse', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_MINUTES 
@@ -14633,7 +13867,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RYA601_SP_R0547_1">
       <type>
-        <derived name="FbAnalogValue_Medium (199) := (
+        <derived name="FbAnalogValue_Medium (119) := (
                _sDescription := 'Settpunkt', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION 
@@ -14694,7 +13928,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_R0547_2">
       <type>
-        <derived name="FbAnalogValue_Medium (200) := (
+        <derived name="FbAnalogValue_Medium (120) := (
                _sDescription := 'Arbeidende settpunkt', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -14705,7 +13939,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Komf_R0547_2">
       <type>
-        <derived name="FbAnalogValue_Medium (201) := (
+        <derived name="FbAnalogValue_Medium (121) := (
                _sDescription := 'Settpunkt komfort', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -14716,7 +13950,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Stdb_R0547_2">
       <type>
-        <derived name="FbAnalogValue_Medium (202) := (
+        <derived name="FbAnalogValue_Medium (122) := (
                _sDescription := 'Settpunkt Standby', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -14727,52 +13961,8 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Natt_R0547_2">
       <type>
-        <derived name="FbAnalogValue_Medium (203) := (
+        <derived name="FbAnalogValue_Medium (123) := (
                _sDescription := 'Settpunkt Natt', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_R0547_2">
-      <type>
-        <derived name="FbAnalogValue_Medium (204) := (
-               _sDescription := 'Arbeidende settpunkt kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Komf_R0547_2">
-      <type>
-        <derived name="FbAnalogValue_Medium (205) := (
-               _sDescription := 'Settpunkt komfort kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Stdb_R0547_2">
-      <type>
-        <derived name="FbAnalogValue_Medium (206) := (
-               _sDescription := 'Settpunkt Standby kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Natt_R0547_2">
-      <type>
-        <derived name="FbAnalogValue_Medium (207) := (
-               _sDescription := 'Settpunkt Natt kjøling', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
          )" />
@@ -14806,7 +13996,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SP_Tid_Stdb_R0547_2">
       <type>
-        <derived name="FbAnalogValue_Medium (208) := (
+        <derived name="FbAnalogValue_Medium (124) := (
                _sDescription := 'Utløpstid tilstedeværelse', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_MINUTES 
@@ -14817,7 +14007,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RYA601_SP_R0547_2">
       <type>
-        <derived name="FbAnalogValue_Medium (209) := (
+        <derived name="FbAnalogValue_Medium (125) := (
                _sDescription := 'Settpunkt', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION 
@@ -14878,7 +14068,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_R0544">
       <type>
-        <derived name="FbAnalogValue_Medium (210) := (
+        <derived name="FbAnalogValue_Medium (126) := (
                _sDescription := 'Arbeidende settpunkt', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -14889,7 +14079,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Komf_R0544">
       <type>
-        <derived name="FbAnalogValue_Medium (211) := (
+        <derived name="FbAnalogValue_Medium (127) := (
                _sDescription := 'Settpunkt komfort', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -14900,7 +14090,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Stdb_R0544">
       <type>
-        <derived name="FbAnalogValue_Medium (212) := (
+        <derived name="FbAnalogValue_Medium (128) := (
                _sDescription := 'Settpunkt Standby', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
@@ -14911,52 +14101,8 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SPV_Natt_R0544">
       <type>
-        <derived name="FbAnalogValue_Medium (213) := (
+        <derived name="FbAnalogValue_Medium (129) := (
                _sDescription := 'Settpunkt Natt', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_R0544">
-      <type>
-        <derived name="FbAnalogValue_Medium (214) := (
-               _sDescription := 'Arbeidende settpunkt kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Komf_R0544">
-      <type>
-        <derived name="FbAnalogValue_Medium (215) := (
-               _sDescription := 'Settpunkt komfort kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Stdb_R0544">
-      <type>
-        <derived name="FbAnalogValue_Medium (216) := (
-               _sDescription := 'Settpunkt Standby kjøling', 
-               _rCov_Increment := 0.1, 
-               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
-         )" />
-      </type>
-      
-    </variable>
-  
-      <variable name="C_5640_501_06_RTC01_SPC_Natt_R0544">
-      <type>
-        <derived name="FbAnalogValue_Medium (217) := (
-               _sDescription := 'Settpunkt Natt kjøling', 
                _rCov_Increment := 0.1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
          )" />
@@ -14990,7 +14136,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RTC01_SP_Tid_Stdb_R0544">
       <type>
-        <derived name="FbAnalogValue_Medium (218) := (
+        <derived name="FbAnalogValue_Medium (130) := (
                _sDescription := 'Utløpstid tilstedeværelse', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_MINUTES 
@@ -15001,7 +14147,7 @@ i := i +1;
   
       <variable name="C_5640_501_06_RYA601_SP_R0544">
       <type>
-        <derived name="FbAnalogValue_Medium (219) := (
+        <derived name="FbAnalogValue_Medium (131) := (
                _sDescription := 'Settpunkt', 
                _rCov_Increment := 1, 
                _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION 
@@ -21596,52 +20742,52 @@ i := i +1;
         <data name="http://www.3s-software.com/plcopenxml/projectstructure" handleUnknown="discard">
             <ProjectStructure>
                   <Folder Name="5 - Climate Control">
-    <Object Name="PRG_ClimateControl" ObjectId="7a3c7d52-0a4a-4195-8c60-09b1510e7d30" />
-    <Object Name="GVL_ClimateControl" ObjectId="78849d13-601f-455d-88ab-70c552dab8eb" />
+    <Object Name="PRG_ClimateControl" ObjectId="19e3fa1b-5399-4871-b71d-6a053396ad06" />
+    <Object Name="GVL_ClimateControl" ObjectId="5d201b85-e467-4e3f-aff6-2b5666d692d2" />
   <Folder Name="Rooms">
-    <Object Name="ClimateControl_401" ObjectId="4ccffd2c-7b98-4ce2-adfc-544f9b44525d" />
-    <Object Name="ClimateControl_406" ObjectId="ffa1fc1f-7b6f-4514-b1fe-c0215f32c1b0" />
-    <Object Name="ClimateControl_407" ObjectId="3b5119c5-d3fd-4ff8-a096-c45f84466812" />
-    <Object Name="ClimateControl_408" ObjectId="4e81724a-13b7-4ba2-a15c-512f20aceaec" />
-    <Object Name="ClimateControl_409" ObjectId="64faacc0-cacd-4564-a153-dbb3260d7134" />
-    <Object Name="ClimateControl_464" ObjectId="361e3b85-7365-4dd6-9a43-d91c75d8a207" />
-    <Object Name="ClimateControl_415" ObjectId="95085c15-f6e7-4971-97c4-337e742e8016" />
-    <Object Name="ClimateControl_422" ObjectId="911f5ee0-efbc-4d62-ac7e-0bafea35e40f" />
-    <Object Name="ClimateControl_426_1" ObjectId="d935d2bb-ec2f-43d3-9abb-ffdcf8d9f231" />
-    <Object Name="ClimateControl_426_2" ObjectId="f792db88-555b-42bf-a1fa-b9c59b0a0441" />
-    <Object Name="ClimateControl_426_3" ObjectId="5104f2ec-3d08-4514-b710-35c22054438f" />
-    <Object Name="ClimateControl_528" ObjectId="e523dfa9-a62f-4ccd-a4a7-a0683206cbfa" />
-    <Object Name="ClimateControl_523" ObjectId="2c2d51d0-8b79-455e-971a-8fa8416d3f32" />
-    <Object Name="ClimateControl_531" ObjectId="1dfb7867-6368-4e45-b637-ad9b8a4d73f3" />
-    <Object Name="ClimateControl_535_1" ObjectId="4e97b441-017b-42e8-aa37-62089d3299bc" />
-    <Object Name="ClimateControl_535_2" ObjectId="51d75d47-863a-47e6-8163-41274525df67" />
-    <Object Name="ClimateControl_535_3" ObjectId="f7f0425f-4a4f-44b4-a369-641404b858dc" />
-    <Object Name="ClimateControl_536" ObjectId="5eb7ace2-caae-451b-b38b-d11ab3cc88b9" />
-    <Object Name="ClimateControl_543" ObjectId="181a27ba-4d03-4bb1-a9fe-e16eec3675f7" />
-    <Object Name="ClimateControl_547_1" ObjectId="e4e5b72a-3cda-4513-ba02-2a742ba82476" />
-    <Object Name="ClimateControl_547_2" ObjectId="d5c558c0-9404-44b1-b73d-0dc59e28e9b4" />
-    <Object Name="ClimateControl_544" ObjectId="6aadc8fd-45b9-49e2-9c37-a6e52ed73772" />
+    <Object Name="ClimateControl_401" ObjectId="482573d5-fdda-46f3-af0b-f380691c3533" />
+    <Object Name="ClimateControl_406" ObjectId="5901de23-74e7-4248-86bd-a76b101ad9b8" />
+    <Object Name="ClimateControl_407" ObjectId="6bbb9dc0-d279-4a0b-8ab7-f3ad61bb50d7" />
+    <Object Name="ClimateControl_408" ObjectId="698306d1-6987-44b7-81e7-b664b1cfcb47" />
+    <Object Name="ClimateControl_409" ObjectId="62bd1182-53ad-47ae-9874-16a600db901f" />
+    <Object Name="ClimateControl_464" ObjectId="4b7189ce-3a8a-48f7-9541-45f71c3d97a9" />
+    <Object Name="ClimateControl_415" ObjectId="e95cc2df-938b-4bcf-95ef-508e3f826b8c" />
+    <Object Name="ClimateControl_422" ObjectId="76804cc4-6811-4c5e-8095-30f7fe5c450c" />
+    <Object Name="ClimateControl_426_1" ObjectId="27eab162-5fbf-4933-ae37-1a89833012c7" />
+    <Object Name="ClimateControl_426_2" ObjectId="658a977a-7114-4ed6-ac53-56094e58b4b5" />
+    <Object Name="ClimateControl_426_3" ObjectId="0ce0d315-61cf-48b6-8c49-1a2f669fdc1a" />
+    <Object Name="ClimateControl_528" ObjectId="7af2186e-270d-4e94-9f1a-d89e530ddb75" />
+    <Object Name="ClimateControl_523" ObjectId="ed59a654-3ccf-4444-950d-46edf38ccb0e" />
+    <Object Name="ClimateControl_531" ObjectId="2e4e3799-327c-4250-a597-ec49148b2cfb" />
+    <Object Name="ClimateControl_535_1" ObjectId="6331ce5d-1d22-4eae-b6db-290f1bd68621" />
+    <Object Name="ClimateControl_535_2" ObjectId="6505f308-245f-4b0e-99b9-465f6d67d741" />
+    <Object Name="ClimateControl_535_3" ObjectId="43e51c42-eb97-4649-b306-27c087db5825" />
+    <Object Name="ClimateControl_536" ObjectId="e83d6ea1-0e03-4368-913f-e5bc1abfe68e" />
+    <Object Name="ClimateControl_543" ObjectId="0f425c60-356d-4730-b3b6-85a1a8019f7f" />
+    <Object Name="ClimateControl_547_1" ObjectId="5e216f92-c26e-4675-aac6-19efa613a312" />
+    <Object Name="ClimateControl_547_2" ObjectId="8246941a-4edd-4100-b38d-2c70d4405963" />
+    <Object Name="ClimateControl_544" ObjectId="f0096273-160b-4611-a225-8fc48bca78df" />
   </Folder>
   </Folder>
   <Folder Name="3 - Fieldbus">
-    <Object Name="PRG_Mapping" ObjectId="5239c594-3b0c-4f0b-a0b6-d1c4b7c66689" />
+    <Object Name="PRG_Mapping" ObjectId="e2d5fa12-5c16-4bb5-80cc-5f6f1b89e172" />
   <Folder Name="Knx">
-    <Object Name="PRG_KnxLine_1" ObjectId="b4ecf557-7637-44ed-bb13-6581dc57f343" />
-    <Object Name="PRG_KnxLine_2" ObjectId="88a38351-f925-4706-a595-09fe6ef9e15d" />
+    <Object Name="PRG_KnxLine_1" ObjectId="d9fadaa3-8b17-4f70-88d5-d96f7eb9d3a5" />
+    <Object Name="PRG_KnxLine_2" ObjectId="6988ff8b-8cf8-434a-b3f4-72c4bac334cc" />
   </Folder>
   <Folder Name="BACnet">
-    <Object Name="GVL_BACnet" ObjectId="60e09983-8e1a-4e57-999d-4970bd5af1e7" />
+    <Object Name="GVL_BACnet" ObjectId="e7ca107c-cced-4c8b-977c-143c54453296" />
   </Folder>
   </Folder>
   <Folder Name="6 - Ventilation">
   <Folder Name="Dampers">
-    <Object Name="PRG_DamperLine_1" ObjectId="90514c7b-d2a4-41cf-9097-95edd58a76d6" />
-    <Object Name="PRG_DamperLine_2" ObjectId="aad42a2c-f92d-4d90-b17d-9bcdcc9cadf0" />
-    <Object Name="PRG_DamperLine_3" ObjectId="8e0a7584-847e-420d-95ba-7894c64105f7" />
+    <Object Name="PRG_DamperLine_1" ObjectId="913f169c-c22e-4168-9526-46faddeb46b7" />
+    <Object Name="PRG_DamperLine_2" ObjectId="1041ae32-6cc0-41a8-a03b-2c5638d7563c" />
+    <Object Name="PRG_DamperLine_3" ObjectId="30c57161-c526-49de-84e6-740827f93325" />
   </Folder>
   </Folder>
   <Folder Name="1 - Initialization">
-    <Object Name="PRG_StateTexts" ObjectId="8881696e-efae-40cd-9890-1beddaa0dd30" />
+    <Object Name="PRG_StateTexts" ObjectId="af9fabc6-f916-4192-b700-3508df6a6466" />
   </Folder>
 
             </ProjectStructure>

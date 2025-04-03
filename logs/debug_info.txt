@@ -118,9 +118,9 @@ Antall KNX-objekter opprettet : 203
 BACnet-objekter opprettet : 
 Analog input : 148
 Analog output : 74
-Analog value : 376
+Analog value : 288
 Binary input : 191
 Binary output : 22
 Binary value : 52
 MSV value : 96
-Totalt : 959
+Totalt : 871

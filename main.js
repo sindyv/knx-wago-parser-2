@@ -55,7 +55,7 @@ writeXml.writeHeader()
 roomCollection.xmlWriteClimatePous(knxCollection.knxObjects, writeXml)
 roomCollection.xmlWriteClimatePouCall(writeXml)
 // Lag KNX-prg
-knxCollection.xmlWriteKnxPou(writeXml)
+knxCollection.xmlWriteKnxPou(writeXml, bacnetCollection.bacnetObjects)
 // BACnet-mappings
 bacnetCollection.xmlWriteDamperBacnetMappings(
 	writeXml,

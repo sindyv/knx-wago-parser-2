@@ -142,7 +142,7 @@ class KnxObjectCollection extends Debug {
 		return knxLines
 	}
 
-	xmlWriteKnxPou(writeXml) {
+	xmlWriteKnxPou(writeXml, bacnetObjects) {
 		const knxLines = this.extractKnxLinesFromObjects()
 
 		// Lag en PRG for hver linje
@@ -169,10 +169,28 @@ class KnxObjectCollection extends Debug {
 			this.knxObjects.forEach((knxObject) => {
 				if (knxObject.knxLineIndex === knxLine) {
 					if (knxObject.signalName in knxFunctionBlocks) {
-						const functionBlock = knxFunctionBlocks[knxObject.signalName](
+						let functionBlock = knxFunctionBlocks[knxObject.signalName](
 							knxObject,
 							knxLine
 						)
+
+						// Sjekk om knx-blokken skal trigge kommunikasjonsalarm
+						if (knxObject.bacnetAlarmTag) {
+							// finn korresponderende BACnet-objekt
+							bacnetObjects.forEach((bacnetObject) => {
+								if (
+									bacnetObject.componentType === knxObject.componentType &&
+									bacnetObject.roomName === knxObject.roomName &&
+									bacnetObject.componentTypeSuffix ===
+										knxObject.componentTypeSuffix
+								) {
+									functionBlock = `${functionBlock}
+                                    
+        ${bacnetObject.bacnetTagName}${bacnetObject.mappings.mapTarget} := ${bacnetObject.mappings.mapSourceSuffix};
+                                    `
+								}
+							})
+						}
 						functionBlocks.push(functionBlock)
 					} else {
 						this.addCritical(
